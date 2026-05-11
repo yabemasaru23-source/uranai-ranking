@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -115,7 +116,7 @@
   /* ============ BRAND BAR ============ */
   .brand-bar{background:var(--qm-deep);padding:10px 6vw;display:flex;align-items:center;justify-content:space-between;font-family:'Inter',sans-serif;font-size:.72rem;letter-spacing:.15em;position:sticky;top:0;z-index:50;border-bottom:1px solid var(--gold-dim);}
   .brand-bar-left{display:flex;align-items:center;gap:14px;}
-  .qm-logo-img{height:32px;width:auto;filter:brightness(1.35) saturate(1.2) drop-shadow(0 0 8px rgba(126,180,255,.4));}
+  .qm-logo-img{height:32px;width:auto;max-width:130px;object-fit:contain;filter:brightness(1.35) saturate(1.2) drop-shadow(0 0 8px rgba(126,180,255,.4));}
   .brand-tagline{color:var(--qm-sky);font-size:.66rem;letter-spacing:.25em;border-left:1px solid rgba(126,180,255,.3);padding-left:12px;}
   .brand-bar-right{color:var(--gold-light);font-size:.66rem;letter-spacing:.25em;display:flex;align-items:center;gap:14px;}
   .fav-btn{background:none;border:1px solid var(--gold-dim);color:var(--gold-light);padding:5px 12px;border-radius:99px;font-size:.68rem;letter-spacing:.15em;cursor:pointer;transition:all .2s;font-family:inherit;display:flex;align-items:center;gap:5px;}
@@ -358,7 +359,7 @@
 
   footer{background:var(--ink);color:var(--qm-sky);padding:36px 6vw 30px;text-align:center;}
   .footer-logo-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;margin-bottom:20px;}
-  .footer-logo{height:38px;width:auto;filter:brightness(1.4) saturate(1.2);}
+  .footer-logo{height:38px;width:auto;max-width:160px;object-fit:contain;filter:brightness(1.4) saturate(1.2);}
   .footer-tag{font-family:'Playfair Display',serif;font-style:italic;color:var(--gold-light);font-size:.88rem;letter-spacing:.15em;}
   .footer-info{font-size:.72rem;letter-spacing:.15em;font-family:'Inter',sans-serif;opacity:.7;line-height:2;}
   .footer-info span{color:var(--gold-light);}
@@ -662,7 +663,7 @@ async function loadFortuneData(){
     // キャッシュバスター付きで読み込み（必ず最新版を取得）
     const cacheBuster = Date.now();
     const res = await fetch(`./data.json?t=${cacheBuster}`);
-    if (!res.ok) throw new Error('data.json 読み込み失敗');
+    if (!res.ok) throw new Error('data.json HTTP ' + res.status);
     const data = await res.json();
     SOURCE_RANKINGS = data.sources;
     DATA_DATE = data.date;
@@ -677,9 +678,28 @@ async function loadFortuneData(){
     return true;
   } catch(e) {
     console.error('データ読込エラー:', e);
-    document.getElementById('lastUpdated').textContent = '読込エラー';
+    // フォールバック：今日の日付で初期データを表示
+    const today = new Date();
+    const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+    SOURCE_RANKINGS = getFallbackSourceRankings();
+    DATA_DATE = todayStr;
+    updateDateDisplay(todayStr);
+    document.getElementById('lastUpdated').textContent = '初期データを表示中';
+    document.getElementById('updateDot').classList.add('stale');
     return false;
   }
+}
+
+// フォールバック用の初期データ（data.jsonが読み込めない時に使用）
+function getFallbackSourceRankings(){
+  return {
+    'めざまし占い': {label:'フジテレビ｜公式', ranks:{gemini:1,leo:2,taurus:3,aquarius:4,libra:5,cancer:6,sagittarius:7,capricorn:8,virgo:9,scorpio:10,aries:11,pisces:12}},
+    'マイナビニュース': {label:'12星座占いランキング', ranks:{pisces:1,scorpio:2,virgo:3,cancer:4,gemini:5,taurus:6,aries:7,sagittarius:8,leo:9,capricorn:10,libra:11,aquarius:12}},
+    'TOKYO FM+ 桜羽結万': {label:'池袋占い館セレーネ', ranks:{pisces:1,cancer:2,scorpio:3,taurus:4,virgo:5,capricorn:6,gemini:7,aries:8,sagittarius:9,aquarius:10,leo:11,libra:12}},
+    '福井新聞 フェリーチェ': {label:'西洋占星術', ranks:{virgo:1,cancer:2,gemini:3,scorpio:4,aries:5,libra:6,capricorn:7,taurus:8,leo:9,aquarius:10,pisces:11,sagittarius:12}},
+    'anna media': {label:'読売テレビ｜毎日更新', ranks:{taurus:1,scorpio:2,capricorn:3,virgo:4,gemini:5,leo:6,pisces:7,cancer:8,aquarius:9,libra:10,sagittarius:11,aries:12}},
+    'モデルプレス': {label:'12星座占い・運勢ランキング', ranks:{taurus:1,scorpio:2,gemini:3,virgo:4,capricorn:5,aquarius:6,pisces:7,cancer:8,leo:9,libra:10,sagittarius:11,aries:12}}
+  };
 }
 
 function updateDateDisplay(dateStr){
@@ -959,13 +979,7 @@ function closeModal(){ document.getElementById('modalOverlay').classList.remove(
    初期化
    ========================================================= */
 async function init(){
-  const ok = await loadFortuneData();
-  if (!ok) {
-    // フォールバック：埋め込みデータを使う（読み込み失敗時）
-    SOURCE_RANKINGS = {
-      'めざまし占い':{label:'フジテレビ｜公式',ranks:{gemini:1,leo:2,taurus:3,aquarius:4,libra:5,cancer:6,sagittarius:7,capricorn:8,virgo:9,scorpio:10,aries:11,pisces:12}}
-    };
-  }
+  await loadFortuneData();
   allCombos = buildAllCombinations();
   populateZodiacSelect();
   renderRankingGrid();
