@@ -1,7 +1,1009 @@
-.DS_Store
-Thumbs.db
-*.log
-node_modules/
-.env
-.vscode/
-.idea/
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日の一手！これならできる！｜星座×血液型 48通り運勢ランキング</title>
+<meta name="description" content="クオリティマネジメント社が送る運勢ランキング。めざまし占いなど6媒体を横断集計し、星座×血液型 全48通りから「今日の一手！これならできる！」をお届けします。毎朝6時に自動更新。">
+<meta name="keywords" content="占い,今日の運勢,星座占い,血液型占い,ランキング,12星座,星座×血液型,めざまし占い,今日のアドバイス,今日の一手,クオリティマネジメント">
+<meta name="author" content="Quality Management Co., Ltd.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yabemasaru23-source.github.io/uranai-ranking/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="今日の一手！これならできる！｜星座×血液型 48通り運勢ランキング">
+<meta property="og:description" content="クオリティマネジメント社が送る運勢ランキング。毎朝6時に自動更新。">
+<meta property="og:url" content="https://yabemasaru23-source.github.io/uranai-ranking/">
+<meta property="og:image" content="https://yabemasaru23-source.github.io/uranai-ranking/qm-logo-transparent.png">
+<meta property="og:site_name" content="今日の一手！これならできる！">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="今日の一手！これならできる！">
+<meta name="twitter:description" content="クオリティマネジメント社が送る運勢ランキング。">
+<meta name="twitter:image" content="https://yabemasaru23-source.github.io/uranai-ranking/qm-logo-transparent.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID');
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Noto+Serif+JP:wght@400;600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --qm-deep:#081d5a; --qm-blue:#1a50c8; --qm-light:#3a70e8; --qm-sky:#7eb4ff; --qm-ice:#e8f0ff;
+    --gold:#f5b531; --gold-light:#ffd66e; --gold-dim:#d49b1e;
+    --paper:#fff; --ink:#0a1230; --text:#1a2440; --muted:#5a6580;
+    --line:rgba(26,80,200,.15); --line-gold:rgba(245,181,49,.4);
+    --pink-fav:#ff6b9d; --new-badge:#27c984; --warn:#e87b3a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Noto Serif JP',serif;background:var(--qm-ice);color:var(--text);min-height:100vh;overflow-x:hidden;line-height:1.65;}
+
+  /* ============ NEW DATA TOAST ============ */
+  .new-toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100px);
+    background: linear-gradient(135deg, var(--new-badge), #1aa86a);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 99px;
+    z-index: 1000;
+    box-shadow: 0 12px 40px rgba(39,201,132,.4);
+    font-weight: 700;
+    font-size: .95rem;
+    letter-spacing: .05em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform .5s cubic-bezier(.2,.8,.3,1);
+    cursor: pointer;
+    white-space: nowrap;
+    max-width: 90vw;
+  }
+  .new-toast.show {
+    transform: translateX(-50%) translateY(0);
+  }
+  .new-toast .toast-icon {
+    background: white;
+    color: var(--new-badge);
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    font-weight: 900;
+  }
+  .new-toast .toast-close {
+    background: rgba(255,255,255,.2);
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+    cursor: pointer;
+    font-size: .9rem;
+  }
+  @media (max-width:480px){
+    .new-toast { font-size: .82rem; padding: 12px 20px; }
+  }
+
+  /* ============ STALE DATA WARNING ============ */
+  .stale-banner {
+    background: linear-gradient(135deg, #fff4e6, #ffe9d1);
+    border-bottom: 2px solid var(--warn);
+    padding: 12px 6vw;
+    text-align: center;
+    font-size: .85rem;
+    color: #b85a1e;
+    display: none;
+  }
+  .stale-banner.show { display: block; }
+  .stale-banner strong { color: var(--warn); }
+
+  /* ============ BRAND BAR ============ */
+  .brand-bar{background:var(--qm-deep);padding:10px 6vw;display:flex;align-items:center;justify-content:space-between;font-family:'Inter',sans-serif;font-size:.72rem;letter-spacing:.15em;position:sticky;top:0;z-index:50;border-bottom:1px solid var(--gold-dim);}
+  .brand-bar-left{display:flex;align-items:center;gap:14px;}
+  .qm-logo-img{height:30px;width:auto;}
+  .brand-tagline{color:var(--qm-sky);font-size:.66rem;letter-spacing:.25em;border-left:1px solid rgba(126,180,255,.3);padding-left:12px;}
+  .brand-bar-right{color:var(--gold-light);font-size:.66rem;letter-spacing:.25em;display:flex;align-items:center;gap:14px;}
+  .fav-btn{background:none;border:1px solid var(--gold-dim);color:var(--gold-light);padding:5px 12px;border-radius:99px;font-size:.68rem;letter-spacing:.15em;cursor:pointer;transition:all .2s;font-family:inherit;display:flex;align-items:center;gap:5px;}
+  .fav-btn:hover{background:var(--gold);color:var(--qm-deep);border-color:var(--gold);}
+  .fav-btn .fav-count{background:var(--gold);color:var(--qm-deep);border-radius:99px;padding:1px 7px;font-weight:700;font-size:.65rem;min-width:18px;text-align:center;}
+  .fav-btn:hover .fav-count{background:var(--qm-deep);color:var(--gold);}
+  @media (max-width:600px){
+    .brand-tagline{display:none;}
+    .brand-bar-right .label-text{display:none;}
+  }
+
+  /* ============ HERO ============ */
+  .hero{position:relative;background:radial-gradient(ellipse at 70% 20%,rgba(245,181,49,.22),transparent 50%),radial-gradient(ellipse at 20% 80%,rgba(126,180,255,.18),transparent 50%),linear-gradient(160deg,var(--qm-deep) 0%,#0c2670 50%,var(--qm-blue) 100%);color:white;padding:36px 6vw 44px;text-align:center;overflow:hidden;}
+  .hero::before{content:'';position:absolute;inset:0;background-image:radial-gradient(1.5px 1.5px at 12% 18%,var(--gold-light),transparent),radial-gradient(1px 1px at 23% 42%,white,transparent),radial-gradient(2px 2px at 47% 9%,var(--gold),transparent),radial-gradient(1px 1px at 62% 67%,white,transparent),radial-gradient(1.2px 1.2px at 78% 28%,var(--qm-sky),transparent),radial-gradient(1.8px 1.8px at 89% 55%,var(--gold-light),transparent),radial-gradient(1px 1px at 34% 88%,white,transparent),radial-gradient(1px 1px at 91% 91%,var(--gold),transparent),radial-gradient(1px 1px at 8% 71%,white,transparent),radial-gradient(1px 1px at 55% 35%,var(--qm-sky),transparent);opacity:.8;animation:twinkle 6s ease-in-out infinite;pointer-events:none;}
+  @keyframes twinkle{0%,100%{opacity:.4;}50%{opacity:.95;}}
+  .hero-inner{position:relative;z-index:1;max-width:760px;margin:0 auto;}
+
+  .hero-date-big{display:inline-flex;align-items:baseline;gap:10px;background:white;color:var(--qm-deep);padding:12px 28px;border-radius:99px;margin-bottom:18px;box-shadow:0 8px 30px rgba(0,0,0,.2),0 0 0 1px rgba(245,181,49,.5);font-weight:900;position:relative;}
+  .hero-date-big.has-new::after {
+    content: 'NEW';
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--new-badge);
+    color: white;
+    font-size: .55rem;
+    padding: 3px 8px;
+    border-radius: 99px;
+    letter-spacing: .15em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    box-shadow: 0 4px 12px rgba(39,201,132,.4);
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  .hero-date-big .date-num{font-family:'Playfair Display',serif;font-size:clamp(1.4rem,4vw,1.9rem);color:var(--qm-blue);line-height:1;}
+  .hero-date-big .date-sep{color:var(--gold);margin:0 2px;}
+  .hero-date-big .date-label{font-size:clamp(.85rem,2vw,1rem);color:var(--qm-deep);letter-spacing:.08em;}
+  .hero-date-big .date-dow{color:var(--gold-dim);font-size:.85rem;font-family:'Inter',sans-serif;letter-spacing:.15em;margin-left:4px;}
+
+  .hero h1{font-family:'Noto Serif JP',serif;font-weight:900;font-size:clamp(1.5rem,4.5vw,2.4rem);line-height:1.4;letter-spacing:.04em;margin-bottom:8px;}
+  .hero h1 .qm-pre{display:block;font-size:clamp(.78rem,2vw,.95rem);font-weight:600;color:var(--qm-sky);letter-spacing:.25em;margin-bottom:8px;font-family:'Inter',sans-serif;}
+  .hero h1 .accent{display:inline-block;position:relative;background:linear-gradient(135deg,var(--gold-light) 0%,var(--gold) 50%,var(--gold-light) 100%);background-clip:text;-webkit-background-clip:text;color:transparent;padding:0 4px;}
+  .hero h1 .accent::after{content:'';position:absolute;left:6%;right:6%;bottom:-6px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);border-radius:99px;}
+  .hero-sub{font-size:clamp(.78rem,1.8vw,.9rem);color:var(--qm-ice);margin:18px auto 14px;line-height:1.8;opacity:.88;max-width:560px;}
+  .hero-meta{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;font-family:'Inter',sans-serif;font-size:.68rem;letter-spacing:.12em;color:var(--qm-sky);padding:8px 20px;background:rgba(8,18,48,.4);border-radius:99px;border:1px solid rgba(126,180,255,.15);}
+  .hero-meta strong{color:var(--gold-light);font-weight:900;font-size:1.1rem;margin-right:4px;font-family:'Playfair Display',serif;}
+  .hero-meta-item{display:flex;align-items:baseline;}
+
+  /* ============ UPDATE INFO BAR ============ */
+  .update-info {
+    background: white;
+    padding: 14px 6vw;
+    border-bottom: 1px solid var(--line);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: .78rem;
+    color: var(--muted);
+    letter-spacing: .08em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .update-info-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .update-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--new-badge);
+    box-shadow: 0 0 8px var(--new-badge);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  .update-dot.stale {
+    background: var(--warn);
+    box-shadow: 0 0 8px var(--warn);
+  }
+  .update-info strong {
+    color: var(--qm-deep);
+    font-weight: 700;
+  }
+  .auto-update-badge {
+    background: linear-gradient(135deg, var(--qm-blue), var(--qm-light));
+    color: white;
+    padding: 4px 12px;
+    border-radius: 99px;
+    font-size: .7rem;
+    letter-spacing: .15em;
+    font-weight: 700;
+  }
+
+  /* ============ (略：v3と同じスタイル) ============ */
+  .filter-section{background:white;padding:40px 6vw 36px;border-bottom:1px solid var(--line);position:relative;z-index:2;}
+  .filter-inner{max-width:920px;margin:0 auto;}
+  .filter-title{text-align:center;margin-bottom:26px;}
+  .filter-title-en{font-family:'Playfair Display',serif;font-style:italic;color:var(--gold-dim);font-size:.85rem;letter-spacing:.25em;margin-bottom:4px;}
+  .filter-title h2{font-size:clamp(1.1rem,2.5vw,1.4rem);color:var(--qm-deep);font-weight:700;letter-spacing:.12em;}
+  .filter-row{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;}
+  .filter-group{flex:1;min-width:200px;max-width:280px;}
+  .filter-group label{display:block;font-family:'Inter',sans-serif;font-size:.72rem;letter-spacing:.25em;color:var(--qm-blue);text-transform:uppercase;margin-bottom:8px;font-weight:600;}
+  .filter-group select{width:100%;background:white;border:2px solid var(--line);color:var(--ink);padding:13px 18px;border-radius:8px;font-family:'Noto Serif JP',serif;font-size:1rem;font-weight:500;cursor:pointer;transition:all .2s;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%231a50c8' stroke-width='2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:40px;}
+  .filter-group select:hover,.filter-group select:focus{border-color:var(--qm-blue);outline:none;box-shadow:0 4px 16px rgba(26,80,200,.15);}
+
+  #myRankCard{max-width:920px;margin:32px auto 0;display:none;}
+  #myRankCard.show{display:block;animation:fadeUp .6s cubic-bezier(.2,.8,.3,1) both;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+  .my-rank-inner{background:linear-gradient(135deg,var(--qm-deep),var(--qm-blue));border-radius:18px;padding:36px 32px;position:relative;overflow:hidden;color:white;box-shadow:0 20px 50px rgba(8,29,90,.25);}
+  .my-rank-inner::before{content:'';position:absolute;top:-50%;right:-10%;width:60%;height:200%;background:radial-gradient(ellipse,rgba(245,181,49,.2),transparent 60%);pointer-events:none;}
+  .my-rank-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px;position:relative;flex-wrap:wrap;}
+  .my-rank-label{font-family:'Inter',sans-serif;font-size:.75rem;letter-spacing:.3em;color:var(--gold-light);text-transform:uppercase;}
+  .fav-toggle{background:rgba(255,255,255,.08);border:1px solid rgba(255,214,110,.3);color:var(--gold-light);padding:8px 16px;border-radius:99px;cursor:pointer;font-family:'Inter',sans-serif;font-size:.72rem;letter-spacing:.12em;transition:all .2s;display:flex;align-items:center;gap:6px;font-weight:600;white-space:nowrap;}
+  .fav-toggle:hover{background:rgba(255,214,110,.15);transform:translateY(-1px);}
+  .fav-toggle.saved{background:var(--pink-fav);border-color:var(--pink-fav);color:white;}
+  .my-rank-combo{font-size:clamp(1.4rem,4vw,2.2rem);font-weight:700;color:white;margin-bottom:22px;position:relative;}
+  .my-rank-stats{display:flex;flex-wrap:wrap;gap:24px;align-items:center;position:relative;}
+  .my-rank-big{font-family:'Playfair Display',serif;font-size:5rem;line-height:1;color:var(--gold-light);font-weight:900;text-shadow:0 4px 20px rgba(245,181,49,.3);}
+  .my-rank-of{color:var(--qm-sky);font-size:1.2rem;font-family:'Playfair Display',serif;}
+  .my-rank-comment{flex:1;min-width:240px;line-height:1.85;color:var(--qm-ice);font-size:.95rem;}
+  .score-bar{margin-top:20px;height:8px;background:rgba(255,255,255,.1);border-radius:99px;overflow:hidden;position:relative;}
+  .score-fill{height:100%;background:linear-gradient(90deg,var(--gold-dim),var(--gold),var(--gold-light));border-radius:99px;transition:width 1.2s cubic-bezier(.2,.8,.3,1);box-shadow:0 0 12px rgba(245,181,49,.5);}
+
+  .today-move{margin-top:24px;padding:22px 24px;background:rgba(255,255,255,.08);border:1px solid var(--line-gold);border-radius:14px;position:relative;}
+  .today-move::before{content:'';position:absolute;top:0;left:0;width:5px;height:100%;background:linear-gradient(180deg,var(--gold-light),var(--gold));border-radius:14px 0 0 14px;}
+  .today-move-label{font-family:'Inter',sans-serif;font-size:.7rem;letter-spacing:.3em;color:var(--gold-light);text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:10px;}
+  .today-move-label::before{content:'◆';color:var(--gold);font-size:.95rem;}
+  .today-move-title{font-size:1.1rem;font-weight:700;color:var(--gold-light);margin-bottom:8px;letter-spacing:.03em;}
+  .today-move-text{font-size:.92rem;line-height:1.9;color:white;}
+
+  .favorites-section{background:linear-gradient(180deg,#fff5f9 0%,white 100%);padding:50px 6vw;border-bottom:1px solid var(--line);display:none;}
+  .favorites-section.has-items{display:block;}
+  .favorites-inner{max-width:1180px;margin:0 auto;}
+  .fav-header{text-align:center;margin-bottom:30px;}
+  .fav-header-en{font-family:'Playfair Display',serif;font-style:italic;color:var(--pink-fav);font-size:.85rem;letter-spacing:.25em;margin-bottom:4px;}
+  .fav-header h2{font-size:clamp(1.2rem,2.8vw,1.55rem);color:var(--qm-deep);font-weight:900;letter-spacing:.08em;}
+  .fav-header h2 .heart{color:var(--pink-fav);}
+  .fav-header p{color:var(--muted);font-size:.85rem;margin-top:8px;}
+  .fav-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;}
+  .fav-card{background:white;border:2px solid var(--pink-fav);border-radius:12px;padding:18px 22px;position:relative;cursor:pointer;transition:all .3s;}
+  .fav-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(255,107,157,.15);}
+  .fav-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--pink-fav),#ffb3cc);border-radius:12px 12px 0 0;}
+  .fav-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;}
+  .fav-card-rank{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--pink-fav);font-weight:900;line-height:1;}
+  .fav-card-remove{background:none;border:none;color:var(--muted);cursor:pointer;padding:4px 6px;font-size:1.2rem;line-height:1;border-radius:4px;transition:all .2s;}
+  .fav-card-remove:hover{background:#ffe0eb;color:var(--pink-fav);}
+  .fav-card-combo{font-size:1.05rem;font-weight:700;color:var(--ink);margin-bottom:10px;}
+  .fav-card-move{font-size:.82rem;color:var(--muted);line-height:1.6;border-left:2px solid var(--pink-fav);padding-left:10px;}
+  .fav-card-date{font-family:'Inter',sans-serif;font-size:.65rem;color:var(--muted);letter-spacing:.15em;margin-top:10px;text-transform:uppercase;}
+  .fav-clear-btn{display:block;margin:24px auto 0;background:none;border:1px solid var(--muted);color:var(--muted);padding:8px 24px;border-radius:99px;cursor:pointer;font-family:'Inter',sans-serif;font-size:.72rem;letter-spacing:.15em;transition:all .2s;}
+  .fav-clear-btn:hover{background:var(--muted);color:white;}
+
+  .section-wrap{background:white;padding:60px 6vw 30px;}
+  .section-title{text-align:center;max-width:720px;margin:0 auto 36px;}
+  .section-title-en{font-family:'Playfair Display',serif;font-style:italic;font-size:.85rem;letter-spacing:.25em;color:var(--gold-dim);margin-bottom:4px;}
+  .section-title h2{font-size:clamp(1.3rem,3vw,1.85rem);color:var(--qm-deep);font-weight:900;letter-spacing:.08em;line-height:1.4;}
+  .section-title h2 .accent{color:var(--gold-dim);}
+  .section-title p{color:var(--muted);font-size:.85rem;margin-top:8px;letter-spacing:.05em;}
+
+  .ranking-grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;}
+  .rank-card{background:white;border:1px solid var(--line);border-radius:12px;padding:20px 22px;position:relative;transition:all .3s cubic-bezier(.2,.8,.3,1);cursor:pointer;overflow:hidden;}
+  .rank-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--qm-blue),var(--qm-light));opacity:0;transition:opacity .3s;}
+  .rank-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(8,29,90,.12);border-color:var(--qm-blue);}
+  .rank-card:hover::before{opacity:1;}
+  .rank-card.is-fav{border-color:var(--pink-fav);}
+  .rank-card.is-fav::after{content:'♥';position:absolute;top:12px;right:14px;color:var(--pink-fav);font-size:1.1rem;}
+  .rank-card.tier-1{background:linear-gradient(135deg,#fff8e1,white);border:2px solid var(--gold);box-shadow:0 8px 30px rgba(245,181,49,.2);}
+  .rank-card.tier-1::before{background:linear-gradient(90deg,var(--gold-dim),var(--gold),var(--gold-light));opacity:1;height:4px;}
+  .rank-card.tier-2{background:linear-gradient(135deg,#eef3ff,white);border:1px solid var(--qm-light);}
+  .rank-card.tier-3{background:linear-gradient(135deg,#f5f9ff,white);border:1px solid var(--qm-sky);}
+  .rank-head{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;}
+  .rank-num{font-family:'Playfair Display',serif;font-size:2.6rem;line-height:.9;font-weight:900;color:var(--qm-blue);}
+  .rank-card.tier-1 .rank-num{color:var(--gold-dim);font-size:3.2rem;}
+  .rank-card.tier-2 .rank-num{color:var(--qm-light);}
+  .rank-card.tier-3 .rank-num{color:var(--qm-blue);opacity:.8;}
+  .rank-suffix{font-size:.82rem;color:var(--muted);letter-spacing:.1em;font-family:'Inter',sans-serif;}
+  .crown-icon{color:var(--gold);font-size:1.3rem;margin-right:4px;}
+  .rank-combo{font-size:1.1rem;font-weight:700;color:var(--ink);line-height:1.4;}
+  .rank-card.tier-1 .rank-combo{color:var(--qm-deep);}
+  .rank-score-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);}
+  .score-num{font-family:'Playfair Display',serif;font-size:1.35rem;color:var(--qm-blue);font-weight:700;}
+  .rank-card.tier-1 .score-num{color:var(--gold-dim);}
+  .score-min{font-size:.7rem;color:var(--muted);letter-spacing:.1em;font-family:'Inter',sans-serif;}
+  .card-move-hint{margin-top:10px;font-size:.8rem;color:var(--muted);line-height:1.5;border-left:2px solid var(--gold);padding-left:10px;}
+  .rank-card.tier-1 .card-move-hint{color:var(--text);}
+
+  .modal-overlay{position:fixed;inset:0;background:rgba(8,18,48,.85);backdrop-filter:blur(8px);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:5vh 5vw;overflow-y:auto;}
+  .modal-overlay.show{display:flex;animation:fadeIn .3s ease;}
+  @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+  .modal{background:white;border-radius:16px;padding:40px clamp(24px,5vw,56px);max-width:720px;width:100%;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.4);margin:auto;}
+  .modal-close{position:absolute;top:16px;right:16px;width:36px;height:36px;background:var(--qm-ice);border:none;border-radius:50%;color:var(--qm-blue);cursor:pointer;font-size:1.3rem;transition:all .2s;line-height:1;}
+  .modal-close:hover{background:var(--qm-blue);color:white;transform:rotate(90deg);}
+  .modal-rank-num{font-family:'Inter',sans-serif;font-size:.82rem;letter-spacing:.3em;color:var(--qm-blue);text-transform:uppercase;font-weight:600;}
+  .modal-title-row{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin:6px 0 4px;flex-wrap:wrap;}
+  .modal-title{font-size:clamp(1.6rem,4.5vw,2.3rem);color:var(--qm-deep);font-weight:900;line-height:1.25;flex:1;min-width:200px;}
+  .modal-fav-btn{background:white;border:2px solid var(--pink-fav);color:var(--pink-fav);padding:8px 16px;border-radius:99px;cursor:pointer;font-family:'Inter',sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:700;transition:all .2s;display:flex;align-items:center;gap:6px;flex-shrink:0;}
+  .modal-fav-btn:hover{background:#ffe0eb;}
+  .modal-fav-btn.saved{background:var(--pink-fav);color:white;}
+  .modal-score-line{font-family:'Playfair Display',serif;font-size:1.3rem;color:var(--gold-dim);margin-bottom:28px;font-weight:700;}
+  .modal-section{margin-bottom:28px;}
+  .modal-section h3{font-family:'Inter',sans-serif;font-size:.78rem;letter-spacing:.3em;color:var(--qm-blue);text-transform:uppercase;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--qm-ice);font-weight:600;display:flex;align-items:center;gap:10px;}
+  .modal-section h3::before{content:'◆';color:var(--gold);font-size:.7rem;}
+  .modal-comment{font-size:1rem;line-height:1.95;color:var(--text);}
+  .modal-move-box{background:linear-gradient(135deg,#fff8e1,white);border:2px solid var(--gold-light);border-radius:12px;padding:20px 22px;}
+  .modal-move-title{color:var(--gold-dim);font-weight:700;font-size:1.05rem;margin-bottom:8px;letter-spacing:.03em;}
+  .modal-move-text{color:var(--text);line-height:1.85;}
+  .source-list{list-style:none;padding:0;}
+  .source-list li{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px dashed var(--line);font-size:.92rem;gap:12px;}
+  .source-list li:last-child{border:none;}
+  .source-name{color:var(--text);flex:1;line-height:1.4;font-weight:500;}
+  .source-name small{color:var(--muted);font-weight:400;font-size:.8rem;display:block;margin-top:2px;letter-spacing:.05em;font-family:'Inter',sans-serif;}
+  .source-name .src-status{display:inline-block;font-size:.65rem;padding:1px 6px;border-radius:99px;margin-left:6px;letter-spacing:.05em;vertical-align:middle;}
+  .src-status.fallback{background:#fff4e6;color:var(--warn);border:1px solid #ffd4a8;}
+  .source-rank{color:var(--qm-blue);font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;white-space:nowrap;}
+  .source-rank.top{color:var(--gold-dim);}
+  .source-rank.bottom{color:var(--muted);opacity:.7;}
+  .lucky-row{display:flex;flex-wrap:wrap;gap:16px;margin-top:4px;}
+  .lucky-item{flex:1;min-width:130px;background:var(--qm-ice);padding:14px 18px;border-radius:10px;}
+  .lucky-label{font-size:.68rem;letter-spacing:.25em;color:var(--qm-blue);text-transform:uppercase;font-family:'Inter',sans-serif;margin-bottom:4px;font-weight:600;}
+  .lucky-value{font-size:1.1rem;color:var(--qm-deep);font-weight:700;}
+
+  .methodology{background:var(--qm-deep);color:var(--qm-ice);padding:60px 6vw;margin-top:50px;position:relative;overflow:hidden;}
+  .methodology::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 30%,rgba(126,180,255,.12),transparent 50%),radial-gradient(ellipse at 70% 70%,rgba(245,181,49,.08),transparent 50%);}
+  .methodology-inner{max-width:860px;margin:0 auto;position:relative;}
+  .methodology h2{text-align:center;color:var(--gold-light);margin-bottom:6px;font-weight:700;letter-spacing:.15em;font-size:1.3rem;}
+  .methodology .sub-en{text-align:center;color:var(--qm-sky);font-family:'Playfair Display',serif;font-style:italic;font-size:.82rem;letter-spacing:.25em;margin-bottom:36px;opacity:.8;}
+  .meth-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-bottom:36px;}
+  .meth-step{background:rgba(255,255,255,.04);border:1px solid rgba(126,180,255,.2);padding:22px 22px;border-radius:12px;}
+  .meth-step-num{font-family:'Playfair Display',serif;font-size:2.1rem;color:var(--gold);font-weight:900;line-height:1;margin-bottom:8px;}
+  .meth-step h4{color:var(--gold-light);font-size:.98rem;font-weight:700;margin-bottom:10px;letter-spacing:.04em;}
+  .meth-step p{font-size:.85rem;line-height:1.8;color:var(--qm-ice);opacity:.92;}
+  .meth-step strong{color:var(--gold-light);}
+  .meth-note{text-align:center;font-size:.78rem;color:var(--qm-sky);opacity:.7;letter-spacing:.05em;}
+
+  footer{background:var(--ink);color:var(--qm-sky);padding:36px 6vw 30px;text-align:center;}
+  .footer-logo-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;margin-bottom:20px;}
+  .footer-logo{height:36px;width:auto;}
+  .footer-tag{font-family:'Playfair Display',serif;font-style:italic;color:var(--gold-light);font-size:.88rem;letter-spacing:.15em;}
+  .footer-info{font-size:.72rem;letter-spacing:.15em;font-family:'Inter',sans-serif;opacity:.7;line-height:2;}
+  .footer-info span{color:var(--gold-light);}
+
+  @media (max-width:600px){
+    .hero{padding:28px 6vw 36px;}
+    .hero-date-big{padding:10px 20px;gap:6px;}
+    .filter-row{flex-direction:column;align-items:stretch;}
+    .filter-group{max-width:100%;}
+    .my-rank-big{font-size:3.8rem;}
+    .ranking-grid{grid-template-columns:1fr;}
+    .modal{padding:36px 24px;border-radius:12px;}
+    .my-rank-inner{padding:28px 22px;border-radius:14px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- 新着通知トースト -->
+<div class="new-toast" id="newToast">
+  <div class="toast-icon">🆕</div>
+  <div id="toastMessage">運勢データが更新されました！</div>
+  <div class="toast-close" onclick="closeToast()">×</div>
+</div>
+
+<!-- データ古い時の警告バナー -->
+<div class="stale-banner" id="staleBanner">
+  ⚠️ <strong>データは <span id="dataDateText">前日</span> のものです。</strong>毎朝6時に自動更新されます。
+</div>
+
+<!-- ブランドバー -->
+<div class="brand-bar">
+  <div class="brand-bar-left">
+    <img src="qm-logo-transparent.png" alt="Quality Management" class="qm-logo-img">
+    <div class="brand-tagline">PRESENTS</div>
+  </div>
+  <div class="brand-bar-right">
+    <button class="fav-btn" id="favScrollBtn">
+      <span class="heart">♥</span>
+      <span class="label-text">マイお気に入り</span>
+      <span class="fav-count" id="favCount">0</span>
+    </button>
+  </div>
+</div>
+
+<!-- ヒーロー -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-date-big" id="dateBadge">
+      <span class="date-num" id="dateMonth">5</span>
+      <span class="date-sep">月</span>
+      <span class="date-num" id="dateDay">11</span>
+      <span class="date-sep">日</span>
+      <span class="date-label">今日の運勢！</span>
+      <span class="date-dow" id="dateDow">(MON)</span>
+    </div>
+    <h1>
+      <span class="qm-pre">クオリティマネジメント社が送る</span>
+      <span class="accent">今日の一手！</span>これならできる！
+    </h1>
+    <p class="hero-sub">6媒体の占いを横断集計。星座×血液型 48通りから、あなたの運命を動かす"今日の一手"をお届けします。</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><strong>6</strong>占い媒体</div>
+      <div class="hero-meta-item"><strong>48</strong>組み合わせ</div>
+      <div class="hero-meta-item"><strong>100</strong>点満点</div>
+    </div>
+  </div>
+</section>
+
+<!-- 更新情報バー -->
+<div class="update-info">
+  <div class="update-info-item">
+    <span class="update-dot" id="updateDot"></span>
+    <span>データ最終更新: <strong id="lastUpdated">読込中...</strong></span>
+  </div>
+  <div class="update-info-item">
+    <span class="auto-update-badge">毎朝6時 自動更新</span>
+  </div>
+</div>
+
+<!-- フィルター -->
+<section class="filter-section">
+  <div class="filter-inner">
+    <div class="filter-title">
+      <div class="filter-title-en">Find Your Rank</div>
+      <h2>あ な た の 順 位 を 確 認</h2>
+    </div>
+    <div class="filter-row">
+      <div class="filter-group">
+        <label>あなたの星座</label>
+        <select id="zodiacSelect"><option value="">— 選択してください —</option></select>
+      </div>
+      <div class="filter-group">
+        <label>あなたの血液型</label>
+        <select id="bloodSelect">
+          <option value="">— 選択してください —</option>
+          <option value="A">A 型</option>
+          <option value="B">B 型</option>
+          <option value="O">O 型</option>
+          <option value="AB">AB 型</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="myRankCard">
+      <div class="my-rank-inner">
+        <div class="my-rank-top">
+          <div class="my-rank-label">YOUR RANK TODAY</div>
+          <button class="fav-toggle" id="favToggle">
+            <span class="heart">♡</span>
+            <span class="fav-label">お気に入りに保存</span>
+          </button>
+        </div>
+        <div class="my-rank-combo" id="myCombo"></div>
+        <div class="my-rank-stats">
+          <div><span class="my-rank-big" id="myRank"></span><span class="my-rank-of">/ 48</span></div>
+          <div class="my-rank-comment" id="myComment"></div>
+        </div>
+        <div class="score-bar"><div class="score-fill" id="myScoreFill" style="width:0"></div></div>
+        <div class="today-move">
+          <div class="today-move-label">Today's One Move ／ 今 日 の 一 手</div>
+          <div class="today-move-title" id="myMoveTitle"></div>
+          <div class="today-move-text" id="myMoveText"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- お気に入り -->
+<section class="favorites-section" id="favoritesSection">
+  <div class="favorites-inner">
+    <div class="fav-header">
+      <div class="fav-header-en">My Saved Fortunes</div>
+      <h2><span class="heart">♥</span> マ イ お 気 に 入 り <span class="heart">♥</span></h2>
+      <p>保存した運勢はブラウザにのみ記録されます</p>
+    </div>
+    <div class="fav-grid" id="favGrid"></div>
+    <button class="fav-clear-btn" id="favClearBtn">全てクリア</button>
+  </div>
+</section>
+
+<!-- ランキング -->
+<section class="section-wrap">
+  <div class="section-title">
+    <div class="section-title-en">Today's Top 48 Combinations</div>
+    <h2>総 合 ラ ン キ ン グ <span class="accent">／ 48通り</span></h2>
+    <p>タップすると、各組み合わせの詳細と「今日の一手」が見られます</p>
+  </div>
+  <div class="ranking-grid" id="rankingGrid"></div>
+</section>
+
+<!-- ロジック説明 -->
+<section class="methodology">
+  <div class="methodology-inner">
+    <h2>◆ 集 計 ロ ジ ッ ク ◆</h2>
+    <div class="sub-en">— How We Find The Truth —</div>
+    <div class="meth-steps">
+      <div class="meth-step">
+        <div class="meth-step-num">01</div>
+        <h4>6媒体の星座スコア</h4>
+        <p><strong>めざまし占い（フジテレビ）</strong>／マイナビニュース／TOKYO FM＋（桜羽結万）／福井新聞（フェリーチェ）／anna media（読売テレビ）／モデルプレス の 6媒体から、本日の12星座ランキングを取得。</p>
+      </div>
+      <div class="meth-step">
+        <div class="meth-step-num">02</div>
+        <h4>血液型補正</h4>
+        <p>曜日や月相を考慮し、各血液型に <strong>±15点</strong> の補正を適用。</p>
+      </div>
+      <div class="meth-step">
+        <div class="meth-step-num">03</div>
+        <h4>合算スコア化</h4>
+        <p>星座スコア70% × 血液型補正30% で合算し、<strong>100点満点に正規化</strong>。48通りすべてを順位付け。</p>
+      </div>
+    </div>
+    <p class="meth-note">※ 占いはエンタメ目的です。今日のあなたの行動が運勢を変えます。</p>
+  </div>
+</section>
+
+<!-- モーダル -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog">
+    <button class="modal-close" id="modalClose">×</button>
+    <div class="modal-rank-num" id="mRankNum"></div>
+    <div class="modal-title-row">
+      <div class="modal-title" id="mTitle"></div>
+      <button class="modal-fav-btn" id="mFavBtn"><span class="heart">♡</span><span class="mFavLabel">保存</span></button>
+    </div>
+    <div class="modal-score-line" id="mScore"></div>
+    <div class="modal-section">
+      <h3>Today's One Move ／ 今日の一手</h3>
+      <div class="modal-move-box">
+        <div class="modal-move-title" id="mMoveTitle"></div>
+        <div class="modal-move-text" id="mMoveText"></div>
+      </div>
+    </div>
+    <div class="modal-section">
+      <h3>今日の運勢コメント</h3>
+      <p class="modal-comment" id="mComment"></p>
+    </div>
+    <div class="modal-section">
+      <h3>ラッキー要素</h3>
+      <div class="lucky-row">
+        <div class="lucky-item"><div class="lucky-label">Color</div><div class="lucky-value" id="mColor"></div></div>
+        <div class="lucky-item"><div class="lucky-label">Number</div><div class="lucky-value" id="mNumber"></div></div>
+        <div class="lucky-item"><div class="lucky-label">Item</div><div class="lucky-value" id="mItem"></div></div>
+      </div>
+    </div>
+    <div class="modal-section">
+      <h3>各サイトの順位（星座基準）</h3>
+      <ul class="source-list" id="mSources"></ul>
+    </div>
+  </div>
+</div>
+
+<!-- フッター -->
+<footer>
+  <div class="footer-logo-wrap">
+    <img src="qm-logo-transparent.png" alt="Quality Management" class="footer-logo">
+    <div class="footer-tag">今日の一手！これならできる！</div>
+  </div>
+  <div class="footer-info">
+    Powered by <span>Quality Management Co., Ltd.</span><br>
+    <span id="footerDate">2026·05·11</span> ・ FOR ENTERTAINMENT PURPOSES
+  </div>
+</footer>
+
+<script>
+/* =========================================================
+   定数データ（クライアント側のみで使うもの）
+   ========================================================= */
+const ZODIACS = [
+  { key:'aries', jp:'牡羊座', emoji:'♈' }, { key:'taurus', jp:'牡牛座', emoji:'♉' },
+  { key:'gemini', jp:'双子座', emoji:'♊' }, { key:'cancer', jp:'蟹座', emoji:'♋' },
+  { key:'leo', jp:'獅子座', emoji:'♌' }, { key:'virgo', jp:'乙女座', emoji:'♍' },
+  { key:'libra', jp:'天秤座', emoji:'♎' }, { key:'scorpio', jp:'蠍座', emoji:'♏' },
+  { key:'sagittarius', jp:'射手座', emoji:'♐' }, { key:'capricorn', jp:'山羊座', emoji:'♑' },
+  { key:'aquarius', jp:'水瓶座', emoji:'♒' }, { key:'pisces', jp:'魚座', emoji:'♓' },
+];
+
+const BLOOD_MOD  = {'A':+6,'B':-3,'O':+9,'AB':-2};
+const BLOOD_VIBE = {
+  'A':'段取りと丁寧さが運を呼ぶ日。計画通りに動けば確実に成果が出ます。',
+  'B':'思いつきの行動は控えめに。今日は受け身に徹すると流れが整う。',
+  'O':'行動力が最大の武器。声をかけ、動き、つかみに行くと運気が爆発。',
+  'AB':'感性が冴える反面、ノイズに疲れがち。一人時間を意識的に確保して。'
+};
+const ONE_MOVE = {
+  pisces:{title:'気になる相手に、まず連絡する',text:'直感が冴える日。「いま思いついた」を後回しにしない。LINE一本、電話一本がデートや次の展開につながります。声のトーンを少し上げて。'},
+  cancer:{title:'静かなカフェで30分、ノートを開く',text:'感性が研ぎ澄まされる日。アートや読書でインプットすると、新しいアイデアが舞い降りる。誰かに話す前に、まず自分の心と向き合う時間を。'},
+  scorpio:{title:'SNSで自分の関心を発信する',text:'趣味やコミュニティで存在感が光る日。投稿・コメント・参加表明、いずれもOK。あなたに関心を寄せる人が確実に増えます。'},
+  taurus:{title:'デスク・部屋を10分だけ整える',text:'テキパキ動ける運気。身の回りを整理すると思考もクリアに。短期目標を紙に書き出すとモチベが続きます。'},
+  virgo:{title:'大事な相手に、丁寧な一言を伝える',text:'丁寧なコミュニケーションがすべての鍵。仕事のパートナー・恋人に、思っていることを言葉にして。理解が深まり、関係性が前進します。'},
+  capricorn:{title:'笑顔で、自分から挨拶する',text:'プチラッキーが起きる予感。明るい笑顔とポジティブな振る舞いが幸運を引き寄せる。差し入れや偶然の出会いに期待。'},
+  gemini:{title:'ランチや一服を、誰かと一緒に過ごす',text:'"普通のこと"を普通にやるだけで成果が倍増する星回り。一人で抱えず、人と話す時間をつくると運気がさらに上向きます。'},
+  aries:{title:'やるべきことを15分、先に片付ける',text:'遊びの誘惑に流されやすい日。読書や勉強もゲーム感覚にして、メリハリを。知識不足が露呈する場面に備えて、確認と準備を。'},
+  sagittarius:{title:'書類・データを「捨てる」',text:'空間の乱れが心の乱れを呼ぶ日。書類整理、不要ファイルの削除、デスクトップの片付けが集中力を取り戻す最短ルート。'},
+  aquarius:{title:'一駅分、歩いてみる',text:'怠けがちな自分を奮い立たせるとき。体を動かして自分のペースを取り戻して。1週間の目標を立て直すのにも良い日。'},
+  leo:{title:'噂や情報を、自分の頭で判断する',text:'のんびり過ごすのが◎。立ち話や噂話は鵜呑みにせず、自分の感覚を信じて。今日はがんばる自分が素敵に見える星回りでもあります。'},
+  libra:{title:'夜に、香りでリセットする',text:'日中は忙しめ。夜はゆったり過ごす時間を意識的に確保して。アロマ・お風呂・お気に入りの香水で一日をクローズ。'}
+};
+const BLOOD_MOVE_TWIST = {
+  'A':'段取りを紙に書き出してから動くと完璧。',
+  'B':'気乗りしないなら無理せず、半分の労力でOK。',
+  'O':'ためらわず、声をかける／動く方を選んで。',
+  'AB':'一人時間を15分挟んでから取り組むのが正解。'
+};
+const ZODIAC_COMMENT = {
+  pisces:'想像力と直感が冴える一日。やる気が湧き、気になる相手に動けば距離が縮まる予感。声のトーンを上げると運気を生かせます。',
+  cancer:'穏やかな時間の中でアイデアが浮かびやすい日。リラックスして感性に触れ、心で感じる選択を。',
+  scorpio:'コミュニティや趣味の場で長所が光る。SNS発信もおすすめ。あなたに関心を寄せる人が増える予感。',
+  taurus:'テキパキ動ける一日。身の回りを整えると思考もクリアに。短期的な目標を立てるとモチベ維持に。',
+  virgo:'丁寧なコミュニケーションが鍵。仕事のパートナーや恋人にも、自分の考えをきちんと伝えると吉。',
+  capricorn:'プチラッキーが起きる予感。明るい笑顔とポジティブな振る舞いが幸運を引き寄せます。',
+  gemini:'普通のことを普通にやるだけで成果が倍増しそうな絶好調の星回り。誰かと一緒の時間が運気を引き上げます。',
+  aries:'遊びの誘惑に注意。やるべきことを先に。読書や勉強もゲーム感覚で進めるとはかどります。',
+  sagittarius:'片付けで運気アップ。空間の乱れが心の乱れに直結する日です。',
+  aquarius:'怠けがちな自分を奮い立たせて。歩く、体を動かすことでペースを取り戻せます。',
+  leo:'のんびり過ごすのが◎。立ち話や噂話は鵜呑みにせず、自分の感覚を信じて。',
+  libra:'日中は忙しめ。夜はゆったり過ごす時間を意識的に。香りでリラックスを。'
+};
+const BLOOD_LUCKY = {
+  'A': { color:'アイボリー',     number:'8', item:'手帳' },
+  'B': { color:'マスタード',     number:'3', item:'お香' },
+  'O': { color:'ロイヤルブルー', number:'5', item:'スニーカー' },
+  'AB':{ color:'ラベンダー',     number:'7', item:'文庫本' }
+};
+
+/* =========================================================
+   グローバル変数
+   ========================================================= */
+let SOURCE_RANKINGS = {};
+let DATA_DATE = '';
+let DATA_UPDATED_AT = '';
+let allCombos = [];
+
+/* =========================================================
+   data.json 読み込み（自動更新の核）
+   ========================================================= */
+async function loadFortuneData(){
+  try {
+    // キャッシュバスター付きで読み込み（必ず最新版を取得）
+    const cacheBuster = Date.now();
+    const res = await fetch(`./data.json?t=${cacheBuster}`);
+    if (!res.ok) throw new Error('data.json 読み込み失敗');
+    const data = await res.json();
+    SOURCE_RANKINGS = data.sources;
+    DATA_DATE = data.date;
+    DATA_UPDATED_AT = data.updated;
+
+    // 日付を更新
+    updateDateDisplay(data.date);
+    // 更新時刻を表示
+    updateLastUpdated(data.updated, data.date);
+    // 新着チェック
+    checkNewData(data.date);
+    return true;
+  } catch(e) {
+    console.error('データ読込エラー:', e);
+    document.getElementById('lastUpdated').textContent = '読込エラー';
+    return false;
+  }
+}
+
+function updateDateDisplay(dateStr){
+  // dateStr: "2026-05-11"
+  const d = new Date(dateStr + 'T00:00:00+09:00');
+  document.getElementById('dateMonth').textContent = d.getMonth() + 1;
+  document.getElementById('dateDay').textContent = d.getDate();
+  const dow = ['SUN','MON','TUE','WED','THU','FRI','SAT'][d.getDay()];
+  document.getElementById('dateDow').textContent = `(${dow})`;
+  document.getElementById('footerDate').textContent =
+    `${d.getFullYear()}·${String(d.getMonth()+1).padStart(2,'0')}·${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function updateLastUpdated(isoStr, dataDate){
+  const updated = new Date(isoStr);
+  const formatted = `${updated.getMonth()+1}月${updated.getDate()}日 ${String(updated.getHours()).padStart(2,'0')}:${String(updated.getMinutes()).padStart(2,'0')}`;
+  document.getElementById('lastUpdated').textContent = formatted;
+
+  // データが今日のものかチェック
+  const today = new Date();
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  const isStale = dataDate !== todayStr;
+
+  if (isStale) {
+    document.getElementById('updateDot').classList.add('stale');
+    document.getElementById('staleBanner').classList.add('show');
+    document.getElementById('dataDateText').textContent = `${new Date(dataDate+'T00:00:00').getMonth()+1}月${new Date(dataDate+'T00:00:00').getDate()}日`;
+  }
+}
+
+/* =========================================================
+   新着データ通知（localStorageで前回見た日付と比較）
+   ========================================================= */
+const LAST_SEEN_KEY = 'qm_uranai_last_seen_date_v1';
+
+function checkNewData(currentDate){
+  const lastSeen = localStorage.getItem(LAST_SEEN_KEY);
+  if (lastSeen && lastSeen !== currentDate) {
+    // 前回見た日付と違う → 新着！
+    showNewToast(currentDate, lastSeen);
+    document.getElementById('dateBadge').classList.add('has-new');
+  } else if (!lastSeen) {
+    // 初回訪問
+    localStorage.setItem(LAST_SEEN_KEY, currentDate);
+  }
+}
+
+function showNewToast(currentDate, lastSeen){
+  const toast = document.getElementById('newToast');
+  const msg = document.getElementById('toastMessage');
+  const cd = new Date(currentDate + 'T00:00:00');
+  msg.textContent = `${cd.getMonth()+1}月${cd.getDate()}日 の運勢に更新されました！`;
+  toast.classList.add('show');
+  // 6秒後に自動で閉じる
+  setTimeout(() => closeToast(), 6000);
+}
+
+function closeToast(){
+  document.getElementById('newToast').classList.remove('show');
+  // 既読フラグを更新
+  if (DATA_DATE) localStorage.setItem(LAST_SEEN_KEY, DATA_DATE);
+}
+
+/* =========================================================
+   集計ロジック
+   ========================================================= */
+function calcZodiacScore(zKey){
+  const sources = Object.keys(SOURCE_RANKINGS);
+  let sum=0, count=0;
+  sources.forEach(s => {
+    const r = SOURCE_RANKINGS[s].ranks[zKey];
+    if (r) { sum += (12-r)*(100/11); count++; }
+  });
+  return count ? sum/count : 50;
+}
+function calcCombinedScore(zKey, blood){
+  const z = calcZodiacScore(zKey);
+  const m = BLOOD_MOD[blood];
+  return Math.max(0, Math.min(100, z*0.7 + (50+m*3)*0.3));
+}
+function buildAllCombinations(){
+  const arr = [];
+  ZODIACS.forEach(z => ['A','B','O','AB'].forEach(b => {
+    arr.push({ zKey:z.key, zJp:z.jp, emoji:z.emoji, blood:b, score:calcCombinedScore(z.key,b) });
+  }));
+  arr.sort((a,b) => b.score - a.score);
+  arr.forEach((it, idx) => it.rank = idx+1);
+  return arr;
+}
+function buildMove(zKey, blood){
+  return { title: ONE_MOVE[zKey].title, text: ONE_MOVE[zKey].text + ' ' + BLOOD_MOVE_TWIST[blood] };
+}
+function comboKey(zKey, blood){ return `${zKey}_${blood}`; }
+
+/* =========================================================
+   お気に入り
+   ========================================================= */
+const FAV_KEY = 'qm_uranai_favorites_v1';
+function getFavs(){ try { return JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); } catch(e){ return []; } }
+function saveFavs(favs){
+  localStorage.setItem(FAV_KEY, JSON.stringify(favs));
+  updateFavCount(); renderFavorites(); refreshFavStates();
+}
+function isFav(key){ return getFavs().some(f => f.key === key); }
+function toggleFav(combo){
+  const key = comboKey(combo.zKey, combo.blood);
+  const favs = getFavs();
+  const idx = favs.findIndex(f => f.key === key);
+  if (idx >= 0) { favs.splice(idx,1); }
+  else {
+    const move = buildMove(combo.zKey, combo.blood);
+    const now = new Date();
+    favs.unshift({
+      key, zKey:combo.zKey, zJp:combo.zJp, emoji:combo.emoji, blood:combo.blood,
+      rank:combo.rank, score:combo.score, moveTitle:move.title,
+      savedAt:now.toISOString(), savedDate:`${now.getMonth()+1}/${now.getDate()}`
+    });
+  }
+  saveFavs(favs);
+}
+function removeFav(key){ saveFavs(getFavs().filter(f => f.key !== key)); }
+function clearAllFavs(){ if (confirm('全てのお気に入りを削除しますか？')) saveFavs([]); }
+function updateFavCount(){ document.getElementById('favCount').textContent = getFavs().length; }
+function renderFavorites(){
+  const favs = getFavs();
+  const sec = document.getElementById('favoritesSection');
+  const grid = document.getElementById('favGrid');
+  if (favs.length === 0) { sec.classList.remove('has-items'); return; }
+  sec.classList.add('has-items');
+  grid.innerHTML = '';
+  favs.forEach(f => {
+    const card = document.createElement('div');
+    card.className = 'fav-card';
+    card.innerHTML = `
+      <div class="fav-card-head">
+        <div class="fav-card-rank">${f.rank}<span style="font-size:.7em;color:#5a6580;font-weight:400;"> / 48</span></div>
+        <button class="fav-card-remove" data-key="${f.key}">×</button>
+      </div>
+      <div class="fav-card-combo">${f.emoji} ${f.zJp} × ${f.blood}型</div>
+      <div class="fav-card-move">◆ ${f.moveTitle}</div>
+      <div class="fav-card-date">SAVED · ${f.savedDate}</div>
+    `;
+    card.addEventListener('click', (e) => {
+      if (e.target.classList.contains('fav-card-remove')) {
+        e.stopPropagation(); removeFav(e.target.dataset.key); return;
+      }
+      const combo = allCombos.find(c => comboKey(c.zKey,c.blood) === f.key);
+      if (combo) openModal(combo);
+    });
+    grid.appendChild(card);
+  });
+}
+function refreshFavStates(){
+  document.querySelectorAll('.rank-card').forEach(card => {
+    card.classList.toggle('is-fav', isFav(`${card.dataset.zKey}_${card.dataset.blood}`));
+  });
+  const z = document.getElementById('zodiacSelect').value;
+  const b = document.getElementById('bloodSelect').value;
+  if (z && b) {
+    const key = comboKey(z,b);
+    const btn = document.getElementById('favToggle');
+    const saved = isFav(key);
+    btn.classList.toggle('saved', saved);
+    btn.querySelector('.heart').textContent = saved ? '♥' : '♡';
+    btn.querySelector('.fav-label').textContent = saved ? 'お気に入り保存中' : 'お気に入りに保存';
+  }
+}
+
+/* =========================================================
+   レンダリング
+   ========================================================= */
+function getTier(rank){
+  if (rank === 1) return 'tier-1';
+  if (rank <= 4) return 'tier-2';
+  if (rank <= 12) return 'tier-3';
+  return '';
+}
+function renderRankingGrid(){
+  const grid = document.getElementById('rankingGrid');
+  grid.innerHTML = '';
+  allCombos.forEach(c => {
+    const tier = getTier(c.rank);
+    const crown = c.rank === 1 ? '<span class="crown-icon">♛</span>' : '';
+    const move = ONE_MOVE[c.zKey];
+    const card = document.createElement('div');
+    card.className = 'rank-card ' + tier;
+    card.dataset.zKey = c.zKey;
+    card.dataset.blood = c.blood;
+    if (isFav(comboKey(c.zKey,c.blood))) card.classList.add('is-fav');
+    card.innerHTML = `
+      <div class="rank-head">
+        <span class="rank-num">${crown}${c.rank}</span>
+        <span class="rank-suffix">/ 48</span>
+      </div>
+      <div class="rank-combo">${c.emoji} ${c.zJp} × ${c.blood}型</div>
+      <div class="rank-score-row">
+        <span class="score-num">${c.score.toFixed(1)}</span>
+        <span class="score-min">スコア / 100</span>
+      </div>
+      <div class="card-move-hint">今日の一手：${move.title}</div>
+    `;
+    card.addEventListener('click', () => openModal(c));
+    grid.appendChild(card);
+  });
+}
+function populateZodiacSelect(){
+  const sel = document.getElementById('zodiacSelect');
+  ZODIACS.forEach(z => {
+    const opt = document.createElement('option');
+    opt.value = z.key;
+    opt.textContent = `${z.emoji}  ${z.jp}`;
+    sel.appendChild(opt);
+  });
+}
+let currentMyCombo = null;
+function showMyRank(){
+  const z = document.getElementById('zodiacSelect').value;
+  const b = document.getElementById('bloodSelect').value;
+  const card = document.getElementById('myRankCard');
+  if (!z || !b) { card.classList.remove('show'); currentMyCombo = null; return; }
+  const my = allCombos.find(c => c.zKey === z && c.blood === b);
+  if (!my) return;
+  currentMyCombo = my;
+  const zodiac = ZODIACS.find(zd => zd.key === z);
+  document.getElementById('myCombo').textContent = `${zodiac.emoji} ${zodiac.jp} × ${b}型`;
+  document.getElementById('myRank').textContent = my.rank;
+  document.getElementById('myComment').textContent = `${ZODIAC_COMMENT[z]} ${BLOOD_VIBE[b]}`;
+  const move = buildMove(z,b);
+  document.getElementById('myMoveTitle').textContent = move.title;
+  document.getElementById('myMoveText').textContent = move.text;
+  card.classList.add('show');
+  setTimeout(() => { document.getElementById('myScoreFill').style.width = my.score + '%'; }, 100);
+  refreshFavStates();
+  card.scrollIntoView({ behavior:'smooth', block:'center' });
+}
+let currentModalCombo = null;
+function openModal(combo){
+  currentModalCombo = combo;
+  if (typeof gtag === 'function') gtag('event', 'view_rank_detail', { 'rank':combo.rank, 'combo':`${combo.zJp}_${combo.blood}` });
+  document.getElementById('mRankNum').textContent = `RANK ${combo.rank} / 48`;
+  document.getElementById('mTitle').textContent = `${combo.emoji} ${combo.zJp} × ${combo.blood}型`;
+  document.getElementById('mScore').textContent = `総合スコア ${combo.score.toFixed(1)} / 100`;
+  const move = buildMove(combo.zKey, combo.blood);
+  document.getElementById('mMoveTitle').textContent = move.title;
+  document.getElementById('mMoveText').textContent = move.text;
+  document.getElementById('mComment').textContent = `${ZODIAC_COMMENT[combo.zKey]} ${BLOOD_VIBE[combo.blood]}`;
+  const lk = BLOOD_LUCKY[combo.blood];
+  document.getElementById('mColor').textContent = lk.color;
+  document.getElementById('mNumber').textContent = lk.number;
+  document.getElementById('mItem').textContent = lk.item;
+  const ul = document.getElementById('mSources');
+  ul.innerHTML = '';
+  Object.entries(SOURCE_RANKINGS).forEach(([name, src]) => {
+    const r = src.ranks[combo.zKey];
+    if (!r) return;
+    const li = document.createElement('li');
+    let cls = '';
+    if (r <= 3) cls = 'top';
+    else if (r >= 10) cls = 'bottom';
+    const statusBadge = src.status === 'fallback' ? '<span class="src-status fallback">前日データ</span>' : '';
+    li.innerHTML = `
+      <span class="source-name">${name}${statusBadge}<small>${src.label}</small></span>
+      <span class="source-rank ${cls}">${r} 位 / 12</span>
+    `;
+    ul.appendChild(li);
+  });
+  const mFavBtn = document.getElementById('mFavBtn');
+  const saved = isFav(comboKey(combo.zKey, combo.blood));
+  mFavBtn.classList.toggle('saved', saved);
+  mFavBtn.querySelector('.heart').textContent = saved ? '♥' : '♡';
+  mFavBtn.querySelector('.mFavLabel').textContent = saved ? '保存中' : '保存';
+  document.getElementById('modalOverlay').classList.add('show');
+}
+function closeModal(){ document.getElementById('modalOverlay').classList.remove('show'); }
+
+/* =========================================================
+   初期化
+   ========================================================= */
+async function init(){
+  const ok = await loadFortuneData();
+  if (!ok) {
+    // フォールバック：埋め込みデータを使う（読み込み失敗時）
+    SOURCE_RANKINGS = {
+      'めざまし占い':{label:'フジテレビ｜公式',ranks:{gemini:1,leo:2,taurus:3,aquarius:4,libra:5,cancer:6,sagittarius:7,capricorn:8,virgo:9,scorpio:10,aries:11,pisces:12}}
+    };
+  }
+  allCombos = buildAllCombinations();
+  populateZodiacSelect();
+  renderRankingGrid();
+  updateFavCount();
+  renderFavorites();
+}
+init();
+
+document.getElementById('zodiacSelect').addEventListener('change', () => {
+  showMyRank();
+  if (typeof gtag === 'function') gtag('event', 'select_zodiac', { 'zodiac': document.getElementById('zodiacSelect').value });
+});
+document.getElementById('bloodSelect').addEventListener('change', () => {
+  showMyRank();
+  if (typeof gtag === 'function') gtag('event', 'select_blood', { 'blood': document.getElementById('bloodSelect').value });
+});
+document.getElementById('favToggle').addEventListener('click', () => { if (currentMyCombo) toggleFav(currentMyCombo); });
+document.getElementById('mFavBtn').addEventListener('click', () => {
+  if (currentModalCombo) {
+    toggleFav(currentModalCombo);
+    const saved = isFav(comboKey(currentModalCombo.zKey, currentModalCombo.blood));
+    const btn = document.getElementById('mFavBtn');
+    btn.classList.toggle('saved', saved);
+    btn.querySelector('.heart').textContent = saved ? '♥' : '♡';
+    btn.querySelector('.mFavLabel').textContent = saved ? '保存中' : '保存';
+  }
+});
+document.getElementById('favScrollBtn').addEventListener('click', () => {
+  const sec = document.getElementById('favoritesSection');
+  if (sec.classList.contains('has-items')) sec.scrollIntoView({behavior:'smooth', block:'start'});
+  else alert('まだお気に入りはありません。\n気になる組み合わせをタップして♡ボタンで保存できます！');
+});
+document.getElementById('favClearBtn').addEventListener('click', clearAllFavs);
+document.getElementById('modalClose').addEventListener('click', closeModal);
+document.getElementById('modalOverlay').addEventListener('click', (e) => { if (e.target.id === 'modalOverlay') closeModal(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+</script>
+
+</body>
+</html>
