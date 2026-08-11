@@ -123,7 +123,19 @@ h1{
   gap:1px;background:var(--line);border:1px solid var(--line);
   margin:24px 0 0;
 }
-.kpi{background:var(--surface);padding:14px 16px}
+.kpi{
+  background:var(--surface);padding:14px 16px;
+  border:0;margin:0;text-align:left;font-family:inherit;color:inherit;
+  cursor:pointer;display:block;width:100%;
+}
+.kpi:hover{background:var(--accent-wash)}
+.kpi .go{
+  font-family:var(--mono);font-size:10.5px;color:var(--muted);
+  opacity:0;margin-top:2px;white-space:nowrap;
+}
+.kpi:hover .go,.kpi:focus-visible .go{opacity:1;color:var(--accent-ink)}
+.kpi[aria-pressed="true"]{background:var(--accent-wash);box-shadow:inset 3px 0 0 var(--accent)}
+.kpi[aria-pressed="true"] .go{opacity:1;color:var(--accent-ink)}
 .kpi .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
 .kpi .v{
   font-family:var(--display);font-size:27px;font-weight:600;line-height:1.2;
@@ -254,7 +266,8 @@ td strong{font-weight:700}
 }
 .launch a:hover{background:var(--accent-wash)}
 .launch .q{font-family:var(--mono);font-size:11px;color:var(--muted);word-break:break-all}
-.launch .l{font-size:13.5px;font-weight:600}
+.launch .l{font-size:13.5px;font-weight:600;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}
+.note-inline{font-family:var(--mono);font-size:10px;font-weight:400;color:var(--muted);letter-spacing:.04em}
 
 .copyrow{display:flex;gap:8px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line)}
 .copyrow:last-child{border-bottom:0}
@@ -307,11 +320,12 @@ footer p{margin:0 0 6px}
     </div>
 
     <div class="kpis">
-      <div class="kpi hot"><div class="k">新着（本日検知）</div><div class="v" id="kpiNew">—</div></div>
-      <div class="kpi"><div class="k">追跡中の案件・実施情報</div><div class="v" id="kpiTotal">—</div></div>
-      <div class="kpi"><div class="k">入札・公募として検知</div><div class="v" id="kpiBid">—</div></div>
-      <div class="kpi"><div class="k">発注実績のある機関</div><div class="v" id="kpiOrg">—</div></div>
-      <div class="kpi"><div class="k">確認済み単価（税込／回）</div><div class="v">517<small>千円</small></div></div>
+      <button type="button" class="kpi hot" data-act="new"><div class="k">新着（本日検知）</div><div class="v" id="kpiNew">—</div><div class="go">新着だけを表示 →</div></button>
+      <button type="button" class="kpi" data-act="all"><div class="k">追跡中の案件・実施情報</div><div class="v" id="kpiTotal">—</div><div class="go">すべて表示 →</div></button>
+      <button type="button" class="kpi" data-act="deal"><div class="k">入札・公募・募集</div><div class="v" id="kpiBid">—</div><div class="go">案件だけを表示 →</div></button>
+      <button type="button" class="kpi" data-act="pref"><div class="k">カバーした都道府県</div><div class="v" id="kpiPref">—</div><div class="go">地域別に見る →</div></button>
+      <button type="button" class="kpi" data-act="org"><div class="k">発注実績のある機関</div><div class="v" id="kpiOrg">—</div><div class="go">実績DBを開く →</div></button>
+      <button type="button" class="kpi" data-act="price"><div class="k">確認済み単価（税込／回）</div><div class="v">517<small>千円</small></div><div class="go">価格・相場を見る →</div></button>
     </div>
   </div>
 </header>
@@ -342,6 +356,7 @@ footer p{margin:0 0 6px}
       <input type="search" id="q" placeholder="自治体名・キーワードで絞り込み（例：高校、入札、北海道）" aria-label="キーワード検索">
       <select id="fKind" aria-label="種別で絞り込み">
         <option value="">すべての種別</option>
+        <option value="__deal__">入札・公募＋募集（案件のみ）</option>
         <option value="入札・公募">入札・公募</option>
         <option value="募集">募集</option>
         <option value="契約・結果">契約・結果</option>
@@ -358,7 +373,7 @@ footer p{margin:0 0 6px}
 
   <section class="block">
     <h2>手動サーチ・ランチャー</h2>
-    <p class="sub">自動巡回で拾いきれない公告は、以下のワンクリック検索（直近1か月に限定）で毎週チェックしてください。<code>site:lg.jp</code> は自治体ドメイン限定の検索です。</p>
+    <p class="sub">自動巡回で拾いきれない公告は、以下のワンクリック検索で毎週チェックしてください。Google の検索窓にそのまま入る形の検索式です。期間を絞ると鮮度は上がりますが件数が激減するため、<b>期間指定なしを既定</b>にし、最後の2つだけ直近1週間・1か月に絞ってあります。</p>
     <div class="launch" id="launcher"></div>
   </section>
 </div>
@@ -511,15 +526,15 @@ footer p{margin:0 0 6px}
 /* ══════════ 調査データ（一次情報ベース） ══════════ */
 const ORGS = [
  {org:"札幌市",cls:"city",dept:"市民文化局 地域振興部 区政課 交通安全担当係",target:"市内中学校ほか",method:"一般競争入札",memo:"R6は517,000円/回（税込）で株式会社オフィスワイルドが落札。開札は4月中旬。",url:"https://www.city.sapporo.jp/kotsuanzen/keiyakukannkei/r06scared.html",label:"入札公告"},
- {org:"千葉県",cls:"pref",dept:"環境生活部 くらし安全推進課 交通安全対策室（043-223-2263）",target:"高校生中心",method:"委託（公募）",memo:"講義30分＋事故再現50分の構成。自転車事故の多い高校生を主対象に県事業として継続実施。",url:"https://www.pref.chiba.lg.jp/seikouan/koutsuuanzen/jikoboushi/koutsuuanzen/sukeado.html",label:"県事業ページ"},
+ {org:"千葉県",cls:"pref",dept:"環境生活部 くらし安全推進課 交通安全対策室（043-223-2263）",target:"高校生中心",method:"委託（公募）",memo:"講義30分＋事故再現50分の構成。自転車事故の多い高校生を主対象に県事業として継続実施。年度ごとの開催校はくらし安全推進課のプレス発表で公表される。",url:"https://www.pref.chiba.lg.jp/seikouan/koutsuuanzen/jikoboushi/koutsuuanzen/sukeado.html",label:"県事業ページ"},
  {org:"千葉県（調達）",cls:"pref",dept:"出納局 / 各課",target:"—",method:"入札公告",memo:"物品・委託の公告一覧。年度当初にスケアード関連の委託公告が載る。週次でチェック推奨。",url:"https://www.pref.chiba.lg.jp/nyuu-kei/buppin-itaku/nyuusatsukoukoku/index.html",label:"公告一覧"},
  {org:"仙台市",cls:"city",dept:"各区 生活安全担当（青葉区ほか）",target:"中学生・高校生",method:"委託",memo:"自転車利用の多い中高生向けに毎年度実施。区単位で発注されるため区ごとに窓口がある。",url:"https://www.city.sendai.jp/aoba-sekatsuanzen/sukea-do.html",label:"市ページ"},
- {org:"兵庫県",cls:"pref",dept:"県民生活課",target:"高校生",method:"委託",memo:"高校生向けスケアードストレイト手法の自転車交通安全教室を県主催で開催。",url:"https://web.pref.hyogo.lg.jp/kk15/20240704.html",label:"県発表"},
+ {org:"兵庫県",cls:"pref",dept:"県民生活課",target:"高校生",method:"委託",memo:"自転車通学を認めている県内の高等学校を対象に、県主催で毎年度実施。年度ごとの実施要領は県民生活課の自転車交通安全ページに掲載される。",url:"https://web.pref.hyogo.lg.jp/kk15/ac17_000000025.html",label:"自転車の交通安全"},
  {org:"東京都",cls:"pref",dept:"都民安全総合対策本部（自転車安全利用の促進）",target:"中高生・地域",method:"委託",memo:"スケアード・ストレイト教室と自転車シミュレータ教室を都事業として展開。全国最大の発注元。",url:"https://www.tomin-anzen.metro.tokyo.lg.jp/kotsu/jitensha/anzennriyou-sokushin",label:"都ページ"},
  {org:"警視庁",cls:"police",dept:"交通部 交通総務課",target:"主に中学生まで／モデル高校",method:"警察主導（学校連携）",memo:"スケアード・ストレイト方式を自転車安全教育として推進。「自転車安全利用モデル高校」の指定校が実施先になる。",url:"https://www.keishicho.metro.tokyo.lg.jp/kotsu/jikoboshi/bicycle/safety_education/Model_highschool.html",label:"モデル高校"},
  {org:"船橋市",cls:"city",dept:"市民安全推進課",target:"小中高・自治会・PTA・企業",method:"申込制／委託",memo:"学校だけでなくPTA・企業からの依頼も受け付ける運用。申込窓口が公開されている珍しい例。",url:"https://www.city.funabashi.lg.jp/kurashi/bousai/005/p038989.html",label:"市ページ"},
  {org:"箕面市",cls:"city",dept:"市民部（交通安全担当）",target:"市立中学校 全8校",method:"委託（巡回）",memo:"平成24年度から毎年、市立中学校全8校を巡回実施。複数回契約のモデルケース。",url:"https://www.city.minoh.lg.jp/bousai/scared-straight/scared_straight.html",label:"報道資料"},
- {org:"戸田市",cls:"city",dept:"都市整備部 都市交通課",target:"中学生・高校生",method:"委託",memo:"「自転車交通安全教育指導（スケアード・ストレイト）」として定例開催。",url:"https://www.city.toda.saitama.jp/",label:"市サイト"},
+ {org:"戸田市",cls:"city",dept:"都市整備部 都市交通課",target:"中学生・高校生",method:"委託",memo:"「自転車交通安全教育指導（スケアード・ストレイト）」として定例開催。窓口は都市交通課（048-441-1800／本庁舎3階）。",url:"https://www.city.toda.saitama.jp/soshiki/275/",label:"都市交通課"},
  {org:"日野市",cls:"city",dept:"まちづくり部（交通対策）",target:"中学生",method:"委託",memo:"スタントマンを活用した中学生の自転車安全運転教育を継続実施。",url:"https://www.city.hino.lg.jp/kurashi/annzen/kotsu/1002564.html",label:"市ページ"},
  {org:"東大和市",cls:"city",dept:"生活環境部（交通担当）",target:"中学生",method:"委託",memo:"体験型自転車交通安全教室として実施。多摩地域は隣接自治体が横並びで採用する傾向。",url:"https://www.city.higashiyamato.lg.jp/kurashi/dorokotsu/1002129/1002148/1002150.html",label:"市ページ"},
  {org:"東村山市",cls:"city",dept:"環境安全部 交通課",target:"中学生・市民",method:"委託",memo:"『スケアード・ストレイト方式』による自転車交通安全教室を市イベントとして開催。",url:"https://www.city.higashimurayama.tokyo.jp/kurashi/sumai/doro/anzen/anzen_events.html",label:"市ページ"},
@@ -527,7 +542,7 @@ const ORGS = [
  {org:"狛江市",cls:"city",dept:"安心安全課",target:"中学生・市民",method:"委託",memo:"交通安全の取り組みの一環として実施。",url:"https://www.city.komae.tokyo.jp/index.cfm/42,64645,328,2046,html",label:"市ページ"},
  {org:"大阪市 鶴見区",cls:"city",dept:"区役所 市民協働課",target:"区内中学生",method:"区独自予算",memo:"区単位の発注例。政令市は区ごとに予算を持つため、同一市内で複数案件が立つ。",url:"https://www.city.osaka.lg.jp/tsurumi/page/0000408893.html",label:"区ページ"},
  {org:"泉大津市",cls:"city",dept:"都市政策部 土木課",target:"府立高校生",method:"警察・交通安全協会と共催",memo:"泉大津警察署・泉大津交通安全協会との連携型。協会ルートの提案が有効な地域。",url:"https://www.city.izumiotsu.lg.jp/kakuka/tosiseisakubu/doboku/osirase/kotsu/10559.html",label:"市ページ"},
- {org:"佐賀市",cls:"city",dept:"市民生活部（生活安全担当）",target:"小中学生",method:"委託",memo:"県内小中学校での開催が地元メディアでも継続的に報じられている。",url:"https://www.city.saga.lg.jp/main.php/53883.html",label:"市ページ"},
+ {org:"国立市",cls:"city",dept:"都市整備部（交通対策担当）",target:"中学生・市民",method:"委託",memo:"スケアード・ストレイト方式による交通安全教室を市主催で開催。多摩地域の横並び採用の一例。",url:"https://www.city.kunitachi.tokyo.jp/soshiki/Dept06/Div02/Sec06/event/1476783638520.html",label:"市ページ"},
  {org:"栃木県",cls:"pref",dept:"県民生活部ほか",target:"—",method:"公募型プロポーザル",memo:"自転車安全利用の啓発業務をプロポーザルで発注。周辺案件からの横展開が狙える。",url:"https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html",label:"公募一覧"}
 ];
 
@@ -535,7 +550,7 @@ const FUNDS = [
  {name:"（公財）日本交通管理技術協会「自転車通学安全モデル校」",body:"自転車通学のある学校をモデル校として指定し、安全教育の取り組みを支援する制度。",use:"高校・中学に対して「予算はモデル校指定で取れる可能性がある」と提示できる。学校単独提案の突破口。",url:"https://www.tmt.or.jp/safety/moderuko/index.html"},
  {name:"（一社）全国PTA連絡協議会 PTA活動助成制度",body:"PTAの活動に対する助成制度。安全教育・研修活動が対象になり得る。",use:"PTA主催で実施したい学校向け。年度の助成申請スケジュールに合わせて逆算提案する。",url:"https://zen-p.net/sus/supins.html"},
  {name:"地元の交通安全協会・交通安全対策協議会",body:"警察署単位で設置。会費を財源に、管内学校の交通安全教室を共催・後援する。",use:"泉大津市の事例のように、市＋警察署＋協会の共催スキームを組むと単独予算がなくても実施できる。",url:"https://www.city.izumiotsu.lg.jp/kakuka/tosiseisakubu/doboku/osirase/kotsu/10559.html"},
- {name:"JA共済の交通安全教育活動",body:"交通安全の啓発活動を全国で展開。ラジオ番組でスケアード・ストレートを特集するなど関与が確認できる。",use:"要確認：地域のJA共済連に対し、地域貢献活動の枠での協賛可否を直接照会する価値が高い。",url:"https://news.google.com/rss/search?q=JA%E5%85%B1%E6%B8%88%20%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%20%E3%82%B9%E3%82%B1%E3%82%A2%E3%83%BC%E3%83%89&hl=ja&gl=JP&ceid=JP:ja",check:true}
+ {name:"JA共済 地域貢献活動（ちいきのきずな）",body:"中高生向けの自転車交通安全教室を全国で無償提供している。ただし公開されているのは映像教材版で、スタント実演の協賛可否は明記がない。",use:"要確認：都道府県のJA共済連に、スタント実演を伴う教室への協賛・共催が可能か直接照会する。京都のように県単位で生徒向け教室を提供している例がある。",url:"https://social.ja-kyosai.or.jp/school_mv/",check:true}
 ];
 
 const CAL = [
@@ -560,7 +575,7 @@ const TARGETS = [
 const SOURCES = [
  {name:"Google ニュース（RSS）",kind:"無料・自動",how:"本サイトの自動巡回が使用。実施ニュース＝予算がある自治体の発見に最強。キーワードを足せば監視範囲を拡張できる。",url:"https://news.google.com/rss/search?q=%22%E3%82%B9%E3%82%B1%E3%82%A2%E3%83%BC%E3%83%89%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%83%88%22&hl=ja&gl=JP&ceid=JP:ja"},
  {name:"Google アラート",kind:"無料・メール通知",how:"下の検索式を登録。公告そのものより、公告を報じるページを拾いやすい。",url:"https://www.google.co.jp/alerts"},
- {name:"官公需情報ポータルサイト（中小企業庁）",kind:"無料・横断検索",how:"国・自治体の調達情報を横断検索できる公的ポータル。「交通安全」「自転車」で定期検索する。",url:"https://www.kkj.go.jp/"},
+ {name:"官公需情報ポータルサイト（中小企業庁）",kind:"無料・横断検索",how:"国・自治体の調達情報を横断検索できる公的ポータル。「交通安全」「自転車」で定期検索する。※調査時、当方の環境からは接続できず動作未確認。開けない場合は各自治体の公告ページを直接使ってください。",url:"https://www.kkj.go.jp/"},
  {name:"NJSS（入札情報速報サービス）",kind:"有料（無料トライアルあり）",how:"公示書・仕様書の全文検索と落札履歴が最大の価値。「スケアード」で過去案件と落札額を一括取得できる。相場調査の初期投資として有効。",url:"https://www.njss.info/"},
  {name:"各都道府県・市の入札公告ページ",kind:"無料・一次情報",how:"最終的な確定情報はここ。発注実績DBの機関について、公告一覧をブックマークして週次巡回する。",url:"https://www.pref.chiba.lg.jp/nyuu-kei/buppin-itaku/nyuusatsukoukoku/index.html"},
  {name:"各自治体の入札結果・随意契約結果の公表",kind:"無料・一次情報",how:"落札者と落札額が載る。競合の価格と自治体ごとの単価水準を把握する唯一の公開ソース。",url:"https://www.city.sapporo.jp/kotsuanzen/keiyakukannkei/r06scared.html"}
@@ -570,7 +585,7 @@ const RIVALS = [
  {name:"株式会社オフィスワイルド",feat:"スタントアクションの演出・企画・運営、水上アクション、養成スクール。スケアードストレイト方式を主要事業に掲げる。",res:"札幌市 令和6年度 一般競争入札を517,000円/回（税込）で落札。",url:"https://www.studio-wild.com/"},
  {name:"株式会社ワーサル",feat:"東京本社＋福岡支店の2拠点体制。スケアードストレートのほか、講演会・デンマーク式自転車教室・衝突実験・事故再現映像制作までメニュー化。",res:"全国で自治体案件を展開。周辺メニューの厚さが強み。",url:"https://worsal.com/scared/"},
  {name:"シャドウ・スタントプロダクション",feat:"スタント全般を扱うプロダクション。交通安全スタントを専門メニューとして提供。",res:"交通安全スタントのページを常設。",url:"https://www.shadow-stunt.com/page7"},
- {name:"スーパードライバーズ",feat:"スケアード・ストレートによる交通安全教育を掲げる老舗系。",res:"自治体・学校向けの実施ページを常設。",url:"http://www.sp-drivers.co.jp/scared.html"}
+ {name:"スーパードライバーズ",feat:"スケアード・ストレートによる交通安全教育を掲げる老舗系。",res:"自治体・学校向けの交通安全教育メニューを常設。",url:"http://sp-drivers.co.jp/"}
 ];
 
 const ALERT_QUERIES = [
@@ -583,14 +598,16 @@ const ALERT_QUERIES = [
 ];
 
 const LAUNCH = [
- {l:"自治体ドメインの入札公告",q:'"スケアード" 入札 site:lg.jp'},
- {l:"自治体ドメインの業務委託",q:'"スケアード" 業務委託 OR 委託 site:lg.jp'},
- {l:"都道府県サイトの公募",q:'"スケアード" 公募 OR プロポーザル site:pref.*.jp'},
- {l:"入札結果・落札額",q:'"スケアード" 入札結果 OR 落札 OR 契約結果'},
- {l:"実施校・参加者の募集",q:'"スケアード・ストレイト" 実施校 OR 募集'},
- {l:"PDF仕様書を直撃",q:'"スケアード" 仕様書 filetype:pdf'},
- {l:"学校・PTA主催の動き",q:'スケアードストレート PTA OR 高等学校 開催'},
- {l:"青年会議所（JC）の事業",q:'スケアードストレート 青年会議所 OR JC 事業'}
+ {l:"入札・公告",note:"期間指定なし",q:'"スケアード" (入札 OR 公告 OR 入札公告)'},
+ {l:"業務委託・公募・プロポーザル",note:"期間指定なし",q:'"スケアード" (業務委託 OR 公募 OR プロポーザル)'},
+ {l:"自治体ドメイン（lg.jp）に限定",note:"公告・委託のみ",q:'"スケアード" (入札 OR 公告 OR 委託) site:lg.jp'},
+ {l:"入札結果・落札額",note:"相場調査用",q:'"スケアード" (入札結果 OR 落札 OR 契約結果 OR 随意契約)'},
+ {l:"仕様書PDFを直撃",note:"要件と積算が読める",q:'"スケアード" (仕様書 OR 委託仕様書) filetype:pdf'},
+ {l:"実施校・参加者の募集",note:"期間指定なし",q:'("スケアード・ストレイト" OR "スケアードストレート") (実施校 OR 募集)'},
+ {l:"学校・PTA主催の動き",note:"期間指定なし",q:'("スケアード・ストレイト" OR "スケアードストレート") (PTA OR 高等学校 OR 中学校)'},
+ {l:"青年会議所（JC）の事業",note:"期間指定なし",q:'("スケアード・ストレイト" OR "スケアードストレート") (青年会議所 OR JC)'},
+ {l:"直近1週間の新着すべて",note:"毎週これだけ見る",q:'("スケアード・ストレイト" OR "スケアードストレート")',recent:"qdr:w"},
+ {l:"直近1か月の新着すべて",note:"取りこぼし確認用",q:'("スケアード・ストレイト" OR "スケアードストレート")',recent:"qdr:m"}
 ];
 
 /* ── 自動収集リードの初期データ（leads.json 取得時は上書き） ── */
@@ -600,7 +617,7 @@ const SEED_LEADS = [{"id":"c5c687923a480bd4","title":"（報道資料）スケ�
 /* ══════════ 描画 ══════════ */
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const gsearch=q=>"https://www.google.com/search?tbs=qdr:m&q="+encodeURIComponent(q);
+const gsearch=(q,recent)=>"https://www.google.com/search?q="+encodeURIComponent(q)+(recent?"&tbs="+recent:"");
 
 let LEADS=SEED_LEADS.slice();
 const state={q:"",kind:"",pref:"",onlyNew:false,byScore:false};
@@ -615,7 +632,8 @@ function kindClass(k){
 function renderLeads(){
   const list=$("#leadList");
   let items=LEADS.filter(it=>{
-    if(state.kind && it.kind!==state.kind) return false;
+    if(state.kind==="__deal__"){ if(it.kind!=="入札・公募"&&it.kind!=="募集") return false; }
+    else if(state.kind && it.kind!==state.kind) return false;
     if(state.pref && it.pref!==state.pref) return false;
     if(state.onlyNew && !it.is_new) return false;
     if(state.q){
@@ -655,12 +673,45 @@ function renderLeads(){
 function renderKpis(){
   const n=LEADS.filter(l=>l.is_new).length;
   const bid=LEADS.filter(l=>l.kind==="入札・公募"||l.kind==="募集").length;
+  const prefs=new Set(LEADS.map(l=>l.pref).filter(Boolean));
   $("#kpiNew").textContent=n;
   $("#kpiTotal").textContent=LEADS.length;
   $("#kpiBid").textContent=bid;
+  $("#kpiPref").textContent=prefs.size;
   $("#kpiOrg").textContent=ORGS.length;
   $("#tabNewCount").textContent=n?`(${n})`:"";
 }
+
+/* KPIタイルを押すと、その数字の中身に絞り込む */
+function showTab(id){
+  $$(".tab").forEach(t=>{
+    const on=t.dataset.panel===id;
+    t.setAttribute("aria-selected",String(on));
+  });
+  $$(".panel").forEach(p=>p.hidden=(p.id!==id));
+}
+function syncControls(){
+  $("#q").value=state.q;
+  $("#fKind").value=state.kind;
+  $("#fPref").value=state.pref;
+  $("#cNew").setAttribute("aria-pressed",String(state.onlyNew));
+  $("#cBid").setAttribute("aria-pressed",String(state.byScore));
+}
+function applyKpi(act){
+  $$(".kpi").forEach(k=>k.setAttribute("aria-pressed",String(k.dataset.act===act)));
+  if(act==="org"){ showTab("p-db"); window.scrollTo({top:0,behavior:"smooth"}); return; }
+  if(act==="price"){ showTab("p-price"); window.scrollTo({top:0,behavior:"smooth"}); return; }
+
+  state.q="";state.kind="";state.pref="";state.onlyNew=false;state.byScore=false;
+  if(act==="new") state.onlyNew=true;
+  if(act==="deal"){ state.kind="__deal__"; state.byScore=true; }
+  showTab("p-alert");
+  syncControls();
+  renderLeads();
+  if(act==="pref") $("#fPref").focus();
+  document.querySelector(".filters").scrollIntoView({behavior:"smooth",block:"center"});
+}
+$$(".kpi").forEach(k=>k.addEventListener("click",()=>applyKpi(k.dataset.act)));
 
 function renderPrefOptions(){
   const sel=$("#fPref");
@@ -720,8 +771,8 @@ function renderStatic(){
     </tr>`).join("");
 
   $("#launcher").innerHTML=LAUNCH.map(l=>`
-    <a href="${esc(gsearch(l.q))}" target="_blank" rel="noopener">
-      <span class="l">${esc(l.l)}</span>
+    <a href="${esc(gsearch(l.q,l.recent))}" target="_blank" rel="noopener">
+      <span class="l">${esc(l.l)}<span class="note-inline">${esc(l.note||"")}</span></span>
       <span class="q">${esc(l.q)}</span>
     </a>`).join("");
 
@@ -733,23 +784,25 @@ function renderStatic(){
 }
 
 /* ── タブ ── */
+const clearKpi=()=>$$(".kpi").forEach(k=>k.setAttribute("aria-pressed","false"));
+
 $$(".tab").forEach(tab=>{
   tab.addEventListener("click",()=>{
-    $$(".tab").forEach(t=>t.setAttribute("aria-selected",String(t===tab)));
-    $$(".panel").forEach(p=>p.hidden=(p.id!==tab.dataset.panel));
+    clearKpi();
+    showTab(tab.dataset.panel);
     window.scrollTo({top:0,behavior:"smooth"});
   });
 });
 
 /* ── フィルタ操作 ── */
-$("#q").addEventListener("input",e=>{state.q=e.target.value.trim();renderLeads()});
-$("#fKind").addEventListener("change",e=>{state.kind=e.target.value;renderLeads()});
-$("#fPref").addEventListener("change",e=>{state.pref=e.target.value;renderLeads()});
+$("#q").addEventListener("input",e=>{clearKpi();state.q=e.target.value.trim();renderLeads()});
+$("#fKind").addEventListener("change",e=>{clearKpi();state.kind=e.target.value;renderLeads()});
+$("#fPref").addEventListener("change",e=>{clearKpi();state.pref=e.target.value;renderLeads()});
 $("#cNew").addEventListener("click",e=>{
-  state.onlyNew=!state.onlyNew;e.currentTarget.setAttribute("aria-pressed",String(state.onlyNew));renderLeads();
+  clearKpi();state.onlyNew=!state.onlyNew;e.currentTarget.setAttribute("aria-pressed",String(state.onlyNew));renderLeads();
 });
 $("#cBid").addEventListener("click",e=>{
-  state.byScore=!state.byScore;e.currentTarget.setAttribute("aria-pressed",String(state.byScore));renderLeads();
+  clearKpi();state.byScore=!state.byScore;e.currentTarget.setAttribute("aria-pressed",String(state.byScore));renderLeads();
 });
 
 /* ── コピー ── */
