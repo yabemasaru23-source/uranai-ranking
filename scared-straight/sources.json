@@ -1,0 +1,58 @@
+{
+  "_comment": "スケアードストレート案件クローラーの巡回先設定。追加したいURLをここに足すだけで監視対象を増やせます。",
+  "google_news_queries": [
+    "\"スケアードストレート\"",
+    "\"スケアード・ストレイト\"",
+    "スケアード ストレート 交通安全教室",
+    "スタントマン 交通事故 再現 教室",
+    "自転車交通安全教室 スタント 実施",
+    "スケアード 入札 OR 業務委託 OR 公募"
+  ],
+  "scan_pages": [
+    {
+      "org": "千葉県",
+      "label": "入札等の公告（物品・委託等）",
+      "url": "https://www.pref.chiba.lg.jp/nyuu-kei/buppin-itaku/nyuusatsukoukoku/index.html"
+    },
+    {
+      "org": "栃木県",
+      "label": "入札・公募（業務委託）",
+      "url": "https://www.pref.tochigi.lg.jp/kensei/nyuusatsu/koubo-itaku/index.html"
+    },
+    {
+      "org": "札幌市",
+      "label": "交通安全担当 契約関係",
+      "url": "https://www.city.sapporo.jp/kotsuanzen/keiyakukannkei/"
+    },
+    {
+      "org": "仙台市",
+      "label": "スケアードストレイト方式による自転車安全利用教室",
+      "url": "https://www.city.sendai.jp/aoba-sekatsuanzen/sukea-do.html"
+    },
+    {
+      "org": "兵庫県",
+      "label": "県民生活課 新着",
+      "url": "https://web.pref.hyogo.lg.jp/kk15/"
+    },
+    {
+      "org": "東京都 都民安全総合対策本部",
+      "label": "自転車安全利用の促進",
+      "url": "https://www.tomin-anzen.metro.tokyo.lg.jp/kotsu/jitensha/anzennriyou-sokushin"
+    },
+    {
+      "org": "船橋市",
+      "label": "交通安全教室",
+      "url": "https://www.city.funabashi.lg.jp/kurashi/bousai/005/p038989.html"
+    },
+    {
+      "org": "戸田市",
+      "label": "自転車交通安全教育指導（スケアード・ストレイト）",
+      "url": "https://www.city.toda.saitama.jp/soshiki/275/sukea-do.html"
+    },
+    {
+      "org": "箕面市",
+      "label": "スケアード・ストレートによる自転車安全教室",
+      "url": "https://www.city.minoh.lg.jp/bousai/scared-straight/scared_straight.html"
+    }
+  ]
+}
