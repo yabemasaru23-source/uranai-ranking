@@ -246,6 +246,19 @@ td strong{font-weight:700}
 .tag.fund{background:var(--ok-wash);border-color:var(--ok);color:var(--ok)}
 .tag.check{background:var(--accent-wash);border-color:var(--accent);color:var(--accent-ink)}
 
+.bignum{
+  font-family:var(--display);font-size:33px;font-weight:600;line-height:1.15;
+  font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+}
+.bignum span{font-size:14px;font-family:var(--body);color:var(--muted);font-weight:400;margin-left:4px}
+.bignum.accent{color:var(--accent)}
+.cardline{margin:8px 0 0;font-size:12.5px;color:var(--muted);line-height:1.7}
+.cardline .up{color:var(--ok);font-family:var(--mono);font-size:14px}
+table.mini{min-width:0;font-size:12.5px;margin:2px 0 0}
+table.mini td{padding:4px 0;border-bottom:1px solid var(--line)}
+table.mini td.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;padding-left:10px}
+table.mini tr:last-child td{border-bottom:0}
+
 /* ── カレンダー ─────────────────────── */
 .timeline{border-left:2px solid var(--line-strong);margin:6px 0 0;padding:0 0 0 20px;display:flex;flex-direction:column;gap:20px}
 .tl{position:relative}
@@ -323,9 +336,9 @@ footer p{margin:0 0 6px}
       <button type="button" class="kpi hot" data-act="new"><div class="k">新着（本日検知）</div><div class="v" id="kpiNew">—</div><div class="go">新着だけを表示 →</div></button>
       <button type="button" class="kpi" data-act="all"><div class="k">追跡中の案件・実施情報</div><div class="v" id="kpiTotal">—</div><div class="go">すべて表示 →</div></button>
       <button type="button" class="kpi" data-act="deal"><div class="k">入札・公募・募集</div><div class="v" id="kpiBid">—</div><div class="go">案件だけを表示 →</div></button>
-      <button type="button" class="kpi" data-act="pref"><div class="k">カバーした都道府県</div><div class="v" id="kpiPref">—</div><div class="go">地域別に見る →</div></button>
+      <button type="button" class="kpi" data-act="tokyo"><div class="k">都内市場規模（R7予定）</div><div class="v">77,542<small>千円</small></div><div class="go">東京都データを見る →</div></button>
       <button type="button" class="kpi" data-act="org"><div class="k">発注実績のある機関</div><div class="v" id="kpiOrg">—</div><div class="go">実績DBを開く →</div></button>
-      <button type="button" class="kpi" data-act="price"><div class="k">確認済み単価（税込／回）</div><div class="v">517<small>千円</small></div><div class="go">価格・相場を見る →</div></button>
+      <button type="button" class="kpi" data-act="price"><div class="k">都内の実勢単価（1回）</div><div class="v">311<small>千円</small></div><div class="go">価格・相場を見る →</div></button>
     </div>
   </div>
 </header>
@@ -334,6 +347,7 @@ footer p{margin:0 0 6px}
   <div class="wrap">
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" aria-selected="true" data-panel="p-alert">新着アラート<span class="n" id="tabNewCount"></span></button>
+      <button class="tab" role="tab" aria-selected="false" data-panel="p-tokyo">東京都マーケット<span class="n">50</span></button>
       <button class="tab" role="tab" aria-selected="false" data-panel="p-db">発注実績データベース</button>
       <button class="tab" role="tab" aria-selected="false" data-panel="p-price">価格・相場</button>
       <button class="tab" role="tab" aria-selected="false" data-panel="p-cal">営業カレンダー</button>
@@ -378,6 +392,70 @@ footer p{margin:0 0 6px}
   </section>
 </div>
 
+<!-- ══ 東京都マーケット ══ -->
+<div class="panel" id="p-tokyo" hidden>
+  <section class="block">
+    <h2>東京都マーケット</h2>
+    <p class="sub">東京都都民安全総合対策本部が毎年8月に公表する<b>「区市町村における交通安全対策事業の現況」</b>には、［19表］として<b>スタントマンを活用した交通安全教室の実施状況</b>が区市町村別に載っています。令和7年8月版（113ページ）から、全区市町村の予算額・実施回数・担当課・電話番号を抽出しました。<b>これは推計ではなく、東京都が公表している実数です。</b></p>
+
+    <div class="grid3" id="tokyoSummary"></div>
+
+    <div class="note" style="margin-top:16px">
+      <b>市場は1年で25%拡大しています。</b> 令和6年度実績 61,909千円・212回 → 令和7年度予定 77,542千円・249回。実施自治体も22区24市2町から23区25市2町村へ増えました。ヘルメット着用努力義務化以降、自転車安全教育の予算が明確に伸びている局面です。
+    </div>
+
+    <div class="grid2" style="margin-top:16px">
+      <div class="card" style="border-left:3px solid var(--accent)">
+        <p class="eyebrow">多摩地域の最重要ターゲット</p>
+        <h3 style="margin:2px 0 6px;font-family:var(--display);font-size:17px;font-weight:600">八王子市 ── 都内2位、市部では圧倒的1位</h3>
+        <p style="margin:0 0 8px;font-size:13.5px;color:var(--ink-2)">令和7年度予算 <b>5,434千円／19回</b>。市部2位の町田市（2,002千円／7回）の2.7倍で、区部トップの江東区（6,072千円／20回）に迫る規模です。単価は286千円と都内平均より低く、<b>回数で積み上げる典型的な大口案件</b>。実施先は市内中学校12校・高校1校・その他市内会場3か所（令和6年度実績）。</p>
+        <p style="margin:0;font-family:var(--mono);font-size:12px;color:var(--muted)">道路交通部 交通事業課 交通安全教育担当<br><a href="tel:0426207410">042-620-7410</a>　担当係員10人</p>
+      </div>
+      <div class="card">
+        <p class="eyebrow">この表の読み方</p>
+        <ul class="tight">
+          <li><b>回数が多い自治体ほど単価が安い。</b> 江東区20回・八王子市19回・足立区15回・葛飾区15回は、まとめ発注で1回あたりを抑えている。</li>
+          <li><b>年1〜2回の自治体は単価が高く出る。</b> 固定費が1回に集中するため。千代田区880千円・国立市539千円がその例。</li>
+          <li><b>担当課は「土木部」「都市整備部」が主流</b>で、教育委員会ではない。学校ではなく道路・交通の部署に当たるのが正解。</li>
+          <li>令和6年度に実施し令和7年度も予算を組んだ自治体は<b>翌年度も継続する確率が高い</b>。更新される8月に差分を取ると、新規参入した自治体が分かる。</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>区市町村別 予算・回数・担当窓口（令和7年度予定）</h3>
+    <div class="filters">
+      <input type="search" id="tq" placeholder="自治体名・担当課で絞り込み" aria-label="東京都データの検索">
+      <button class="chip" data-tsort="b" aria-pressed="true">予算順</button>
+      <button class="chip" data-tsort="c" aria-pressed="false">回数順</button>
+      <button class="chip" data-tsort="u" aria-pressed="false">単価順</button>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr>
+          <th>#</th><th>自治体</th><th>R7予算</th><th>回数</th><th>1回あたり</th><th>担当課</th><th>電話</th>
+        </tr></thead>
+        <tbody id="tokyoBody"></tbody>
+      </table>
+    </div>
+    <p class="sub" style="margin-top:10px" id="tokyoNote"></p>
+
+    <h3>予算ゼロ＝新規開拓の余地</h3>
+    <div class="card">
+      <p style="margin:0 0 8px;font-size:13.5px;color:var(--ink-2)">令和7年度にスタントマン活用の予算を計上していない自治体です。都内で唯一、<b>清瀬市</b>が市部で未計上。稲城市は市の予算ではなく<b>警視庁予算で2回</b>実施しており、市の事業として予算化する提案余地があります。</p>
+      <p id="tokyoZero" style="margin:0;font-size:13.5px"></p>
+    </div>
+
+    <h3>出典</h3>
+    <div class="card">
+      <ul class="tight">
+        <li><a id="tokyoPdf" href="#" target="_blank" rel="noopener">区市町村における交通安全対策事業の現況（令和7年8月・PDF 113ページ）</a> ／ ［19表］スタントマンを活用した交通安全教室の実施状況</li>
+        <li><a id="tokyoPage" href="#" target="_blank" rel="noopener">東京都 交通安全対策の調査・計画ページ（年度版の一覧）</a> ── 毎年8月に最新版が差し替わります</li>
+        <li>担当課・電話番号は同資料［1表］交通安全対策担当組織の現況一覧（令和7年4月1日現在）より</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
 <!-- ══ 発注実績DB ══ -->
 <div class="panel" id="p-db" hidden>
   <section class="block">
@@ -391,7 +469,7 @@ footer p{margin:0 0 6px}
         <tbody id="orgBody"></tbody>
       </table>
     </div>
-    <p class="sub" style="margin-top:10px">※ 一次情報（各機関の公式ページ）に基づく調査結果です。予算・方式は年度で変わるため、アプローチ前に必ず出典リンクで最新年度を確認してください。</p>
+    <p class="sub" style="margin-top:10px">※ 東京都内の区市町村は、予算額・回数・担当課の電話番号まで揃った一覧を「東京都マーケット」タブに別途掲載しています。<br>※ 一次情報（各機関の公式ページ）に基づく調査結果です。予算・方式は年度で変わるため、アプローチ前に必ず出典リンクで最新年度を確認してください。</p>
   </section>
 
   <section class="block">
@@ -412,6 +490,10 @@ footer p{margin:0 0 6px}
     <h2>価格・相場</h2>
     <p class="sub">入札結果として金額まで公開されている一次情報は多くありません。ここには<b>裏の取れた実績値だけ</b>を掲載し、推測値は載せていません。相場感は下の「自分で取りに行く手順」で積み上げてください。</p>
 
+    <div class="note" style="margin-bottom:16px">
+      <b>都内の実勢単価は 275〜330千円/回。</b> 東京都が公表した令和7年度の区市町村別データ（50自治体）から算出した中央値は約300千円、平均は311千円です。札幌市の落札実績517千円/回と比べると、<b>都内の単価は明らかに安い</b>。件数が多く競争が働いているためで、都内で価格勝負を挑むより、単価が高い地方都市を狙うか、都内は回数で積む戦略になります。詳細は「東京都マーケット」タブを参照してください。
+    </div>
+
     <div class="grid2">
       <div class="card">
         <p class="eyebrow">確認済みの落札実績</p>
@@ -430,6 +512,7 @@ footer p{margin:0 0 6px}
           <li><b>単価は「1回あたり」で契約されることが多い</b>。年間◯校の巡回契約でも単価×回数の積算になるため、1回単価が営業上の基準値。</li>
           <li>スタント人数（4〜6名が一般的）、車両手配、警備・保険、会場設営、事前打合せ、雨天順延条項が金額差の主因。</li>
           <li>県費案件は「県内◯校を年間で巡回」となり、総額が数百万円規模になる（1回単価は据え置き）。</li>
+          <li>東京都の公表値では1回あたり237〜390千円に収まる自治体が大半。千代田区880千円・国立市539千円のように<b>年1回だけの自治体は単価が高く出る</b>（車両手配や設営の固定費が1回に集中するため）。</li>
           <li>予定価格は非公表が多いが、<b>前年度の落札額が実質的な上限</b>として機能する。</li>
         </ul>
       </div>
@@ -554,6 +637,7 @@ const FUNDS = [
 ];
 
 const CAL = [
+ {when:"8月",title:"東京都が区市町村別の予算・実績を公表",peak:true,body:"都民安全総合対策本部が「区市町村における交通安全対策事業の現況」を公開。前年度の実績額・回数と当年度の予算額・予定回数が区市町村別に載るため、この1本で都内の狙い先と競合単価が確定できる。毎年ここを起点に営業リストを更新する。"},
  {when:"7月 – 9月",title:"翌年度の予算要求前｜情報提供のゴールデンタイム",peak:false,body:"自治体の担当課が翌年度予算の材料を集める時期。ここで実施事例・見積・効果測定資料を渡せると、そのまま要求資料に載る。既に実施している自治体の隣接市町村を狙う。"},
  {when:"10月 – 12月",title:"予算要求〜査定",peak:true,body:"要求書に「スケアード・ストレート方式による自転車交通安全教室」の行が入るかが決まる山場。ここを逃すと翌々年度まで待つことになる。単価の根拠（1回◯円×◯校）を明示した参考見積を出す。"},
  {when:"1月 – 3月",title:"予算内示・仕様書作成・公告準備",peak:true,body:"仕様書のドラフトが作られる時期。保険・雨天対応・スタント人数など、自社の強みが仕様に反映されると入札で優位に立つ。PTA・JCは年度事業計画の確定期なので、この時期の提案が翌年度事業に直結する。"},
@@ -573,6 +657,7 @@ const TARGETS = [
 ];
 
 const SOURCES = [
+ {name:"東京都「区市町村における交通安全対策事業の現況」",kind:"無料・一次情報／年1回",how:"都内全区市町村のスタントマン活用教室の予算・回数・担当課・電話番号が［19表］に載る唯一の公開資料。毎年8月更新。都内営業の基礎資料。",url:"https://www.tomin-anzen.metro.tokyo.lg.jp/documents/d/tomin-anzen/7kusichousongenkyo"},
  {name:"Google ニュース（RSS）",kind:"無料・自動",how:"本サイトの自動巡回が使用。実施ニュース＝予算がある自治体の発見に最強。キーワードを足せば監視範囲を拡張できる。",url:"https://news.google.com/rss/search?q=%22%E3%82%B9%E3%82%B1%E3%82%A2%E3%83%BC%E3%83%89%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%83%88%22&hl=ja&gl=JP&ceid=JP:ja"},
  {name:"Google アラート",kind:"無料・メール通知",how:"下の検索式を登録。公告そのものより、公告を報じるページを拾いやすい。",url:"https://www.google.co.jp/alerts"},
  {name:"官公需情報ポータルサイト（中小企業庁）",kind:"無料・横断検索",how:"国・自治体の調達情報を横断検索できる公的ポータル。「交通安全」「自転車」で定期検索する。※調査時、当方の環境からは接続できず動作未確認。開けない場合は各自治体の公告ページを直接使ってください。",url:"https://www.kkj.go.jp/"},
@@ -587,6 +672,19 @@ const RIVALS = [
  {name:"シャドウ・スタントプロダクション",feat:"スタント全般を扱うプロダクション。交通安全スタントを専門メニューとして提供。",res:"交通安全スタントのページを常設。",url:"https://www.shadow-stunt.com/page7"},
  {name:"スーパードライバーズ",feat:"スケアード・ストレートによる交通安全教育を掲げる老舗系。",res:"自治体・学校向けの交通安全教育メニューを常設。",url:"http://sp-drivers.co.jp/"}
 ];
+
+/* 東京都都民安全総合対策本部「区市町村における交通安全対策事業の現況」（令和7年8月）
+   ［19表］スタントマンを活用した交通安全教室の実施状況 より。
+   b=令和7年度予算(千円) / c=予定回数 / u=1回あたり(千円、b÷c) / k=警視庁予算 */
+const TOKYO_ROWS = [{"n":"江東区","b":6072,"c":20,"u":304,"d":"土木部 地域交通課 交通係","t":"03-3647-4784"},{"n":"八王子市","b":5434,"c":19,"u":286,"d":"道路交通部 交通事業課 交通安全教育担当","t":"042-620-7410"},{"n":"練馬区","b":5143,"c":14,"u":367,"d":"土木部 交通安全課 安全対策係","t":"03-5984-1309"},{"n":"足立区","b":4950,"c":15,"u":330,"d":"都市建設部 交通対策課 推進係","t":"03-3880-5912"},{"n":"大田区","b":4183,"c":14,"u":299,"d":"都市基盤整備部 都市基盤管理課 交通安全・自転車総合計画担当","t":"03-5744-1315"},{"n":"葛飾区","b":3549,"c":15,"u":237,"d":"都市整備部 交通政策課 交通安全対策係","t":"03-5654-8386"},{"n":"世田谷区","b":3432,"c":12,"u":286,"d":"土木部 交通安全自転車課 交通安全自転車","t":"03-6432-7966"},{"n":"江戸川区","b":3328,"c":11,"u":303,"d":"土木部 施設管理課 交通安全推進係","t":"03-5662-1998"},{"n":"杉並区","b":3168,"c":9,"u":352,"d":"都市整備部 管理課 交通企画係","t":"03-5307-0793"},{"n":"板橋区","b":3025,"c":10,"u":302,"d":"土木部 土木計画・交通安全課 交通安全・啓発助成係","t":"03-3579-2297"},{"n":"町田市","b":2002,"c":7,"u":286,"d":"防災安全部 市民生活安全課","t":"042-724-4003"},{"n":"墨田区","b":1816,"c":6,"u":303,"d":"都市整備部 土木管理課 交通安全担当","t":"03-5608-6203"},{"n":"新宿区","b":1815,"c":6,"u":302,"d":"みどり土木部 交通対策課 交通企画係","t":"03-5273-4265"},{"n":"多摩市","b":1562,"c":4,"u":390,"d":"都市整備部 道路交通課 交通係","t":"042-338-6826"},{"n":"武蔵野市","b":1408,"c":3,"u":469,"d":"都市整備部 交通企画課 地域交通係","t":"0422-60-1859"},{"n":"北区","b":1408,"c":4,"u":352,"d":"土木部 交通事業担当課","t":"03-3908-9216"},{"n":"西東京市","b":1345,"c":4,"u":336,"d":"まちづくり部 交通課 交通係","t":"042-439-4435"},{"n":"府中市","b":1320,"c":4,"u":330,"d":"生活環境部 地域安全対策課 安全係","t":"042-335-4147"},{"n":"調布市","b":1286,"c":4,"u":322,"d":"都市整備部 交通対策課 交通対策係","t":"042-481-7454"},{"n":"品川区","b":1188,"c":4,"u":297,"d":"防災まちづくり部 地域交通政策課 交通安全係","t":"03-5742-6615"},{"n":"目黒区","b":1056,"c":3,"u":352,"d":"都市整備部 土木管理課 交通安全係","t":"03-5722-9442"},{"n":"小平市","b":1056,"c":3,"u":352,"d":"都市開発部 交通対策課 交通安全担当","t":"042-346-9827"},{"n":"中野区","b":1040,"c":4,"u":260,"d":"総務部 防災危機管理課 生活・交通安全係","t":"03-3228-8736"},{"n":"荒川区","b":957,"c":3,"u":319,"d":"区民生活部 生活安全課 交通安全係","t":"03-3802-3067"},{"n":"中央区","b":908,"c":3,"u":303,"d":"環境土木部 交通課 交通対策係","t":"03-6278-8171"},{"n":"立川市","b":908,"c":3,"u":303,"d":"産業まちづくり部 交通企画課 交通企画係","t":"042-523-2111（内2280）"},{"n":"三鷹市","b":908,"c":2,"u":454,"d":"防災安全部 安全安心課 交通安全係","t":"0422-45-1116"},{"n":"青梅市","b":908,"c":3,"u":303,"d":"市民安全部 交通政策課 管理係","t":"0428-22-1111（内2556）"},{"n":"狛江市","b":908,"c":3,"u":303,"d":"都市建設部 道路交通課 交通対策係","t":"03-3430-1314"},{"n":"豊島区","b":891,"c":3,"u":297,"d":"都市整備部 土木管理課 交通安全対策グループ","t":"03-3981-4856"},{"n":"千代田区","b":880,"c":1,"u":880,"d":"環境まちづくり部 環境まちづくり総務課 交通対策・監察係","t":"03-5211-4345"},{"n":"台東区","b":704,"c":2,"u":352,"d":"都市づくり部 交通対策課 交通対策担当","t":"03-5246-1288"},{"n":"日野市","b":704,"c":2,"u":352,"d":"総務部 防災安全課 安全安心係","t":"042-514-8963"},{"n":"東久留米市","b":704,"c":2,"u":352,"d":"都市建設部 管理課 管理調整担当","t":"042-470-7764"},{"n":"あきる野市","b":638,"c":2,"u":319,"d":"総務部 地域防災課 地域安全係","t":"042-558-1111（内2345）"},{"n":"港区","b":605,"c":2,"u":302,"d":"街づくり支援部 地域交通課 交通対策係","t":"03-3578-2262"},{"n":"昭島市","b":605,"c":2,"u":302,"d":"総務部 防災安全課 地域安全係","t":"042-544-4108"},{"n":"渋谷区","b":594,"c":2,"u":297,"d":"土木部 交通政策課 交通政策係","t":"03-3463-1854"},{"n":"東大和市","b":594,"c":2,"u":297,"d":"まちづくり部 都市基盤課 交通対策係","t":"042-563-2111（内1256）"},{"n":"武蔵村山市","b":594,"c":2,"u":297,"d":"総務部 防災安全課 交通防犯係","t":"042-563-5071"},{"n":"東村山市","b":591,"c":2,"u":296,"d":"まちづくり部 交通課 交通安全係","t":"042-393-5111（内3706）"},{"n":"国分寺市","b":572,"c":2,"u":286,"d":"建設環境部 交通対策課","t":"042-312-8671"},{"n":"文京区","b":561,"c":2,"u":280,"d":"土木部 管理課 交通安全係","t":"03-5803-1244"},{"n":"国立市","b":539,"c":1,"u":539,"d":"都市整備部 道路交通課 交通係","t":"042-576-2111"},{"n":"小金井市","b":484,"c":2,"u":242,"d":"都市整備部 交通対策課 交通対策係","t":"042-387-9850"},{"n":"福生市","b":308,"c":1,"u":308,"d":"都市建設部 道路下水道課 管理・交通安全対策係","t":"042-551-1969"},{"n":"瑞穂町","b":297,"c":1,"u":297,"d":"協働推進部 安全・安心課 安全係","t":"042-557-7610"},{"n":"日の出町","b":297,"c":1,"u":297,"d":"生活安全安心課 防災・コミュニティ係","t":"042-588-5067"},{"n":"羽村市","b":297,"c":1,"u":297,"d":"総務部 防災安全課 防犯・交通安全係","t":"042-555-1111（内215,216）"},{"n":"稲城市","b":0,"c":2,"u":0,"d":"都市建設部 管理課 交通対策係","t":"042-378-2111（内313）","k":1}];
+const TOKYO_ZERO = ["檜原村","奥多摩町","大島町","利島村","新島村","神津島村","三宅村","御蔵島村","八丈町","青ヶ島村","小笠原村","清瀬市"];
+const TOKYO_SUM = {
+ r6:{total:61909,count:212,orgs:"22区24市2町"},
+ r7:{total:77542,count:249,orgs:"23区25市2町村"},
+ ku:{total:51273,count:165}, shi:{total:25675,count:82}, cho:{total:594,count:2},
+ pdf:"https://www.tomin-anzen.metro.tokyo.lg.jp/documents/d/tomin-anzen/7kusichousongenkyo",
+ page:"https://www.seikatubunka.metro.tokyo.lg.jp/tomin_anzen/about/tyousa-keikaku/keikaku/0000002063"
+};
 
 const ALERT_QUERIES = [
  '"スケアード" (入札 OR 公告 OR 業務委託 OR プロポーザル)',
@@ -673,11 +771,9 @@ function renderLeads(){
 function renderKpis(){
   const n=LEADS.filter(l=>l.is_new).length;
   const bid=LEADS.filter(l=>l.kind==="入札・公募"||l.kind==="募集").length;
-  const prefs=new Set(LEADS.map(l=>l.pref).filter(Boolean));
   $("#kpiNew").textContent=n;
   $("#kpiTotal").textContent=LEADS.length;
   $("#kpiBid").textContent=bid;
-  $("#kpiPref").textContent=prefs.size;
   $("#kpiOrg").textContent=ORGS.length;
   $("#tabNewCount").textContent=n?`(${n})`:"";
 }
@@ -699,6 +795,7 @@ function syncControls(){
 }
 function applyKpi(act){
   $$(".kpi").forEach(k=>k.setAttribute("aria-pressed",String(k.dataset.act===act)));
+  if(act==="tokyo"){ showTab("p-tokyo"); window.scrollTo({top:0,behavior:"smooth"}); return; }
   if(act==="org"){ showTab("p-db"); window.scrollTo({top:0,behavior:"smooth"}); return; }
   if(act==="price"){ showTab("p-price"); window.scrollTo({top:0,behavior:"smooth"}); return; }
 
@@ -708,7 +805,6 @@ function applyKpi(act){
   showTab("p-alert");
   syncControls();
   renderLeads();
-  if(act==="pref") $("#fPref").focus();
   document.querySelector(".filters").scrollIntoView({behavior:"smooth",block:"center"});
 }
 $$(".kpi").forEach(k=>k.addEventListener("click",()=>applyKpi(k.dataset.act)));
@@ -783,6 +879,63 @@ function renderStatic(){
     </div>`).join("");
 }
 
+/* ── 東京都マーケット ── */
+const yen=n=>n.toLocaleString("ja-JP");
+let tsort="b", tq="";
+
+function renderTokyoSummary(){
+  const S=TOKYO_SUM;
+  const growth=Math.round((S.r7.total/S.r6.total-1)*1000)/10;
+  const u6=Math.round(S.r6.total/S.r6.count), u7=Math.round(S.r7.total/S.r7.count);
+  $("#tokyoSummary").innerHTML=`
+    <div class="card">
+      <p class="eyebrow">令和6年度 実績</p>
+      <div class="bignum">${yen(S.r6.total)}<span>千円</span></div>
+      <p class="cardline">${S.r6.count}回 ／ ${S.r6.orgs}<br>平均 ${u6}千円/回</p>
+    </div>
+    <div class="card">
+      <p class="eyebrow">令和7年度 予定</p>
+      <div class="bignum accent">${yen(S.r7.total)}<span>千円</span></div>
+      <p class="cardline">${S.r7.count}回 ／ ${S.r7.orgs}<br>平均 ${u7}千円/回</p>
+    </div>
+    <div class="card">
+      <p class="eyebrow">内訳（令和7年度予定）</p>
+      <table class="mini"><tbody>
+        <tr><td>区部</td><td class="num">${yen(S.ku.total)}千円</td><td class="num">${S.ku.count}回</td></tr>
+        <tr><td>市部</td><td class="num">${yen(S.shi.total)}千円</td><td class="num">${S.shi.count}回</td></tr>
+        <tr><td>町村部</td><td class="num">${yen(S.cho.total)}千円</td><td class="num">${S.cho.count}回</td></tr>
+      </tbody></table>
+      <p class="cardline">前年比 <b class="up">+${growth}%</b></p>
+    </div>`;
+  $("#tokyoPdf").href=S.pdf; $("#tokyoPage").href=S.page;
+  $("#tokyoZero").innerHTML=TOKYO_ZERO.map(z=>`<span class="tag">${esc(z)}</span>`).join(" ");
+}
+
+function renderTokyoTable(){
+  let rows=TOKYO_ROWS.filter(r=>!tq||(r.n+r.d+r.t).toLowerCase().includes(tq.toLowerCase()));
+  rows=rows.slice().sort((a,b)=>(b[tsort]||0)-(a[tsort]||0));
+  $("#tokyoBody").innerHTML=rows.map((r,i)=>`
+    <tr>
+      <td class="num">${i+1}</td>
+      <td><strong>${esc(r.n)}</strong>${r.k?' <span class="tag police">警視庁予算</span>':""}</td>
+      <td class="num">${r.b?yen(r.b)+"千円":"—"}</td>
+      <td class="num">${r.c}回</td>
+      <td class="num">${r.u?r.u+"千円":"—"}</td>
+      <td>${esc(r.d)}</td>
+      <td class="num"><a href="tel:${esc(r.t.replace(/[^0-9-]/g,""))}">${esc(r.t)}</a></td>
+    </tr>`).join("");
+  const paid=rows.filter(r=>r.u>0).map(r=>r.u).sort((a,b)=>a-b);
+  const med=paid.length?paid[Math.floor(paid.length/2)]:0;
+  $("#tokyoNote").textContent=`表示 ${rows.length} 自治体 ／ 1回あたりの中央値 ${med}千円（最安 ${paid[0]||0}千円・最高 ${paid[paid.length-1]||0}千円）`;
+}
+
+$("#tq").addEventListener("input",e=>{tq=e.target.value.trim();renderTokyoTable()});
+$$("[data-tsort]").forEach(b=>b.addEventListener("click",()=>{
+  tsort=b.dataset.tsort;
+  $$("[data-tsort]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
+  renderTokyoTable();
+}));
+
 /* ── タブ ── */
 const clearKpi=()=>$$(".kpi").forEach(k=>k.setAttribute("aria-pressed","false"));
 
@@ -818,6 +971,8 @@ document.addEventListener("click",e=>{
 /* ── leads.json を読み込む（GitHub Pages 上では最新に置き換わる） ── */
 function boot(){
   renderStatic();
+  renderTokyoSummary();
+  renderTokyoTable();
   if(SEED_STAMP) $("#stampDate").textContent=SEED_STAMP;
   renderPrefOptions();
   renderKpis();
