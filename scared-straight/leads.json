@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-17 22:11",
- "generated_date": "2026-08-17",
- "new_count": 10,
- "total": 208,
+ "generated_at": "2026-08-18 22:09",
+ "generated_date": "2026-08-18",
+ "new_count": 23,
+ "total": 222,
  "items": [
   {
    "id": "704fe75a10698de2",
@@ -151,7 +151,7 @@
    "id": "26f10bc72f13da7b",
    "title": "第117回 スケアード・ストレート - JA共済presents なるほど!交通安全",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4ydHBaaW9INUZybXZoWU1KNjJkZGNFVGdvZHlhajkxT2loNkdJWFZJVF9ITUMtcExfT2ZlNXFhR0xFdGRoS19jWW1kSDdZSDBBTlNj?oc=5",
-   "org": "tfm.co.jp",
+   "org": "TOKYO FM",
    "pref": "",
    "date": "2026-07-08",
    "source": "Google ニュース",
@@ -200,6 +200,19 @@
    "is_new": false
   },
   {
+   "id": "8c6bda0d5916d88f",
+   "title": "自転車通学時の事故に注意！プロのスタントマンによる交通安全教室 宮城・石巻市（2026年6月29日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XVjhCcjVjYTFVSW16OEY3MXQ0dElVQ1N4VGRXTzV6OFZQTTl2MHdvT1RpOGlQUWRNUDVzUnJqSlBKbjRHX3oxWkF5ZVpGSkczX2d2MTJfMzZzSlF4SHdaMWpRUXFVRUc0VGZmWTFiUGNKdkVxQzZKcFY5RGFNZWc?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "宮城県",
+   "date": "2026-06-29",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
    "id": "2246f0ac4eb05a60",
    "title": "迫真スタントで危険な事故再現 鳥取湖陵高で交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52Zmt5UTRxa0M3eUFlYTBzcm9zdmRyUjYyV3NKYXhTY1cxTkVmQVdCYVNFN1lHMHVDUVk4Vi1VWGVGMlQ5RDl4THBuYnR2M3JO?oc=5",
@@ -242,7 +255,7 @@
    "id": "3b8fe3eb39276b26",
    "title": "自転車事故再現「怖さ実感」 道警など、石狩南高で交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1TVjk2TGxfYkhBRlNIR0wxZ0xMU2ZFZEZpc2YyX2lNQlhsdjhXd1M5QmFWc1ZtaUdxNFNPaEV3S3NFdnVhaXhqejN2RQ?oc=5",
-   "org": "47NEWS",
+   "org": "47news.jp",
    "pref": "北海道",
    "date": "2026-06-22",
    "source": "Google ニュース",
@@ -307,7 +320,7 @@
    "id": "57bd0105680f9952",
    "title": "置戸でスタントマン交通安全教室 小中高生150人が事故の怖さ学ぶ 衝突の瞬間も実演",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ScG1pYzNYZ3RFUFBmZmpMbGViYkRSUkJZNjFJOS1td210UjJXd19Jekp1NHQ4ZU9FbW8zY3lFQlNEbEhuMlB6eEUyVQ?oc=5",
-   "org": "47NEWS",
+   "org": "47news.jp",
    "pref": "北海道",
    "date": "2026-06-12",
    "source": "Google ニュース",
@@ -385,14 +398,14 @@
    "id": "2e6a9f100feee736",
    "title": "スタントマンが自転車事故を再現 仙台・台原中で交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Iei15ZjktWlZVNndOMnBQMnRwLTZKSXpmVERqRk96REg5eU5CcXdfS00yYWRNWFd0N2gxQzF4dE5Zd3pNNU83bGpaTWxxNGhzVFBNZFEtbUx4V0hCZC0zQg?oc=5",
-   "org": "kahoku.news",
+   "org": "河北新報オンライン",
    "pref": "宮城県",
    "date": "2026-06-08",
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-17",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "51d5f330be451d3a",
@@ -411,7 +424,7 @@
    "id": "4d1d1f43ade81e2a",
    "title": "スタントマンが自転車事故を再現、ルール守って命を守ろう！長岡市・寺泊中で交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SbTZ6WVhEOG1YaldESHZhZ0R2MzBFNjhUWjVoajhGY3l2UDlieG5OZzNhYkM2Q3RvQ2RvbHZuZ2NQY2F1dURiYS1ZYw?oc=5",
-   "org": "47NEWS",
+   "org": "47news.jp",
    "pref": "",
    "date": "2026-06-03",
    "source": "Google ニュース",
@@ -489,7 +502,7 @@
    "id": "de275bc07410d670",
    "title": "「自転車側の人も加害者に」スタントマンが事故を再現し伝える自転車教室【新潟】",
    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPT1F1bWw4X3l4amh6eWluUEFqSnptRUR3dHpwV09pUVFKcFNaa2h3bnlBcWtHZ3NCbUJIVEVSQVBKNmhhbjNrUlhOdWc3Vk51VWZIdHlPZ3dvZVpLcExHSHM0MWxkUS14Qmx2MEJpd0dRYnpGY2J4NVFKcHVRVmxIbTRYRXdpZ0tYMldodHQ5V1lqV0hmQmJwNFRrU0RQWDRVSldHNThRYjlqYjhrTGowSWJScnZRU3lXQWo1MWFMT01SZE1nc1hqNzBZXzAtVlg1QWRWbXVkRVdLdkhvdkN5d092WUhoeTZjV1FNWFBZc3lHbTdMODFrb19zUXVFWktwZFJXeTJ5ekZBai1hQkEzQlROLUJmcmcxLVA0bXZxZGJiVVpYMUcybGZmcDhELUFxeHU2RXF2bjdLVHZXOFUwRC1VN1FJUDlNNHpz?oc=5",
-   "org": "uxtv.jp",
+   "org": "UX新潟テレビ21",
    "pref": "新潟県",
    "date": "2026-05-29",
    "source": "Google ニュース",
@@ -603,6 +616,19 @@
    "is_new": false
   },
   {
+   "id": "34d91f817776f1dc",
+   "title": "危険な場面をスタントマンが再現…自転車による事故をリアルに感じて…長野・岡谷市の高校で交通安全教室…県内で2025年起きた自転車事故のけが人のうち、19歳以下が全体の半分近く占める",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yVlpoQjZGOFlxSGlkd0xhMFhUaHZ1ZHdjOFdVT1FLdll3V29RYWtTaE15TTBVTzExTGkwMWowbEVLSUczMkZPRmJLbWxCY2FDMzhJeXo3ZW51dw?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "長野県",
+   "date": "2026-05-28",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
    "id": "6ebe7dcf62ed5cf2",
    "title": "スタントマンが事故再現 北上 飯豊中で交通安全教室【岩手】（岩手日日新聞社）",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mcXdwYzA5UVdNVWp1eU5qWGtGa1M2WFJOWG1uRkZIYU1oelo1eTVQSFJnUldMR1dzazFhalpLTlFwdGxOcjJfLUJfRFZnOEhCVDBzMFBRTVlsYllHVGNVMVl4M1BmNF96VW83OUdrNVh0dkZPY1l0MXVfUW9fZTA?oc=5",
@@ -697,7 +723,7 @@
    "id": "9bdaee104af628f3",
    "title": "5月26日【びわ湖放送ニュース】「交通事故の衝撃と悲惨さ」を見る授業 スタントマンが交通事故を再現",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RbGpfUmVuYnZ0bnhEaUs2cXNLLWl3Wk5wMERxa093MXg3RmY3dDUxd2NLVXZkcDEzSXotcWozMzdoM3lQLTJLMDdlRjdDUQ?oc=5",
-   "org": "webaminchu.jp",
+   "org": "webアミンチュ",
    "pref": "",
    "date": "2026-05-26",
    "source": "Google ニュース",
@@ -736,7 +762,7 @@
    "id": "1eb91f1ea01ee8e7",
    "title": "スタントマン 交通事故再現 会津高で交通教室",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xcGU3U0Vjdm01VTN5bkNkNEFFTV9RMnNWcTZnT2ZPY0NOTzQyZjhlQllqX0hHdmhVRnctZ09tcW1XLV9TOTg0cEZwQQ?oc=5",
-   "org": "47NEWS",
+   "org": "47news.jp",
    "pref": "",
    "date": "2026-05-23",
    "source": "Google ニュース",
@@ -762,7 +788,7 @@
    "id": "716af37c1bb29296",
    "title": "スタントマンが事故を再現、森高生に自転車交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9RT2FPcVFPb19NUi1aVmJOLTR2M1ZDN3FCVGpYVnUxLUx3Y043NDcwaW1xQURZWXNOWmlpRVdCU19hMVhCSGl0OVU3VQ?oc=5",
-   "org": "47NEWS",
+   "org": "47news.jp",
    "pref": "",
    "date": "2026-05-22",
    "source": "Google ニュース",
@@ -1048,7 +1074,7 @@
    "id": "53417d7cf7d29885",
    "title": "衝撃の事故再現に生徒「エグ！」プロスタントマンが中学校で自動車安全教室【高知】 « 高知のニュース",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fTlRDTFZmN1BEaXVWN2RqY0h5Tk9PRVFKTzlHalp2Q1JwV1JXaS15SWRjV3ZEVVpQeFpGN2dpcUxoeDJRLVVxeXhkRkhNdzhuZlByQ1dwdTBvZDQ?oc=5",
-   "org": "sunsuntv.co.jp",
+   "org": "高知さんさんテレビ",
    "pref": "高知県",
    "date": "2025-12-09",
    "source": "Google ニュース",
@@ -1334,7 +1360,7 @@
    "id": "f9d231f65ff6fa10",
    "title": "自転車通学 ルール大丈夫？ スタントマン実演 内灘高で交通教室",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0cDJRSmdLbFhNRl9qZ0tORE1XSktneEduTlhvbHZYR1VZU3BGWWF4SThnTmh5Ykhpc043NkgyNld5SnFmTi1zZU5hbw?oc=5",
-   "org": "47NEWS",
+   "org": "47news.jp",
    "pref": "",
    "date": "2025-11-06",
    "source": "Google ニュース",
@@ -1464,7 +1490,7 @@
    "id": "00be85d9d4183584",
    "title": "交通事故はこうして起こる スタントマンが中高生に実演 大阪・熊取 [大阪府]",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GQjctTk9zVXZ2alkzN01nT2xSZjE1TWdwaHEyYWgwMUZsS1llX2FZalN3NlNvX3UzZC1RUDZ6UnhZOXVEN3pjbHFadW9FVlpjbW4xZE9LU0FZWTg5Z3AxLWhrWUVPSU0?oc=5",
-   "org": "asahi.com",
+   "org": "朝日新聞",
    "pref": "大阪府",
    "date": "2025-10-09",
    "source": "Google ニュース",
@@ -1734,6 +1760,19 @@
    "is_new": false
   },
   {
+   "id": "47687b5f814daa99",
+   "title": "交通事故をリアルに再現、自転車に乗ったスタントマンが車と衝突…「思っていた以上に怖いと分かった」",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xckVHeU5sYXhUT3VhVTNjblViTHlvcUZrQS1nbUF1SUpGanY0eVBJdFpDZnBya0RzUWUxbHlPNk9yYkZNeTdWZU15eklycmF0UXBPUUlpNU1JcnNOaVFjMzJGcEwyTlJQSjM3QV9ORVphdw?oc=5",
+   "org": "yomiuri.co.jp",
+   "pref": "",
+   "date": "2025-05-07",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
    "id": "b6bac9b0e4edb90d",
    "title": "宗像・自由ヶ丘中で交通安全教室 スタントマンが交通事故再現",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FalBfdU9xcWE5UUNSakxSd05WX0tFcUZVdWp6cVItd0kwQ0lFRWVCMkRJQjA0UzV3Znd1bFBlemZLVFg3MlUyd2ZPWGw2dGN1dU9N?oc=5",
@@ -1836,6 +1875,19 @@
    "score": 75,
    "first_seen": "2026-08-10",
    "is_new": false
+  },
+  {
+   "id": "f1bd028ad5035f51",
+   "title": "“ながら運転”で重大事故に スタントマンが交通事故を再現 中学校で自転車事故の危険性を伝える交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0waGNOMlpaejFaanc0UEM4eWVKSkFZSVhqV052SEpaOExFZDBiZ3VlYkkzZ2JhSERJbW1pWVdGUGxMaUZhYW1XZkJwQnE5OWc2dmpFLXUxUjh6QWlOaHpJSVhPTC1SOE0?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "",
+   "date": "2024-11-18",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
   },
   {
    "id": "1461c2d24072afb5",
@@ -1994,6 +2046,19 @@
    "is_new": false
   },
   {
+   "id": "cbf2428f50958f47",
+   "title": "長崎のスタントマン 佐藤憲さん（54） 出演作多数、放送中の月9も支援 磨いた技で命守る活動も",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJX2dpWXl5NXVPYU1CVjNQNWRNM0RPZWZkNU5kTVlCR3FiS2pWdnZ6N1VuenNLci1tTzl5RmtWMko2QndrSVBuc0pxQ1F4VzlVRExtUGJLS2lBMUE0OFpJQ2VUbF84djFNQXB3V0lwdDI?oc=5",
+   "org": "長崎新聞ホームページ",
+   "pref": "長崎県",
+   "date": "2024-01-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
    "id": "c157f540d75a8225",
    "title": "スタントマンが実際に起きた交通事故を再現 高校で自転車の交通安全教室（2023年12月18日掲載）｜KKT NEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wSE1kalozSE5aYVJFdjJzWkdackk3YnpKalRoMER0X3pYVWtLYVB4S3pRTUlkanRrTFQ0QUE2Z3VUb3NZekkySlkyamdXZ3ZScWY4dzJjeGJxclBHenJFUV9wWDZ0VlJXU1hkTGtEbnB2LUlrZXZ0bWZYTkM1aEE?oc=5",
@@ -2031,6 +2096,19 @@
    "score": 60,
    "first_seen": "2026-08-10",
    "is_new": false
+  },
+  {
+   "id": "79ee5c94372629ca",
+   "title": "スタントマンが自転車事故を再現！事故の恐ろしさを学ぶ…光市の高校で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU1N2dDA4U1B4R2hEVjAtTU5SeU41UHdaNWtaYW5ScXZLc3NETjV4OUJtcGQ5cUNSWGRLVnhUTUlCMlpWMlNxVnlpY3V4bnVITENvQkw5SjNVb1hZUWdUeVhNZk1VV3c2M2ZfZmZwUVczS1BxeWRrNjlEUURFTFZ0bU1jVXg3XzQ?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2023-10-24",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
   },
   {
    "id": "c6c78a903cc4423c",
@@ -2179,7 +2257,7 @@
    "id": "8064f5b1e53c49c5",
    "title": "箕面市-「スケアード・ストレート」による自転車安全教室を市立中学校で実施～プロのスタントマンが交通事故を実演",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MMVo3MGxlQkFXYmpVSXFBOGpONUJwWElabDM3cnRYdHkxUW9xeTdjVmgxLV9zNFU3ZDhqdENWWGZjNVdsMG52MkhVTFlWdW5yekE?oc=5",
-   "org": "シティライフニュース",
+   "org": "citylife-new.com",
    "pref": "大阪府",
    "date": "2022-11-03",
    "source": "Google ニュース",
@@ -2231,7 +2309,7 @@
    "id": "04da70ffb49ed408",
    "title": "都内駅前の道路でスタントマンが事故を再現 『スケアード・ストレイト』",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50THJXVVFnVTVENjVqSDA3eTJiUEVKZlJVTjJLdGdCOFRJUVc0T0c3X0FfRXVhcmx3MTZlVTRVVC1QbmNMSXN0Vnd1Rzg3RWR1UmVPUGZBRXU2Tl9WT0d5cUhNYW41OFdiSnVhZHpn?oc=5",
-   "org": "TOKYO MX",
+   "org": "s.mxtv.jp",
    "pref": "東京都",
    "date": "2022-05-10",
    "source": "Google ニュース",
@@ -2244,7 +2322,7 @@
    "id": "da671412de85bd25",
    "title": "プレビュー】都内駅前の道路でスタントマンが事故を再現 『スケアード・ストレイト",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CSUJWVVl0LWlQNlZJenUtdFFYNjZvakl0TFFtQ2g0UHdCZUVFRWROakRadmQwZzFBcGZyS01qb1h3WDR5NWZmWnIyeTZEclYzeTdUV2Y4eElPV0x6cGlRZnlrQ2Q?oc=5",
-   "org": "TOKYO MX",
+   "org": "s.mxtv.jp",
    "pref": "東京都",
    "date": "2022-05-10",
    "source": "Google ニュース",
@@ -2265,6 +2343,19 @@
    "score": 60,
    "first_seen": "2026-08-10",
    "is_new": false
+  },
+  {
+   "id": "c54f0997533bb1bc",
+   "title": "神ト協 県立高校で交通安全教室、交通事故再現で注意喚起",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XNTQtSHVoMEFxa1hGcl9Oek0tSWZfWmxzSVhsYlJJNzhxRGRsalpnbFJyYXl4eEJxbnVOUG1Ua2YtckswcE81RmltU2x0Zw?oc=5",
+   "org": "物流ウィークリー",
+   "pref": "",
+   "date": "2022-02-01",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
   },
   {
    "id": "003c8c983cbac68f",
@@ -2426,7 +2517,7 @@
    "id": "4ebcf15953f3e951",
    "title": "スマホ、傘さし、ヘッドフォン… スタントマンが自転車事故再現 「恐怖の直視を」",
    "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQbFFNOUM5cEctOGdNMl9pWlNtR1N2SnpCTExiRlpJVXlEX1N6M1cwSHpVTk5mc2VSVkg1N3hEbnkyRjN4eEFZLVZobjlqTUQ2WEVCRWdzSVN5SGt6azB4Q3ZKdzU1MGtGMGlNMFZsTlNYU2VQUTQ0YzZ0cVZlNWxQOHV1eW41N04yMERXYXV4UWczZ2Y2eDViOUhQVVptOE1EOTRuRnpnbWgwd2RwMURqUURWRDZxS0RIX2tSa2w0aUtabXY4cWYtdVl1cHRUN3JhUU5iN0trUkpYa2w2TWNJUHVSbG1haUJyWGtNTGx2dXB0d0FlTGw1RGJRZ1k1RFY4dGJkck9VblJXM1hyQjFyVGo5MHZRWlpfb3BDb3lSSnVuM1F6QnlYUDNZYUlRY2hCd2pfSmttZVJ3YkU?oc=5",
-   "org": "丹波新聞",
+   "org": "tanba.jp",
    "pref": "",
    "date": "2019-12-30",
    "source": "Google ニュース",
@@ -2514,6 +2605,19 @@
    "is_new": false
   },
   {
+   "id": "6480a034ad533aef",
+   "title": "自転車マナー守って スタントで交通安全学ぶ | 保土ケ谷区",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JSHFGeFd1LVBrQzJSX3E2a05JWGFsODhKWXRIUi04WG5CWW9RVFdKUlBvX1BOcjVPcWNhTFRuZTFVUWhUTTkxNXJnLUdfU01Ca09ZSG9rSVBYMnBwNjBvVVhMX3E?oc=5",
+   "org": "タウンニュース",
+   "pref": "",
+   "date": "2018-11-08",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
    "id": "dd68ff9ba5c1702e",
    "title": "津田沼自動車教習所で「交通安全フェスタ」、スタントマンによる交通安全教室や模擬店など多彩に",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85MjEyNU5JeEllN2J3YnhPY3Zxa3VFVmIxVjZNOWI4Y2g2dUpOZjlOSUQzN1JJNkJJeXREZlJ3ejgzWWFteGNqSnFFaVFMcXV1aUdYb1lB?oc=5",
@@ -2538,6 +2642,71 @@
    "score": 60,
    "first_seen": "2026-08-11",
    "is_new": false
+  },
+  {
+   "id": "b989d52aa51958a0",
+   "title": "スタントマンが事故再現 日立商高で安全教室",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rWWNWMkpoam95eE5LdVhfekpvb0dmQ1hUbV96NHZ2NXJnb1lDRXlnOXlaVXN4QVExRTROaW45Y3FUendGczI0MC1IYUxpSEU4RFVxbjlyX3JlSEhqZE9nQlkxRHBmQk8tc2I1WlNuN1E?oc=5",
+   "org": "茨城新聞クロスアイ",
+   "pref": "茨城県",
+   "date": "2018-07-23",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
+   "id": "1547de40201e5881",
+   "title": "スタントマンが交通事故再現、目撃した高校生「事故の怖さ感じた」",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fNVNjUm43U2ROX25GZS0xTmRxTGltTFBuTHJtMDl4dF9naEFoU3hsNUxvU3BGMWRjZWFYOTViMllUTFBpa004MmQwVDRsUWh4U1hFMjVIZEpkUlVFRm1zZkdidk9PdEhkbklIUkpCakJ2RVA1UGc?oc=5",
+   "org": "産経ニュース",
+   "pref": "",
+   "date": "2018-07-19",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
+   "id": "c4b4c60bbcf63b1e",
+   "title": "宮前平中 事故の恐怖を実感 区内初 スタントで再現 | 宮前区",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xVlpUSHY3NFpGclZUeE5GcnhFR3FtOVhlQXNBNV84ZjVpNUpIZzkzdmQxM3hSN28zdl9OcExlbmxrT3FKV1dFLUxmbFItd3laY0YwREtMUldaN3VaaEJHU1hEcU4?oc=5",
+   "org": "タウンニュース",
+   "pref": "",
+   "date": "2018-01-17",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
+   "id": "40f9d173500627bf",
+   "title": "スタントが事故を再現 星が丘で自転車交通安全教室 | さがみはら中央区",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iM0twd1lucE92MmE5dGg2T1V2ckgwYlhob1QwUnBsYXJQamw5d0NnM2U5WXg3QVFwZGhfMXJEZWdzMndaeFkyQjczWURFUGM0UWVCQXhfSWF2QUttbU1NczJBZzY?oc=5",
+   "org": "タウンニュース",
+   "pref": "",
+   "date": "2018-01-11",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-18",
+   "is_new": true
+  },
+  {
+   "id": "806c37d37e56a706",
+   "title": "スタントマンが衝突事故を再現 | 川崎区・幸区",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zUjdvdnlTT2llX25Rd1JGeGdMSnpWV0ZkME4yVnB6ZF8zMDV3Q3FOcDdpR3M4ZUNrV3E3Y3RxaGotWmVuMGV5Nkhlcm1WMEdQRDBDdUg0ZVVzU1dBOGZ6Z2xUV0E?oc=5",
+   "org": "タウンニュース",
+   "pref": "",
+   "date": "2017-12-21",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-18",
+   "is_new": true
   },
   {
    "id": "ed1e614b3a4caf5b",
@@ -2707,6 +2876,19 @@
    "score": 50,
    "first_seen": "2026-08-10",
    "is_new": false
+  },
+  {
+   "id": "4bca6aef58fdba14",
+   "title": "スタントが交通事故を再現 洋光台で区内初イベント | 磯子区",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tUDBvNWRjQzRaemEwVmQ5c0hoSHE5aElOSkhRcW82eEZ6VHZJMU5vRnFTRnBVcnJMTVlYOVZWWmNoTXVod2dRV2JFQVJqMlU1TzNsQXhhTUJwTUNZV3pjbkRySnc?oc=5",
+   "org": "タウンニュース",
+   "pref": "",
+   "date": "2011-07-28",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-18",
+   "is_new": true
   }
  ]
 }
