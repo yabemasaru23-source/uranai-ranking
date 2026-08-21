@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-20 22:13",
- "generated_date": "2026-08-20",
- "new_count": 27,
- "total": 230,
+ "generated_at": "2026-08-21 22:10",
+ "generated_date": "2026-08-21",
+ "new_count": 22,
+ "total": 231,
  "items": [
   {
    "id": "704fe75a10698de2",
@@ -236,7 +236,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2246f0ac4eb05a60",
@@ -886,7 +886,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "60e6e94e24bf29e9",
@@ -1107,7 +1107,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "83fa7d3ac7bb71db",
@@ -1471,7 +1471,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "457090118816e9c1",
@@ -1978,7 +1978,7 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e081a2fe70210286",
@@ -2108,7 +2108,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6ab6c7359d76e0f0",
@@ -2915,6 +2915,19 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false
+  },
+  {
+   "id": "88b78610d1a5b79e",
+   "title": "【JAF福岡】「スケアード・ストレイト教育技法による自転車安全利用講習会」を開催しました",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KU2NFcFNjRlBTcWJlNlVkbXVabG5uMEpnLXIxRXJQLXpWLWtrYUxobVlpVlFmTll6WkNGODB0RkE0UDhSOTNIYy1FT3ZEaTVEbnctQmpyZm4xZHNlX0s0M0VlaWlaQmNuR0E?oc=5",
+   "org": "PR TIMES",
+   "pref": "福岡県",
+   "date": "2014-09-26",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 60,
+   "first_seen": "2026-08-21",
+   "is_new": true
   },
   {
    "id": "5e5187aaa026d9f3",
