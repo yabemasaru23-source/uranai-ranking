@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22 07:21",
+ "generated_at": "2026-08-22 22:10",
  "generated_date": "2026-08-22",
  "new_count": 24,
  "due_soon_count": 0,
@@ -58,10 +58,10 @@
    "kind": "周辺案件",
    "score": 35,
    "first_seen": "2026-08-10",
-   "is_new": false,
-   "checked": "2026-08-22",
-   "fy": 8,
    "deadline": "2026-05-20",
+   "fy": 8,
+   "checked": "2026-08-22",
+   "is_new": false,
    "status": "expired"
   },
   {
