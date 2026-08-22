@@ -40,6 +40,13 @@ KW_METHOD = ["スタント", "事故再現", "交通事故を再現", "事故を
 KW_DEAL = ["入札", "公告", "業務委託", "委託", "公募", "プロポーザル", "見積", "契約", "募集", "参加者募集", "実施校"]
 KW_DEAL_STRONG = ["入札", "公告", "業務委託", "公募", "プロポーザル", "受託", "選定"]
 KW_THEME = ["自転車", "交通安全教室", "交通安全教育", "安全利用教室", "交通安全"]
+# 教育・啓発と直接結びつくテーマ語（駐輪場や保険などの周辺行政を除くために使う）
+KW_THEME_EDU = ["交通安全教室", "交通安全教育", "安全利用教室", "自転車教室", "安全教室", "交通安全講習"]
+# 交通安全担当課の所管でも、案件として無関係なもの
+KW_EXCLUDE = [
+    "駐車場", "駐輪", "放置自転車", "指定管理", "レンタサイクル", "シェアサイクル",
+    "自転車保険", "撤去", "返還", "作文コンクール", "標語", "ポスターコンクール",
+]
 
 # 周辺案件（同じ交通安全担当課が出す、スケアードストレート以外の発注）
 KW_ADJACENT = [
@@ -120,6 +127,8 @@ def is_adjacent(text):
     交通安全テーマ × 周辺メニュー × 調達語 の3つが揃ったときだけ拾う。
     ニュース記事で溢れないよう、調達語は強いもの（入札・公告・業務委託等）に限定する。
     """
+    if any(k in text for k in KW_EXCLUDE):
+        return False
     return (any(k in text for k in KW_THEME)
             and any(k in text for k in KW_ADJACENT)
             and any(k in text for k in KW_DEAL_STRONG))
@@ -127,11 +136,14 @@ def is_adjacent(text):
 
 def is_relevant(text):
     """リンクテキストが案件として拾う価値があるか判定する。"""
+    if any(k in text for k in KW_EXCLUDE):
+        return False
     if any(k in text for k in KW_CORE + KW_METHOD):
         return True
     if is_adjacent(text):
         return True
-    return any(k in text for k in KW_THEME) and any(k in text for k in KW_DEAL)
+    # 一般枠は「教育・啓発」と直接結びつくテーマ語に限る（駐輪場・保険などを弾く）
+    return any(k in text for k in KW_THEME_EDU) and any(k in text for k in KW_DEAL)
 
 
 def make_id(url, title):
@@ -182,6 +194,8 @@ def collect_google_news(queries):
             continue
         for it in parse_rss(xml):
             title = it["title"]
+            if any(k in title for k in KW_EXCLUDE):
+                continue
             if not any(k in title for k in KW_CORE + KW_METHOD) and not is_adjacent(title):
                 continue
             # 「タイトル - 媒体名」形式から媒体名を分離
@@ -280,9 +294,12 @@ def main():
         item["is_new"] = item["first_seen"] == now
         merged[rid] = item
 
-    # 古すぎるものは落とす
+    # 古すぎるもの・除外語に当たるものを落とす
+    # （除外語は後から追加されるため、過去に保存済みの案件もここで掃除する）
     limit = (datetime.date.today() - datetime.timedelta(days=KEEP_DAYS)).isoformat()
-    items = [it for it in merged.values() if it.get("first_seen", now) >= limit]
+    items = [it for it in merged.values()
+             if it.get("first_seen", now) >= limit
+             and not any(k in it["title"] for k in KW_EXCLUDE)]
     items.sort(key=lambda x: (x.get("date") or x.get("first_seen", ""), x.get("score", 0)), reverse=True)
     items = items[:MAX_ITEMS]
 
