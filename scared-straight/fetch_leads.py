@@ -38,7 +38,15 @@ KEEP_DAYS = 400
 KW_CORE = ["スケアード", "スケアード・ストレイト", "スケアードストレート"]
 KW_METHOD = ["スタント", "事故再現", "交通事故を再現", "事故を再現"]
 KW_DEAL = ["入札", "公告", "業務委託", "委託", "公募", "プロポーザル", "見積", "契約", "募集", "参加者募集", "実施校"]
+KW_DEAL_STRONG = ["入札", "公告", "業務委託", "公募", "プロポーザル", "受託", "選定"]
 KW_THEME = ["自転車", "交通安全教室", "交通安全教育", "安全利用教室", "交通安全"]
+
+# 周辺案件（同じ交通安全担当課が出す、スケアードストレート以外の発注）
+KW_ADJACENT = [
+    "動画", "映像", "ビデオ", "DVD", "教材", "冊子", "リーフレット", "パンフレット",
+    "啓発物", "啓発品", "反射材", "シミュレータ", "シミュレーター", "VR", "ＶＲ",
+    "講師派遣", "指導員", "教室運営", "キャンペーン", "啓発", "教本", "ヘルメット",
+]
 
 PREFS = [
     "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県",
@@ -74,6 +82,8 @@ def score_of(text):
         s += 15
     if any(k in text for k in KW_THEME):
         s += 10
+    if s == 0 and is_adjacent(text):
+        s += 30  # 周辺案件（動画・教材・シミュレータ等）
     hit_deal = [k for k in KW_DEAL if k in text]
     if hit_deal:
         s += 25 if any(k in text for k in ["入札", "公告", "業務委託", "公募", "プロポーザル"]) else 12
@@ -81,6 +91,9 @@ def score_of(text):
 
 
 def kind_of(text):
+    core = any(k in text for k in KW_CORE + KW_METHOD)
+    if not core and is_adjacent(text):
+        return "周辺案件"
     if any(k in text for k in ["入札", "公告", "プロポーザル", "業務委託", "公募", "見積合わせ"]):
         return "入札・公募"
     if any(k in text for k in ["募集", "実施校", "参加者"]):
@@ -101,9 +114,22 @@ def pref_of(text):
     return ""
 
 
+def is_adjacent(text):
+    """周辺案件（動画制作・教材・シミュレータ等）の発注情報か判定する。
+
+    交通安全テーマ × 周辺メニュー × 調達語 の3つが揃ったときだけ拾う。
+    ニュース記事で溢れないよう、調達語は強いもの（入札・公告・業務委託等）に限定する。
+    """
+    return (any(k in text for k in KW_THEME)
+            and any(k in text for k in KW_ADJACENT)
+            and any(k in text for k in KW_DEAL_STRONG))
+
+
 def is_relevant(text):
     """リンクテキストが案件として拾う価値があるか判定する。"""
     if any(k in text for k in KW_CORE + KW_METHOD):
+        return True
+    if is_adjacent(text):
         return True
     return any(k in text for k in KW_THEME) and any(k in text for k in KW_DEAL)
 
@@ -156,7 +182,7 @@ def collect_google_news(queries):
             continue
         for it in parse_rss(xml):
             title = it["title"]
-            if not any(k in title for k in KW_CORE + KW_METHOD):
+            if not any(k in title for k in KW_CORE + KW_METHOD) and not is_adjacent(title):
                 continue
             # 「タイトル - 媒体名」形式から媒体名を分離
             org = it["source_name"] or (title.rsplit(" - ", 1)[1] if " - " in title else "")

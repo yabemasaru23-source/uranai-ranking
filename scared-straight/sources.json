@@ -6,7 +6,11 @@
     "スケアード ストレート 交通安全教室",
     "スタントマン 交通事故 再現 教室",
     "自転車交通安全教室 スタント 実施",
-    "スケアード 入札 OR 業務委託 OR 公募"
+    "スケアード 入札 OR 業務委託 OR 公募",
+    "交通安全 啓発動画 OR 教育動画 業務委託 OR プロポーザル",
+    "交通安全 教材 OR リーフレット OR 啓発物品 入札 OR 業務委託",
+    "自転車 シミュレータ OR VR 交通安全 業務委託 OR 運営",
+    "交通安全教室 講師派遣 OR 指導員 業務委託"
   ],
   "scan_pages": [
     {
@@ -31,8 +35,8 @@
     },
     {
       "org": "兵庫県",
-      "label": "県民生活課 新着",
-      "url": "https://web.pref.hyogo.lg.jp/kk15/"
+      "label": "自転車の交通安全",
+      "url": "https://web.pref.hyogo.lg.jp/kk15/ac17_000000025.html"
     },
     {
       "org": "東京都 都民安全総合対策本部",
@@ -46,8 +50,8 @@
     },
     {
       "org": "戸田市",
-      "label": "自転車交通安全教育指導（スケアード・ストレイト）",
-      "url": "https://www.city.toda.saitama.jp/soshiki/275/sukea-do.html"
+      "label": "都市交通課",
+      "url": "https://www.city.toda.saitama.jp/soshiki/275/"
     },
     {
       "org": "箕面市",
