@@ -27,6 +27,22 @@ jobs:
       - name: 案件情報を収集して leads.json を更新
         run: python scared-straight/fetch_leads.py
 
+      - name: 締切間近の案件をサマリに出力
+        run: |
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, datetime
+          d = json.load(open("scared-straight/leads.json", encoding="utf-8"))
+          due = [i for i in d["items"]
+                 if i.get("status") == "open" and i.get("deadline")
+                 and i["deadline"] <= (datetime.date.today() + datetime.timedelta(days=14)).isoformat()]
+          print("## スケアードストレート案件アラート\n")
+          print(f"- 追跡中 {d['total']} 件 / 本日の新着 {d['new_count']} 件")
+          print(f"- **締切14日以内 {len(due)} 件**\n")
+          for i in sorted(due, key=lambda x: x["deadline"]):
+              left = (datetime.date.fromisoformat(i["deadline"]) - datetime.date.today()).days
+              print(f"- `締切 {i['deadline']}（あと{left}日）` [{i['title']}]({i['url']})")
+          PY
+
       - name: leads.json をコミット＆プッシュ
         run: |
           git config user.name "github-actions[bot]"
@@ -35,6 +51,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "新着案件なし、スキップします"
           else
-            git commit -m "leads: $(date +'%Y-%m-%d') スケアードストレート案件を自動更新"
+            DUE=$(python -c "import json;d=json.load(open('scared-straight/leads.json',encoding='utf-8'));print(d.get('due_soon_count',0))")
+            git commit -m "leads: $(date +'%Y-%m-%d') スケアードストレート案件を自動更新（締切間近 ${DUE} 件）"
             git push
           fi
