@@ -33,6 +33,7 @@ TIMEOUT = 25
 UA = "Mozilla/5.0 (compatible; ScaredStraightLeadBot/1.0; +research use)"
 MAX_ITEMS = 400
 KEEP_DAYS = 400
+MAX_DETAIL_FETCH = 40  # 1回の実行で締切を読みに行く詳細ページ数の上限
 
 # 案件度合いのスコアリング用キーワード
 KW_CORE = ["スケアード", "スケアード・ストレイト", "スケアードストレート"]
@@ -42,6 +43,21 @@ KW_DEAL_STRONG = ["入札", "公告", "業務委託", "公募", "プロポーザ
 KW_THEME = ["自転車", "交通安全教室", "交通安全教育", "安全利用教室", "交通安全"]
 # 教育・啓発と直接結びつくテーマ語（駐輪場や保険などの周辺行政を除くために使う）
 KW_THEME_EDU = ["交通安全教室", "交通安全教育", "安全利用教室", "自転車教室", "安全教室", "交通安全講習"]
+# 「もう終わっている」ことを示す語
+KW_CLOSED = [
+    "選定結果", "審査結果", "結果について", "結果の公表", "結果を公表", "落札結果", "入札結果",
+    "受付終了", "募集は終了", "終了しました", "締め切りました", "締切ました",
+    "決定しました", "選定しました", "中止", "実施しました", "開催しました",
+]
+
+# 締切を読み取るための手がかり語
+KW_DEADLINE_CUE = [
+    "提出期限", "提出締切", "受付期限", "受付締切", "申込期限", "申込締切",
+    "応募期限", "応募締切", "参加申込", "参加表明", "質問期限", "入札書",
+    "企画提案書", "提案書の提出", "申請書の提出", "参加申請",
+    "締切", "締め切り", "期限", "必着", "まで",
+]
+
 # 交通安全担当課の所管でも、案件として無関係なもの
 KW_EXCLUDE = [
     "駐車場", "駐輪", "放置自転車", "指定管理", "レンタサイクル", "シェアサイクル",
@@ -144,6 +160,86 @@ def is_relevant(text):
         return True
     # 一般枠は「教育・啓発」と直接結びつくテーマ語に限る（駐輪場・保険などを弾く）
     return any(k in text for k in KW_THEME_EDU) and any(k in text for k in KW_DEAL)
+
+
+# 「令和8年4月15日」「令和8（2026）年4月15日」「2026（令和8）年4月15日」いずれにも対応する
+_PAREN = r"(?:[（(][^）)]{0,12}[）)])?"
+DATE_RE = re.compile(
+    r"令和\s*(?P<r>\d{1,2})\s*" + _PAREN + r"\s*年\s*(?P<rm>\d{1,2})\s*月\s*(?P<rd>\d{1,2})\s*日"
+    r"|(?P<y>20\d{2})\s*" + _PAREN + r"\s*年\s*(?P<ym>\d{1,2})\s*月\s*(?P<yd>\d{1,2})\s*日"
+    r"|(?P<m>\d{1,2})\s*月\s*(?P<d>\d{1,2})\s*日"
+)
+
+
+def _to_date(m):
+    """正規表現マッチを date に変換する。年が無い場合は直近の日付として推定する。"""
+    try:
+        if m.group("r"):
+            return datetime.date(2018 + int(m.group("r")), int(m.group("rm")), int(m.group("rd")))
+        if m.group("y"):
+            return datetime.date(int(m.group("y")), int(m.group("ym")), int(m.group("yd")))
+        # 「4月16日」のように年が無い表記は、年を推測すると
+        # 過ぎた締切を未来のものに変えてしまうため採用しない
+        return None
+    except ValueError:
+        return None
+
+
+def extract_deadline(html):
+    """本文から申込・提出の締切日を推定する。
+
+    手がかり語の直後に現れる日付だけを候補にし、
+    未来の日付があればその最も近いもの、無ければ最も遅い過去日を返す。
+    """
+    text = re.sub(r"<[^>]+>", " ", html)
+    text = re.sub(r"\s+", " ", unescape(text))
+    today_d = datetime.date.today()
+    future, past = [], []
+    for cue in KW_DEADLINE_CUE:
+        for hit in re.finditer(re.escape(cue), text):
+            seg = text[hit.end(): hit.end() + 60]
+            m = DATE_RE.search(seg)
+            if not m:
+                continue
+            d = _to_date(m)
+            if not d:
+                continue
+            (future if d >= today_d else past).append(d)
+    if future:
+        return min(future).isoformat()
+    if past:
+        return max(past).isoformat()
+    return ""
+
+
+FY_RE = re.compile(r"令和\s*(\d{1,2})\s*(?:[（(][^）)]{0,12}[）)])?\s*年度")
+
+
+def current_fiscal_year():
+    """今日の日本の年度（令和X）を返す。4月始まり。"""
+    d = datetime.date.today()
+    year = d.year if d.month >= 4 else d.year - 1
+    return year - 2018
+
+
+def latest_fiscal_year(html):
+    """本文中で最も新しい「令和X年度」を返す（見つからなければ 0）。"""
+    text = re.sub(r"<[^>]+>", " ", html)
+    years = [int(m.group(1)) for m in FY_RE.finditer(text)]
+    return max(years) if years else 0
+
+
+def status_of(item):
+    """案件の状態を open / closed / expired で返す。"""
+    if any(k in item["title"] for k in KW_CLOSED):
+        return "closed"
+    if item.get("deadline") and item["deadline"] < today():
+        return "expired"
+    # 本文が過去年度しか触れていない案件は、募集が終わっているとみなす
+    fy = item.get("fy")
+    if fy and fy < current_fiscal_year():
+        return "expired"
+    return "open"
 
 
 def make_id(url, title):
@@ -287,12 +383,49 @@ def main():
             "score": score_of(blob),
         }
         if rid in merged:
-            item["first_seen"] = merged[rid].get("first_seen", now)
+            prev = merged[rid]
+            item["first_seen"] = prev.get("first_seen", now)
+            for k in ("deadline", "fy", "checked"):
+                if prev.get(k):
+                    item[k] = prev[k]
         else:
             item["first_seen"] = now
             new_count += 1
         item["is_new"] = item["first_seen"] == now
         merged[rid] = item
+
+    # 案件性のあるものだけ、詳細ページを読んで締切日を拾う
+    print("締切日を確認します")
+    checked = 0
+    for it in merged.values():
+        if checked >= MAX_DETAIL_FETCH:
+            break
+        if it.get("checked") or it.get("kind") not in ("入札・公募", "募集", "周辺案件"):
+            continue
+        if any(k in it["title"] for k in KW_CLOSED):
+            continue
+        if "news.google.com" in it["url"]:      # ニュースの中継URLは本文が取れない
+            continue
+        try:
+            html = fetch(it["url"])
+        except Exception as e:
+            print("  [skip] %s: %s" % (it["title"][:24], e), file=sys.stderr)
+            checked += 1
+            continue
+        checked += 1
+        it["checked"] = now
+        d = extract_deadline(html)
+        fy = latest_fiscal_year(html)
+        if fy:
+            it["fy"] = fy
+        if d:
+            it["deadline"] = d
+        if d or fy:
+            print("  [ok] %s → 締切%s / 令和%s年度"
+                  % (it["title"][:26], d or "不明", fy or "?"))
+
+    for it in merged.values():
+        it["status"] = status_of(it)
 
     # 古すぎるもの・除外語に当たるものを落とす
     # （除外語は後から追加されるため、過去に保存済みの案件もここで掃除する）
@@ -307,13 +440,17 @@ def main():
         "generated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "generated_date": now,
         "new_count": sum(1 for it in items if it.get("is_new")),
+        "due_soon_count": sum(1 for it in items
+                              if it.get("status") == "open" and it.get("deadline")
+                              and it["deadline"] <= (datetime.date.today() + datetime.timedelta(days=14)).isoformat()),
         "total": len(items),
         "items": items,
     }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
 
-    print("完了: 全%d件 / 新規%d件 -> %s" % (payload["total"], payload["new_count"], OUTPUT_PATH))
+    print("完了: 全%d件 / 新規%d件 / 締切間近%d件 -> %s"
+          % (payload["total"], payload["new_count"], payload["due_soon_count"], OUTPUT_PATH))
 
 
 if __name__ == "__main__":

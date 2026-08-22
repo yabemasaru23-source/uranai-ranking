@@ -1,8 +1,9 @@
 {
- "generated_at": "2026-08-22 00:02",
+ "generated_at": "2026-08-22 07:21",
  "generated_date": "2026-08-22",
- "new_count": 22,
- "total": 231,
+ "new_count": 24,
+ "due_soon_count": 0,
+ "total": 233,
  "items": [
   {
    "id": "c5c687923a480bd4",
@@ -15,7 +16,8 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "49d12f473a403756",
@@ -28,7 +30,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "832ba6b1bd08a04e",
@@ -41,7 +44,8 @@
    "kind": "周辺案件",
    "score": 35,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "closed"
   },
   {
    "id": "ff498a3d6d7e1ee2",
@@ -54,7 +58,11 @@
    "kind": "周辺案件",
    "score": 35,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "checked": "2026-08-22",
+   "fy": 8,
+   "deadline": "2026-05-20",
+   "status": "expired"
   },
   {
    "id": "caf6dca0069ddf2e",
@@ -67,7 +75,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "9d964cb458d670b8",
@@ -80,7 +89,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-12",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c94d571c4eb177e2",
@@ -93,7 +103,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-11",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "da85043471af84c6",
@@ -106,7 +117,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "961280837393b1d7",
@@ -119,7 +131,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "952bdbbcee6375a9",
@@ -132,7 +145,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-14",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "de6fc13f807f307b",
@@ -145,7 +159,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "26f10bc72f13da7b",
@@ -158,7 +173,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "0358c8b6989c33a1",
@@ -171,7 +187,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-14",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "5fa9f082a1616888",
@@ -184,7 +201,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-16",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "9ee7d939cc8e6691",
@@ -197,7 +215,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8c6bda0d5916d88f",
@@ -210,7 +229,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "911acbc9a9d839d8",
@@ -223,7 +243,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "2246f0ac4eb05a60",
@@ -236,7 +257,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "cce54b2facce75e5",
@@ -249,7 +271,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "48ed90cef41bf006",
@@ -262,7 +285,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "3b8fe3eb39276b26",
@@ -275,7 +299,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "3df3650fd5e1321d",
@@ -288,7 +313,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "ebaa29b13974c9a8",
@@ -301,7 +327,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7be4e8e472f2af91",
@@ -314,7 +341,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "85db377aa900d10c",
@@ -327,7 +355,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "57bd0105680f9952",
@@ -340,7 +369,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "ae88f8a714530d45",
@@ -353,7 +383,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "4a8c927874a030bd",
@@ -366,7 +397,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-16",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "f68b90d204733ae7",
@@ -379,7 +411,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "3ebcecbee025ba04",
@@ -392,7 +425,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "e887214c058ebc00",
@@ -405,7 +439,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-17",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "2e6a9f100feee736",
@@ -418,7 +453,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-17",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "51d5f330be451d3a",
@@ -431,7 +467,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "4d1d1f43ade81e2a",
@@ -444,7 +481,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "1d93d189959db503",
@@ -457,7 +495,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "9e3de2232d9a6a5c",
@@ -470,7 +509,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c9662ec2f15a8040",
@@ -483,7 +523,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "fb28a85a90cf4ae4",
@@ -496,7 +537,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "119c43d6941cf587",
@@ -509,7 +551,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "de275bc07410d670",
@@ -522,7 +565,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "af20a0da17ecee25",
@@ -535,7 +579,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "52b20f13bad3a662",
@@ -548,7 +593,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-14",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c3b8112ab4683592",
@@ -561,7 +607,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "6ad2334e35a03121",
@@ -574,7 +621,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "df48b4b5d108d23c",
@@ -587,7 +635,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "9bcc265de5621fc0",
@@ -600,7 +649,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "4e5714f0716dd344",
@@ -613,7 +663,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "442fb81988b9dc99",
@@ -626,7 +677,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "34d91f817776f1dc",
@@ -639,7 +691,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "6ebe7dcf62ed5cf2",
@@ -652,7 +705,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "27af54e7bc606914",
@@ -665,7 +719,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "1d33af1af5a44953",
@@ -678,7 +733,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "319fe1884f7c4970",
@@ -691,7 +747,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "b79d39a0cb37420a",
@@ -704,7 +761,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "60600545380ed47b",
@@ -717,7 +775,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f4b7cec1700d50b8",
@@ -730,7 +789,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "9bdaee104af628f3",
@@ -743,7 +803,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "a6e46f1efba7ed0b",
@@ -756,7 +817,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c1b1e79245666eb5",
@@ -769,7 +831,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "1eb91f1ea01ee8e7",
@@ -782,7 +845,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "4fa07463ffbeca20",
@@ -795,7 +859,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "716af37c1bb29296",
@@ -808,7 +873,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-12",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "23749d034c5fe40e",
@@ -821,7 +887,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "d4b8425f73ded954",
@@ -834,7 +901,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "2252e99d9d9657cb",
@@ -847,7 +915,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "dbbf9cd837ca9080",
@@ -860,7 +929,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "9d75e53b0c667984",
@@ -873,7 +943,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "60e6e94e24bf29e9",
@@ -886,7 +957,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "820a66d346749b3b",
@@ -899,7 +971,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "06c83d702b45f1a3",
@@ -912,7 +985,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "b5a45760efbfc870",
@@ -925,7 +999,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-15",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "e22143ff2978a54c",
@@ -938,7 +1013,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-13",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "4abb3569f72f99a3",
@@ -951,7 +1027,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "ea5b6d39f3b2f948",
@@ -964,7 +1041,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-13",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "46cdaea299ce4e65",
@@ -977,7 +1055,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "438a9f17473a5eb7",
@@ -990,7 +1069,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "05470b5d951ac7f3",
@@ -1003,7 +1083,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "88a475a1507f97ab",
@@ -1016,7 +1097,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "bd33f1d402c25ace",
@@ -1029,7 +1111,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "1ad4aff79d878025",
@@ -1042,7 +1125,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f76afce0bc7beab4",
@@ -1055,7 +1139,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "cfe1f1a87ba4d0a2",
@@ -1068,7 +1153,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "868126f787a6cafc",
@@ -1081,7 +1167,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-14",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "bc0a614b855862da",
@@ -1094,7 +1181,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "83fa7d3ac7bb71db",
@@ -1107,7 +1195,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "53417d7cf7d29885",
@@ -1120,7 +1209,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "18ed23807be29584",
@@ -1133,7 +1223,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "28a1a49ec886ea74",
@@ -1146,7 +1237,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "85253ab733b37be1",
@@ -1159,7 +1251,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "6fad5f1e3a04d6a0",
@@ -1172,7 +1265,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "2451b653908be5c2",
@@ -1185,7 +1279,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-11",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "a83ab56417742803",
@@ -1198,7 +1293,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "bf0cf86c7d3fbcac",
@@ -1211,7 +1307,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8f1f19eaf9371d75",
@@ -1224,7 +1321,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7e1514753da35d3c",
@@ -1237,7 +1335,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "69e55f400fef8e36",
@@ -1250,7 +1349,8 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8b143adf727dab8e",
@@ -1263,7 +1363,8 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7775c4025562d35c",
@@ -1276,7 +1377,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7fbad7fad1cde530",
@@ -1289,7 +1391,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7f19463f554255d8",
@@ -1302,7 +1405,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8d293c22f7041164",
@@ -1315,7 +1419,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "ea962ee6a19cf078",
@@ -1328,7 +1433,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "19631f078a612ef9",
@@ -1341,7 +1447,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c7441ad4ac78dea9",
@@ -1354,7 +1461,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "82541809382a550d",
@@ -1367,7 +1475,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f21b4c6894c52ed0",
@@ -1380,7 +1489,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "9c6b5a4bba8fecc0",
@@ -1393,7 +1503,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f9d231f65ff6fa10",
@@ -1406,7 +1517,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7f8afc0ca86c5ac5",
@@ -1419,7 +1531,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7ff0dcae0a5827cf",
@@ -1432,7 +1545,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "0f8cbdf57c042dfc",
@@ -1445,7 +1559,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "04d4eff511344ee6",
@@ -1458,7 +1573,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-20",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "457090118816e9c1",
@@ -1471,7 +1587,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8eb127dbeb45c250",
@@ -1484,7 +1601,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "5fcab5b1b9194481",
@@ -1497,7 +1615,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "85945382a25003f1",
@@ -1510,7 +1629,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "08a92cb1d635a979",
@@ -1523,7 +1643,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "675756669904d31f",
@@ -1536,7 +1657,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "00be85d9d4183584",
@@ -1549,7 +1671,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "0b49656806206164",
@@ -1562,7 +1685,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "a1fb293903aaa3e0",
@@ -1575,7 +1699,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-13",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "42ac36eb8cbd51a3",
@@ -1588,7 +1713,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "a2cfe09e94439e85",
@@ -1601,7 +1727,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "054c3cbb780ea55c",
@@ -1614,7 +1741,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8de8b98284dcd112",
@@ -1627,7 +1755,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "03f6bb4b6f24beb9",
@@ -1640,7 +1769,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f48f83698b3b231d",
@@ -1653,7 +1783,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "5685930ac813a979",
@@ -1666,7 +1797,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "a07f1a8322a0a21b",
@@ -1679,7 +1811,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "b23e2382097e08fc",
@@ -1692,7 +1825,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c55ceaaedc10d12d",
@@ -1705,7 +1839,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7351a8ba0eed7419",
@@ -1718,7 +1853,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "34643bd563b5d986",
@@ -1731,7 +1867,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7723b070aa634999",
@@ -1744,7 +1881,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "771e4296877ff652",
@@ -1757,7 +1895,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "dea108df549b2ef3",
@@ -1770,7 +1909,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "22e64890caa35c90",
@@ -1783,7 +1923,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "38a81d7b1eddda4f",
@@ -1796,7 +1937,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-11",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "aa9f1c73fd3abcde",
@@ -1809,7 +1951,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "47687b5f814daa99",
@@ -1822,7 +1965,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "b6bac9b0e4edb90d",
@@ -1835,7 +1979,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "b7a9cf935cdc2676",
@@ -1848,7 +1993,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8e00c88040461d13",
@@ -1861,7 +2007,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "d032ff41c7009ee0",
@@ -1874,7 +2021,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-12",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "215a8670baaa9b32",
@@ -1887,7 +2035,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "96f52fefd852b8ab",
@@ -1900,7 +2049,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "85b1d994e281c447",
@@ -1913,7 +2063,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "d2fdb1ab57d7525e",
@@ -1926,7 +2077,8 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f1bd028ad5035f51",
@@ -1939,7 +2091,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "1461c2d24072afb5",
@@ -1952,7 +2105,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7a53d6912df0b7d7",
@@ -1965,7 +2119,8 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-20",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "e081a2fe70210286",
@@ -1978,7 +2133,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "0854072abbc1bac5",
@@ -1991,7 +2147,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "51de8db482484d35",
@@ -2004,7 +2161,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "5c65bb11d186484a",
@@ -2017,7 +2175,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "6f9d4fdd3cb3f535",
@@ -2030,7 +2189,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f064aaba99e474f1",
@@ -2043,7 +2203,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "e1d4ffe8cc258002",
@@ -2056,7 +2217,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "985dcb6a7a8e1cf3",
@@ -2069,7 +2231,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "eeefc11fa0f7eab0",
@@ -2082,7 +2245,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "85f67b13105edd39",
@@ -2095,7 +2259,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-20",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "6ab6c7359d76e0f0",
@@ -2108,7 +2273,8 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "e30256d5d70fe301",
@@ -2121,7 +2287,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "cbf2428f50958f47",
@@ -2134,7 +2301,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "c157f540d75a8225",
@@ -2147,7 +2315,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "0c18d0e52702a598",
@@ -2160,7 +2329,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-17",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "94f09ed6d2ac07f9",
@@ -2173,7 +2343,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "79ee5c94372629ca",
@@ -2186,7 +2357,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "c6c78a903cc4423c",
@@ -2199,7 +2371,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "28bab31192696fcc",
@@ -2212,7 +2385,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "71e78c87fe6d9001",
@@ -2225,7 +2399,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "2e199fc40639162e",
@@ -2238,7 +2413,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "bccdc74f87c2f33d",
@@ -2251,7 +2427,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8433015be837ec47",
@@ -2264,7 +2441,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-19",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "263d0cef4c42b1a5",
@@ -2277,7 +2455,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "a3b2d5e20e6acdf5",
@@ -2290,7 +2469,22 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "e281067bbc57b1e1",
+   "title": "プロスタントマンが自転車事故の瞬間を再現 中・高校生が交通安全の誓い新たに 大分",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iemRJakN5WV82UlY1Qi1qTXIxWHRnOGdxMjhlVU9SYUJBV181TldqWVF3Q29CVmhHYjlYRUl5bzN3UENOaVpvcHZoX0dvT3BJa3ZLNW9Zdlg?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "大分県",
+   "date": "2023-05-16",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-22",
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "6ad986bcebf3561e",
@@ -2303,7 +2497,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8b8bd278abe272d5",
@@ -2316,7 +2511,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "94026de3c00f99bd",
@@ -2329,7 +2525,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-14",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c6e1e47225512a41",
@@ -2342,7 +2539,22 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "db2d5f2d5f80ae6d",
+   "title": "静ト協 スケアードストレイトによる安全教室を実施、スタントマンが事故を再現",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VRzdhODhGVmNINHM3emVlTEhEV292VFR4UVk0NGNYMU1fOWtaenl0ZU1GYlZfd3hIM2RTRnp2UUFXSnhUaWQzLVdGUU9aZw?oc=5",
+   "org": "物流ウィークリー",
+   "pref": "",
+   "date": "2023-01-19",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 65,
+   "first_seen": "2026-08-22",
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "8064f5b1e53c49c5",
@@ -2355,7 +2567,8 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "d276ad38b7563294",
@@ -2368,7 +2581,8 @@
    "kind": "周辺案件",
    "score": 10,
    "first_seen": "2026-08-22",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "d4c9f55678b0a6f7",
@@ -2381,7 +2595,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "0984a8a876793643",
@@ -2394,7 +2609,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8c398a94fb5864fc",
@@ -2407,7 +2623,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "04da70ffb49ed408",
@@ -2420,7 +2637,8 @@
    "kind": "実施情報",
    "score": 65,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "da671412de85bd25",
@@ -2433,7 +2651,8 @@
    "kind": "実施情報",
    "score": 65,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "153bdfb99c6b2fb5",
@@ -2446,7 +2665,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c54f0997533bb1bc",
@@ -2459,7 +2679,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "003c8c983cbac68f",
@@ -2472,7 +2693,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "d232de6370ad24ab",
@@ -2485,7 +2707,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "833e5feec16f345b",
@@ -2498,7 +2721,8 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-11",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "08a7f2c2b35c2399",
@@ -2511,7 +2735,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "63bc83667af0662f",
@@ -2524,7 +2749,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "df708a0c40ed2f36",
@@ -2537,7 +2763,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "21b6bea585b75a94",
@@ -2550,7 +2777,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "c6c2ac558ec3029e",
@@ -2563,7 +2791,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "cd5129887b7fae76",
@@ -2576,7 +2805,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "d1a9ff3e73a3496e",
@@ -2589,7 +2819,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7fcf9579eff37950",
@@ -2602,7 +2833,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "867b5929cc411461",
@@ -2615,7 +2847,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "4ebcf15953f3e951",
@@ -2628,7 +2861,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "ca3872840c3f3c98",
@@ -2641,7 +2875,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "f042f82907e31efa",
@@ -2654,7 +2889,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "a78dc84886cf6d81",
@@ -2667,7 +2903,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "e11481ff57aeb419",
@@ -2680,7 +2917,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8f5d3dcb8728945a",
@@ -2693,7 +2931,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-16",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "8a53a97f7d0d1c4f",
@@ -2706,7 +2945,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "6480a034ad533aef",
@@ -2719,7 +2959,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "dd68ff9ba5c1702e",
@@ -2732,7 +2973,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "dc64040a04538c53",
@@ -2745,7 +2987,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-11",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "b989d52aa51958a0",
@@ -2758,7 +3001,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "1547de40201e5881",
@@ -2771,7 +3015,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "c4b4c60bbcf63b1e",
@@ -2784,7 +3029,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "40f9d173500627bf",
@@ -2797,7 +3043,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "806c37d37e56a706",
@@ -2810,7 +3057,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   },
   {
    "id": "ed1e614b3a4caf5b",
@@ -2823,7 +3071,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "12d260548da78f1b",
@@ -2836,7 +3085,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "db686b665c9423df",
@@ -2849,7 +3099,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "e6bdc243cfb19148",
@@ -2862,7 +3113,8 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-08-15",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "3b0ab67cc98cdf1f",
@@ -2875,7 +3127,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "acc4b3fa82e44c83",
@@ -2888,7 +3141,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "011b05c05e0f008b",
@@ -2901,7 +3155,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "5c9149f3f68f1429",
@@ -2914,7 +3169,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "88b78610d1a5b79e",
@@ -2927,7 +3183,8 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-21",
-   "is_new": false
+   "is_new": false,
+   "status": "closed"
   },
   {
    "id": "5e5187aaa026d9f3",
@@ -2940,7 +3197,8 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "559b60a1df1b2aac",
@@ -2953,7 +3211,8 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "0aebbd727b130973",
@@ -2966,7 +3225,8 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "4181626083237fb5",
@@ -2979,7 +3239,8 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "7eba7a8ddf09c709",
@@ -2992,7 +3253,8 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-10",
-   "is_new": false
+   "is_new": false,
+   "status": "open"
   },
   {
    "id": "4bca6aef58fdba14",
@@ -3005,7 +3267,8 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-18",
-   "is_new": true
+   "is_new": true,
+   "status": "open"
   }
  ]
 }
