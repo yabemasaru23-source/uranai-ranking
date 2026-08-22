@@ -1,22 +1,9 @@
 {
- "generated_at": "2026-08-21 22:10",
- "generated_date": "2026-08-21",
+ "generated_at": "2026-08-22 00:02",
+ "generated_date": "2026-08-22",
  "new_count": 22,
  "total": 231,
  "items": [
-  {
-   "id": "704fe75a10698de2",
-   "title": "「交通安全ファミリー作文コンクール」作品募集",
-   "url": "https://www.city.funabashi.lg.jp/kurashi/bousai/005/p138897.html",
-   "org": "船橋市",
-   "pref": "",
-   "date": "",
-   "source": "船橋市 / 交通安全教室",
-   "kind": "募集",
-   "score": 22,
-   "first_seen": "2026-08-15",
-   "is_new": false
-  },
   {
    "id": "c5c687923a480bd4",
    "title": "（報道資料）スケアード・ストレートによる自転車安全教室を市立中学校で実施します～プロのスタントマンが交通事故をリアルに実演します～",
@@ -51,7 +38,7 @@
    "pref": "栃木県",
    "date": "",
    "source": "栃木県 / 入札・公募（業務委託）",
-   "kind": "入札・公募",
+   "kind": "周辺案件",
    "score": 35,
    "first_seen": "2026-08-10",
    "is_new": false
@@ -64,7 +51,7 @@
    "pref": "栃木県",
    "date": "",
    "source": "栃木県 / 入札・公募（業務委託）",
-   "kind": "入札・公募",
+   "kind": "周辺案件",
    "score": 35,
    "first_seen": "2026-08-10",
    "is_new": false
@@ -2371,6 +2358,19 @@
    "is_new": false
   },
   {
+   "id": "d276ad38b7563294",
+   "title": "中央矢崎サービス、運送事業向け「交通安全講習用VR」受託開発 2022年中リリースを目指す",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5MQnB0ck5VV09fbFF1TFZxWUU3ZGVQNkRsakR2SW00d3NlRFhhdFVFR2F1UG94X25OZVE2VlZmOEVGWnZEb0ZiS1Jpaw?oc=5",
+   "org": "panora.tokyo",
+   "pref": "",
+   "date": "2022-10-25",
+   "source": "Google ニュース",
+   "kind": "周辺案件",
+   "score": 10,
+   "first_seen": "2026-08-22",
+   "is_new": true
+  },
+  {
    "id": "d4c9f55678b0a6f7",
    "title": "伊勢原で交通安全教室 スタントマンが自転車事故を再現",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kb21XNEtoZTB3ZWdWdXRrYTFwSU4xaVc2NXJGNFF1QnFuU3NhLWZ0dWEwLWgxWHEyTXQtNHlUeWpJV2doVF9pcjhHWTB3b1pKM29OYUlNN0FoSlluOVkxaXk3OE1qQQ?oc=5",
@@ -2927,7 +2927,7 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-21",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5e5187aaa026d9f3",
