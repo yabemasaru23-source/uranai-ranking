@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-23 22:09",
- "generated_date": "2026-08-23",
- "new_count": 28,
+ "generated_at": "2026-08-24 22:12",
+ "generated_date": "2026-08-24",
+ "new_count": 27,
  "due_soon_count": 0,
- "total": 239,
+ "total": 244,
  "items": [
   {
    "id": "c5c687923a480bd4",
@@ -919,6 +919,20 @@
    "status": "open"
   },
   {
+   "id": "182511c2863c39e0",
+   "title": "スタントマンが事故再現 「こんなに怖いものとは知らなかった」 香芝高校で自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NN1lNVWZpeWw4M1VIbDNMUUdDNTFVZk5nWU1SYnhka0tmNlVMd25yS1FCOTlZZEdaN2FpdXNGYXc5bFZjR3JaTS1TOA?oc=5",
+   "org": "47NEWS",
+   "pref": "",
+   "date": "2026-05-15",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-24",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "dbbf9cd837ca9080",
    "title": "塩尻市の高校で交通安全教室 リアルな自転車事故を再現 ルールへの意識高めて",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaLS1OUEJLMGViUDBZYnl0UW5JdTExcHF1ZmFsNG05T0p5aWZ0WFBFa2lHTkRNVUEwVnRpSjRmWmpqQzNtQzhlWDRBRTJVWkFhS241MXVINHJaNVNISkZfaEJMQ3VTRlU5Yi1mZXlmV2I?oc=5",
@@ -1055,7 +1069,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-23",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1657,7 +1671,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-23",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1784,6 +1798,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "420d88acff8ab290",
+   "title": "事故の怖さ感じて 奈良県立橿原高校でスタントマンが実演",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFeGN3dDZ4TjNYVms1aDliNXFVVzJXbnJVSWhSYXppd25OWW53UjZKMm9pczdrTHhNbXNKVEdveDFMZEtMQjVkRFcwVQ?oc=5",
+   "org": "47NEWS",
+   "pref": "奈良県",
+   "date": "2025-10-01",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-24",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -1951,6 +1979,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-23",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "982d01b6284ba608",
+   "title": "中学校で自転車交通安全教室 スタントマンが事故再現 鹿児島 | 鹿児島のニュース｜MBC NEWS｜南日本放送",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HaEJjS1Z6aVZ6Rmswb0NHXzlfVkJOcjk4MVQ0UU4wdUJFNkx5MDZYWFF3LWlLZ19oaVpnX2pmSVU3NXgtYXMwM1ZkYXVvUEZBLVNCUlNScnBTQQ?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "鹿児島県",
+   "date": "2025-06-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-24",
    "is_new": true,
    "status": "open"
   },
@@ -2259,7 +2301,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-23",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2274,6 +2316,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "28ef8c1d2dbf4416",
+   "title": "スタントマンが自転車事故を完全再現！ 生徒の悲鳴も上がる迫力 盛岡市の中学校で交通安全教室 | IBC NEWS | IBC岩手放送",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vRncteXlHaGhoMENtT3d6akJNQXVGbkRsQ2lZTkF0OVUwNjd5SEhQeFdpajZRZm8zLXhkYmxkSWFndHREcFVyTWhXOUl4UU1lSTJTLXIxZ2szUQ?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "岩手県",
+   "date": "2024-06-03",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-24",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -2596,6 +2652,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "f3b0acbc8688ddf3",
+   "title": "衝撃…飛んでしまう人を見て、事故の恐ろしさ学ぶ 埼玉・富士見の中学校でスタントマンが事故再現",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50TVNnRGRka1pmYktud1JJdVVtVWFLN2RtMzMwVlpSM0t1X2h6RWUtcEpxRV8ycmJ0SlVxQnhNWkVfWEFIcjhoSFUza1gxc3BrOVJoTElmR2dndzFRTnctcGNNaWI?oc=5",
+   "org": "埼玉新聞",
+   "pref": "埼玉県",
+   "date": "2023-03-17",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-08-24",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3113,7 +3183,7 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-23",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3225,7 +3295,7 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-23",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
