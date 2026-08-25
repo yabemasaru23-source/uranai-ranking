@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-24 22:12",
- "generated_date": "2026-08-24",
- "new_count": 27,
+ "generated_at": "2026-08-25 22:12",
+ "generated_date": "2026-08-25",
+ "new_count": 24,
  "due_soon_count": 0,
- "total": 244,
+ "total": 245,
  "items": [
   {
    "id": "c5c687923a480bd4",
@@ -929,7 +929,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1811,7 +1811,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2329,7 +2329,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2386,6 +2386,20 @@
    "score": 50,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "7671bbab4d57286b",
+   "title": "危ない自転車事故再現 新宮高校 スタントマンが安全教室 [和歌山県]",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qN2Z5REx6RW1iMW1haTJEdVpIMjRSeXo1Ym1QZGNTTmNmSHZOWEJXZ1VYdlRPX1dhNVAzakNCeDVYX2g0amVoQnQyczFDVXBVMkg4NDJyUnZtTnlnbTNBWUY1N0ZwcWM?oc=5",
+   "org": "朝日新聞",
+   "pref": "和歌山県",
+   "date": "2024-04-25",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-25",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -2665,7 +2679,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-08-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
