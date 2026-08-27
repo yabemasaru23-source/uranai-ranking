@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-25 22:12",
- "generated_date": "2026-08-25",
- "new_count": 24,
+ "generated_at": "2026-08-27 02:19",
+ "generated_date": "2026-08-27",
+ "new_count": 27,
  "due_soon_count": 0,
- "total": 245,
+ "total": 248,
  "items": [
   {
    "id": "c5c687923a480bd4",
@@ -76,6 +76,20 @@
    "score": 15,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "9703888fbbf81556",
+   "title": "スタントマンが自転車事故再現 河口湖南中で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xTE9pcW1Mc0w3RHRCSlY3QVN1X2hLNzJRNWdGOE5BNFlTZ0xjRFdiNjJvaVlsVEUyYklScVhpZ3dJckx3R20yN185ZHhDLUhoSFNOSHpTdE1qY3M4aDg3M2JzM0M?oc=5",
+   "org": "sannichi.co.jp",
+   "pref": "",
+   "date": "2026-07-25",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-27",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -1140,6 +1154,20 @@
    "score": 15,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "eff481d534f20868",
+   "title": "スケアード・ストレイトによる高校生交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vRlFIcDBDQk83eDFwRWFnOU45S0xuVzBrMDhySWZfeHdnZEI3VGpMMUY3VldscHppN2ljclVJdE9SS0FsOGNpQXFqV0kybUEwVnkydDBGaw?oc=5",
+   "org": "pref.gifu.lg.jp",
+   "pref": "",
+   "date": "2025-12-22",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 60,
+   "first_seen": "2026-08-27",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -2302,6 +2330,20 @@
    "score": 25,
    "first_seen": "2026-08-23",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "dcd7717aaab1acc9",
+   "title": "スタントマンが自転車事故再現 高校で交通安全教室（2024年7月2日掲載）｜KYT NEWS NNN",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LcVhMaTlFRU1mN2lRYmwxM3NhRGFDeXVZUURvTWtCZGhxRDZIUjVBWGwzZGpHUjJlTTBVNmRlbUFfSzJFLTVpeG1YOHZiNTdlR05vS2g4SW01bXNocEV2cnR2QXc1MTJLOEhNR2I1U2RiUXhCZ0VXWWx0Mkpic1U?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2024-07-02",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-27",
+   "is_new": true,
    "status": "open"
   },
   {
