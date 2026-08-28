@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-27 02:19",
- "generated_date": "2026-08-27",
+ "generated_at": "2026-08-28 05:51",
+ "generated_date": "2026-08-28",
  "new_count": 27,
  "due_soon_count": 0,
- "total": 248,
+ "total": 249,
  "items": [
   {
    "id": "c5c687923a480bd4",
@@ -496,6 +496,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "370612b7743a3de1",
+   "title": "スタントマンが自転車事故を再現、ルール守って命を守ろう！長岡市・寺泊中で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40YnBxa3ZfT3BUUTJuX19TY0RWN1dwd0hGcTJ3VnRKOEZ0c1ZuZHhET3NCWDRXRklqcmRacmpKRkc4bDdISVpWc1BRd3pDSXdRdjFXM2hmWjE1WmczZXc?oc=5",
+   "org": "新潟日報",
+   "pref": "新潟県",
+   "date": "2026-06-03",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-28",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -1167,7 +1181,7 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-27",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1300,7 +1314,7 @@
    "id": "85253ab733b37be1",
    "title": "上田市の上田千曲高校で「スケアードストレイト」を用いた「自動車交通安全教室」を開く！ ☆長野県県民文化部",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kaUlOLUJCeXhUU2pKWktKRmtFV190cFVlTExJaU9HOUk3OFRVMFE5ZjVvOUQzX3VIckhWT2QxT0RhZVlhTjdDQ0llb1A1T1BBUjlRS2t1elc?oc=5",
-   "org": "東信ジャーナル",
+   "org": "東信ジャーナル 電子版",
    "pref": "長野県",
    "date": "2025-12-07",
    "source": "Google ニュース",
