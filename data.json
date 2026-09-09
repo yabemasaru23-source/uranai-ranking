@@ -117,8 +117,8 @@
       "status": "fallback"
     }
   },
-  "lastAttempt": "2026-09-09T08:06:11.075935+09:00",
-  "lastAttemptStatus": "success",
+  "lastAttempt": "2026-09-10T07:51:54.948803+09:00",
+  "lastAttemptStatus": "all_failed",
   "fetchLog": [
     "✅ めざまし占い: 取得成功",
     "⚠️ マイナビニュース: 取得失敗（前回データ使用: 2026-05-15）",
