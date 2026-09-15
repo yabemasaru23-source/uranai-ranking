@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-15",
-  "updated": "2026-09-15T08:39:02.926235+09:00",
+  "date": "2026-09-16",
+  "updated": "2026-09-16T08:21:23.467339+09:00",
   "sources": {
     "めざまし占い": {
       "label": "フジテレビ｜公式",
       "ranks": {
-        "taurus": 1,
-        "capricorn": 2,
-        "scorpio": 3,
-        "pisces": 4,
-        "cancer": 5,
-        "libra": 6,
-        "virgo": 7,
-        "aquarius": 8,
-        "sagittarius": 9,
-        "gemini": 10,
-        "leo": 11,
-        "aries": 12
+        "aquarius": 1,
+        "virgo": 2,
+        "sagittarius": 3,
+        "libra": 4,
+        "aries": 5,
+        "scorpio": 6,
+        "leo": 7,
+        "gemini": 8,
+        "capricorn": 9,
+        "pisces": 10,
+        "taurus": 11,
+        "cancer": 12
       },
-      "updated": "2026-09-15",
+      "updated": "2026-09-16",
       "status": "success"
     },
     "マイナビニュース": {
@@ -117,7 +117,7 @@
       "status": "fallback"
     }
   },
-  "lastAttempt": "2026-09-15T08:39:02.926235+09:00",
+  "lastAttempt": "2026-09-16T08:21:23.467339+09:00",
   "lastAttemptStatus": "success",
   "fetchLog": [
     "✅ めざまし占い: 取得成功",
