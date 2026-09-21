@@ -57,6 +57,26 @@
       "org": "箕面市",
       "label": "スケアード・ストレートによる自転車安全教室",
       "url": "https://www.city.minoh.lg.jp/bousai/scared-straight/scared_straight.html"
+    },
+    {
+      "org": "兵庫県",
+      "label": "入札公告（委託・役務）",
+      "url": "https://web.pref.hyogo.lg.jp/bid/bid_opn_02.html"
+    },
+    {
+      "org": "千葉市",
+      "label": "入札（見積）募集案件「業務委託」",
+      "url": "https://www.city.chiba.jp/portal/business/index19/nyusatsujoho/anken/itaku/index.html"
+    },
+    {
+      "org": "長野県",
+      "label": "公募型プロポーザル公募公告一覧",
+      "url": "https://www.pref.nagano.lg.jp/kensa/puropo-kokoku.html"
+    },
+    {
+      "org": "和歌山県",
+      "label": "入札情報",
+      "url": "https://www.pref.wakayama.lg.jp/whatsnew/nyusatsu.html"
     }
   ]
 }
