@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-07 01:04",
- "generated_date": "2026-10-07",
- "new_count": 38,
+ "generated_at": "2026-10-08 01:23",
+ "generated_date": "2026-10-08",
+ "new_count": 41,
  "due_soon_count": 0,
- "total": 364,
+ "total": 367,
  "items": [
   {
    "id": "778f3eeeb08dd84d",
@@ -76,6 +76,20 @@
    "status": "open"
   },
   {
+   "id": "4d62177da9a6d3f2",
+   "title": "スタントマンが自転車の交通事故を再現 高校で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CNXpEUnl6SFllWi12eVVaZ1l5VURmOXltbkw2SUlOMTRDSWhwUGVLNWpXU0tMSHBEZ3hrX2t6dnlrRlpNNXEtdml5T1ViMG0yR3JDRjRITDduU1JzM2pJ?oc=5",
+   "org": "ライブドアニュース",
+   "pref": "",
+   "date": "2026-10-05",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-08",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "f2ca3a8856debb37",
    "title": "危険な場面をスタントマンが再現…自転車による事故をリアルに感じて…長野・岡谷市の高校で交通安全教室…県内で2025年起きた自転車事故のけが人のうち、19歳以下が全体の半分近く占める",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83VVduQ3hwNnU4ZFB3SWdGZ21ZVWZzNXA3YjVXMEJESG9QLUM3bWx3TDNLeV9CVExrUThVUWFnbjkxNWlUWXhnVDN0TzZwNWIxdXQ3TTV1SzJGdFNSd28w?oc=5",
@@ -87,6 +101,20 @@
    "score": 25,
    "first_seen": "2026-09-02",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "af6a08e12194f7aa",
+   "title": "スタントマンが事故〝実演〟…御船高で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jYkxrOHFzYnAzcWF4OTVKOE9RMnJSS1RWZUlzbjhhS3F3dFJNZmxybm5YbGNoLVpwQU1aYjFOYXFnVWp1dGJSNm4wbm9QSjg?oc=5",
+   "org": "熊本日日新聞社",
+   "pref": "熊本県",
+   "date": "2026-10-03",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-08",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3578,6 +3606,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-09-03",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "059407e8aade1ccd",
+   "title": "自転車の”ながら運転””並列走行”…危険性知って！ スタントマンが事故を再現 （2024年9月18日掲載）｜テレ金NEWS NNN",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1yUEluWl9ITG0yUGNfUjRMWFRrWVBROXp2MTlxY3VobnQ5MFBLZWtBOHpqd1lycFVuSlNyYjNwQkJrRnVDQzBBbW52anIxdFQ3M084ei1EdGJSMDRpbmUtZ2Y5QW9XMDNnUTkzUlNteE9hNFZsQUxFMVp2Zw?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2024-09-18",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-08",
    "is_new": true,
    "status": "open"
   },
