@@ -1,10 +1,52 @@
 {
- "generated_at": "2026-10-10 01:21",
- "generated_date": "2026-10-10",
- "new_count": 40,
+ "generated_at": "2026-10-11 00:33",
+ "generated_date": "2026-10-11",
+ "new_count": 43,
  "due_soon_count": 0,
- "total": 367,
+ "total": 373,
  "items": [
+  {
+   "id": "2372771d8927137f",
+   "title": "スタントマンによるリアルな事故の再現に中学生が驚き 下関市の中学校で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWFUxQkVsWDhiY2MtYW1udC1YbFY3U3JDYVlsdFNNcDJpWG1PTTRTN2VTYzN4N2RRdERCT1VrcHlXM0dIOUlXdWMzT2E4T3JYaHc2S3RtY0N5RkU1THRkRFVmalZjc1Ayb05IVGZveGMxM1VFdWlQckZBLVRxUWxDNkVCWFRCYmc?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2026-10-09",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-11",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "65ba393e467ea06f",
+   "title": "「事故の衝撃、想像以上」 自転車と車で事故再現 港中で交通安全教室 伊勢・三重",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CS3ktcjkxN3RlUGhpUFpOYVBXUE4zQ25yeU5rd1ItbGVKeEtMTnZvLXBRSGlFb0JPMTQ5WG9TaE52MUx3RThjWGg5bw?oc=5",
+   "org": "47NEWS",
+   "pref": "三重県",
+   "date": "2026-10-09",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-11",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "43aee67f5f8077cd",
+   "title": "「事故の衝撃、想像以上」 自転車と車で事故再現 港中で交通安全教室 伊勢・三重",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcHhkdUNYQVhNVm1kOW9fTDFLejlvSTlUNk53TmVENzB5Vm5ESWxGU0M0Q3JuSmQ1N043UVU1TGtzT1FEZElMX1hCVmNwaWFDSG5BaHlMUGxPanlwSFBTSUtIaXdBV0E1aHFCRVNBdUdaTm9Wc2Izb3BxbXd3T3VNTGdnLWhYMknSAX5BVV95cUxOOUx2UUlubXRXQURudUtrcV82Y0hqbV9DZHh4aDNHLXBzUnhkMXhSQ0dGaDJ1WW1iX2dxZG9sT3NHX0ZIaDlDZUJ0TEd4N1BqLW1YLS1STmF3eUI2NEdWM0JIVTBfUVItMzFDTnM3dXB1UlFwam50bzd1SHJ1d3c?oc=5",
+   "org": "ｄメニューニュース",
+   "pref": "三重県",
+   "date": "2026-10-09",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-11",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "778f3eeeb08dd84d",
    "title": "スタントマンが自転車の交通事故を再現 高校で交通安全教室 (ＫＫＴ熊本県民テレビ)",
@@ -114,7 +156,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-08",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1944,6 +1986,20 @@
    "status": "open"
   },
   {
+   "id": "960f7c1dbc8188fe",
+   "title": "自転車事故の危険性知る スタントマン実演の交通安全教室（2026年5月12日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5d3JGRXg5YVpKOHY2bFBfT1lzaWYzcHRzVzlNb0pranhMeWY5OVU5LVNUV1J1VGlOQUkwOG5UMldPZDN6ZEl1MzNPM0FlazhhcEtjYndBZ18yOWpHdUN1QzZWM3FwQ1JFWFBkaTFvMlNHMFJOa3pWV0N2U2lWeVE?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2026-05-12",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-11",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "60e6e94e24bf29e9",
    "title": "スタントマンが交通安全教室 北茂安中、自転車事故の怖さ学ぶ | まちの話題 | 佐賀県のニュース",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45bUl3Smx1YjhvaUJ1T3JDUHlyaDZnWHIxc1UzajdwUExTY2NpbzFXd2ZJLVdpS1NCaEQwREwteGxnMmd2TUFYYXBkdmpqbTJXdWlmUkxR?oc=5",
@@ -3620,7 +3676,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-08",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4408,6 +4464,20 @@
    "status": "open"
   },
   {
+   "id": "91667ac27c425473",
+   "title": "衝撃…飛んでしまう人を見て、事故の恐ろしさ学ぶ 埼玉・富士見の中学校でスタントマンが事故再現",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBtNmdaTWItWEpIWDQ3UUU5ajhwRGZ0djdVUmo1eFN5WWVuRkduNmtxc1FCWGpKdmxnLXZFMjJnVUoyREJzeWZSbnc0T3RlbEE1V1FfaTRDTHJic2RyUFUwRWQ5SQ?oc=5",
+   "org": "埼玉新聞",
+   "pref": "埼玉県",
+   "date": "2022-01-19",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-10-11",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "d232de6370ad24ab",
    "title": "宮前小学校でスケアード・ストレイト方式による交通安全教室を実施",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON3REWlNtRFd3eXp3NmJZaW9lUkFtTUZJSnB2dkpHUDFhVTF6R0xpd0Z3S2FjU3JJbnloTjBVTV8zLS0zSnc2aEl2MWp1aU5vZW1lU3B6aEtrX2N3MFJQZm51RVFuRVk2cHc2bE5TUnRWSzJlRzhWSjhWS2ZIa1NiNk5FN05JWVhndFhMRkprWmNYaWFpLU9HcDZBVUF1cFdxeFJN?oc=5",
@@ -4446,6 +4516,20 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-09-19",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "9da9e6454aa199ad",
+   "title": "スタントで事故再現 赤穂高校で自転車安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZYUhrTk9OaE9kcm5QakdaLWpYNG9PWV9IRDQ3WF9yb2ZYOWp5aFhEUUo0UXZiVGlTQVNnUDAtMVJqYnU4NEtQSTdMWDdGRjBpWWc?oc=5",
+   "org": "赤穂民報",
+   "pref": "",
+   "date": "2021-11-19",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-11",
    "is_new": true,
    "status": "open"
   },
