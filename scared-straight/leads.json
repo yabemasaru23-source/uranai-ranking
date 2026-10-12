@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-11 00:33",
- "generated_date": "2026-10-11",
- "new_count": 43,
+ "generated_at": "2026-10-12 00:47",
+ "generated_date": "2026-10-12",
+ "new_count": 37,
  "due_soon_count": 0,
  "total": 373,
  "items": [
@@ -16,7 +16,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-11",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -30,7 +30,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-11",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -44,7 +44,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-11",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1996,7 +1996,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-11",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2353,7 +2353,7 @@
    "id": "85253ab733b37be1",
    "title": "上田市の上田千曲高校で「スケアードストレイト」を用いた「自動車交通安全教室」を開く！ ☆長野県県民文化部",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kaUlOLUJCeXhUU2pKWktKRmtFV190cFVlTExJaU9HOUk3OFRVMFE5ZjVvOUQzX3VIckhWT2QxT0RhZVlhTjdDQ0llb1A1T1BBUjlRS2t1elc?oc=5",
-   "org": "東信ジャーナル 電子版",
+   "org": "東信ジャーナル",
    "pref": "長野県",
    "date": "2025-12-07",
    "source": "Google ニュース",
@@ -4474,7 +4474,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-10-11",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4530,7 +4530,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-11",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
