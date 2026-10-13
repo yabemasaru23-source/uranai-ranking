@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-12 00:47",
- "generated_date": "2026-10-12",
- "new_count": 37,
+ "generated_at": "2026-10-13 02:45",
+ "generated_date": "2026-10-13",
+ "new_count": 39,
  "due_soon_count": 0,
- "total": 373,
+ "total": 375,
  "items": [
   {
    "id": "2372771d8927137f",
@@ -48,25 +48,25 @@
    "status": "open"
   },
   {
+   "id": "90c24e228bb6a70c",
+   "title": "「事故の衝撃、想像以上」 自転車と車で事故再現 港中で交通安全教室 伊勢・三重（伊勢新聞）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82SFFmVTNiX3ZrajlkdTRmMlAzN0tDeHdsUGRCN2o4d0hvZGdHdHZDTGdMczhGT2I4dWdIMXFsMTFlX2Rpc0N2NEUwaFpSWlZRbmRGbGgtcDM1anZkelp3SVBycmFxbWpQUURYNXF4R3g0ZjVaTVFCc3R3T3FvS00?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "三重県",
+   "date": "2026-10-08",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-13",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "778f3eeeb08dd84d",
    "title": "スタントマンが自転車の交通事故を再現 高校で交通安全教室 (ＫＫＴ熊本県民テレビ)",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUJNbXZfMlBGTDlzSXkza08wb0puYlhrTlRNZlUxcXZpM2MyNjVUTkh1QkdFSnR4R0lhN3IyOEs1NW05Z3l2clBsdlpaNXNfMmU2NzFjTjh1QUEtbl9fU0xZYUhuM3NnMG1IcUx0NkxTdko3WFpRZmJTa05YWlFzOHI0eG15S1lQSGdOcnF3?oc=5",
    "org": "Yahoo!ニュース",
    "pref": "熊本県",
-   "date": "2026-10-05",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 25,
-   "first_seen": "2026-10-06",
-   "is_new": false,
-   "status": "open"
-  },
-  {
-   "id": "eb128b785fe442da",
-   "title": "スタントマンが自転車の交通事故を再現 高校で交通安全教室（2026年10月4日掲載）｜KKT NEWS NNN",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRm4zbzVGdU5hcTVmOVl0eHQ0OG1jUkxEWWs2a1NTMG1mb21RYURDY185dy15UFhzdmJmdVpLTjdFUVZydWM2eE56LWlrbkVkX1p5MHg0cHduWUFoV1dmbUNEUVRaZFpoUXpacjFsR2JSNTVISkdQcXdTbU9ZNm5EcURTR1NRdTA?oc=5",
-   "org": "日テレNEWS NNN",
-   "pref": "",
    "date": "2026-10-05",
    "source": "Google ニュース",
    "kind": "実施情報",
@@ -132,6 +132,20 @@
    "status": "open"
   },
   {
+   "id": "eb128b785fe442da",
+   "title": "スタントマンが自転車の交通事故を再現 高校で交通安全教室（2026年10月4日掲載）｜KKT NEWS NNN",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRm4zbzVGdU5hcTVmOVl0eHQ0OG1jUkxEWWs2a1NTMG1mb21RYURDY185dy15UFhzdmJmdVpLTjdFUVZydWM2eE56LWlrbkVkX1p5MHg0cHduWUFoV1dmbUNEUVRaZFpoUXpacjFsR2JSNTVISkdQcXdTbU9ZNm5EcURTR1NRdTA?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2026-10-04",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-06",
+   "is_new": false,
+   "status": "open"
+  },
+  {
    "id": "f2ca3a8856debb37",
    "title": "危険な場面をスタントマンが再現…自転車による事故をリアルに感じて…長野・岡谷市の高校で交通安全教室…県内で2025年起きた自転車事故のけが人のうち、19歳以下が全体の半分近く占める",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83VVduQ3hwNnU4ZFB3SWdGZ21ZVWZzNXA3YjVXMEJESG9QLUM3bWx3TDNLeV9CVExrUThVUWFnbjkxNWlUWXhnVDN0TzZwNWIxdXQ3TTV1SzJGdFNSd28w?oc=5",
@@ -170,6 +184,20 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-09-30",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "119c43d6941cf587",
+   "title": "映画やドラマなどで活躍するスタントマンが交通事故をリアルに再現 中学校で自転車交通安全教室 盛岡市",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1POG95SkNhbnRuOFdnczJHUXlHQ1dOWXZDazhBa2xKcVhGUno3TzlKbm12T3dxYy1fd0hQUTlzMDdONWlWZmtVOEVheE9FQ090bzBUS2VaNnVaeENrR2lV?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "",
+   "date": "2026-09-28",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-10",
    "is_new": false,
    "status": "open"
   },
@@ -1230,6 +1258,20 @@
    "status": "open"
   },
   {
+   "id": "34ff026b620b3660",
+   "title": "スタントマンが実演！ 自転車事故の危険性伝える 交通ルール順守呼びかけ 北海道置戸町（2026年6月11日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBbWwydmtDWGxKRXBoVGJrZkNvUkhaZ2FmaXBWbWdkbEx6NjZEUEtWYWo4S2lXQ2NxcmxvYTR2eDRYc3pUTW5BTDlxNzdUSHpkY3R5RGhHUHExdlNxdFRuRnhBLWZ3YTVWcFdQRGZmbTI4eHpfUTc4Ukc2Q1pqU2s?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "北海道",
+   "date": "2026-06-11",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-13",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "f68b90d204733ae7",
    "title": "プロのスタントマンが迫力ある演技 宮崎市の小学校で自転車事故の危険性を伝える交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HSTY3Z3dMakE1NmpEaHVNNWN3a0tXUXVkSEVZVl80bklNQ3VNSGItMGhpTWhzcWk4S3k3ZXNtSGotUHFDLWR2blAtNWJfZUtOVFl5eEk0bnlDMENqRHR3TkkyQjhYV2s?oc=5",
@@ -1356,20 +1398,6 @@
    "status": "open"
   },
   {
-   "id": "119c43d6941cf587",
-   "title": "映画やドラマなどで活躍するスタントマンが交通事故をリアルに再現 中学校で自転車交通安全教室 盛岡市",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1POG95SkNhbnRuOFdnczJHUXlHQ1dOWXZDazhBa2xKcVhGUno3TzlKbm12T3dxYy1fd0hQUTlzMDdONWlWZmtVOEVheE9FQ090bzBUS2VaNnVaeENrR2lV?oc=5",
-   "org": "TBS NEWS DIG",
-   "pref": "",
-   "date": "2026-06-02",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 25,
-   "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
    "id": "9e3de2232d9a6a5c",
    "title": "映画やドラマなどで活躍するスタントマンが交通事故をリアルに再現 中学校で自転車交通安全教室 盛岡市",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UNG1aUXVlVE84NGRHR3JqeHhmVlBnZGZEaDdWa1ZNYUJQV3h2eUZsZ3BLYjJ6ODMxNVNnb00xNmphU3FxaFk1aG9ZcDRBOWVvSFYzU2s0ZndPMFpCRVMyZzUtTk1XMnc?oc=5",
@@ -1471,7 +1499,7 @@
    "id": "52b20f13bad3a662",
    "title": "危険な場面をスタントマンが再現…自転車による事故をリアルに感じて…長野・岡谷市の高校で交通安全教室…県内で2025年起きた自転車事故のけが人のうち、19歳以下が全体の半分近く占める（ＳＢＣ信越放送）",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QRnN4S0hVQzFMWUctZEp1Y3B5VlhrOWgtcXhRbXUxQUxadWtRTjdvUDU3Qmd2ekV6S3V2VV9ScHBUUEtTSE85UmJQVzNjeVZfTXNidXh2enpWNWhiVkxDNGVPdTQyV0hmU2Zld3dLRm9OOVdCeWRfVEZBcElXMlk?oc=5",
-   "org": "news.yahoo.co.jp",
+   "org": "Yahoo!ニュース",
    "pref": "長野県",
    "date": "2026-05-29",
    "source": "Google ニュース",
