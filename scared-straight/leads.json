@@ -1,10 +1,52 @@
 {
- "generated_at": "2026-10-13 02:45",
- "generated_date": "2026-10-13",
- "new_count": 39,
+ "generated_at": "2026-10-14 00:41",
+ "generated_date": "2026-10-14",
+ "new_count": 41,
  "due_soon_count": 0,
- "total": 375,
+ "total": 379,
  "items": [
+  {
+   "id": "11dbbe017e54ff3d",
+   "title": "10月13日【びわ湖放送ニュース】事故の恐ろしさを伝える スタントマンが自転車事故を再現する交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0taWQwQjY4RmZPb1p5NmhKR2ZOWERaaElLS2hqdW8zdEJUODN6dHpIYkJma2dVNTRaOGY5MllEai1qYnUtZDZCWF9XblN1Zw?oc=5",
+   "org": "webアミンチュ",
+   "pref": "",
+   "date": "2026-10-13",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-14",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "025692f4f190747e",
+   "title": "事故の恐ろしさを伝える スタントマンが自転車事故を再現する交通安全教室（BBCびわ湖放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10QW5VYlhMQWU2NGJQamhnLWxaSlJRa1lhdEdnSWpRV2NhMWVodmZpTWcwOW5HV2RkWFlkM25LNFpXVHBtMXJJWlREZU9fTTE0VnN0ZXlQOXNXbkV1OVdGMEhqOGl3V0tWNjZPcjJmb1dPeV9vanRNYjg4UGVGMGc?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "",
+   "date": "2026-10-13",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-14",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "c0bf650b4326ca8f",
+   "title": "ひとつの油断が命取り スタントマンが体当たりで伝える自転車事故の恐怖",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQkFIa3FpUnNSY1p1SGhXV1VtOVRmYkNLWFNOeG9xUGt6UGp0TlBVSmJWZFRLbE1hQWxhVnpyY2FSNC04Nkkta0tscENuei1nVXNYeEJXdDA2WDV2UHYzY2RJYTFZb3FNZkFxb0c0Z0Q4RUFXTm9kcjRlVElIblNjcUFWVGY2NlBJTVJDUFdxSU5wTThvakFyVjVXUdIBmwFBVV95cUxQQkFIa3FpUnNSY1p1SGhXV1VtOVRmYkNLWFNOeG9xUGt6UGp0TlBVSmJWZFRLbE1hQWxhVnpyY2FSNC04Nkkta0tscENuei1nVXNYeEJXdDA2WDV2UHYzY2RJYTFZb3FNZkFxb0c0Z0Q4RUFXTm9kcjRlVElIblNjcUFWVGY2NlBJTVJDUFdxSU5wTThvakFyVjVXUQ?oc=5",
+   "org": "ｄメニューニュース",
+   "pref": "",
+   "date": "2026-10-13",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-14",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "2372771d8927137f",
    "title": "スタントマンによるリアルな事故の再現に中学生が驚き 下関市の中学校で交通安全教室",
@@ -58,7 +100,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-13",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1268,7 +1310,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-13",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2255,7 +2297,7 @@
    "id": "f76afce0bc7beab4",
    "title": "スケアード・ストレイト自転車交通安全教室が開催されました",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSklTS19telFQSjJQQVJvUGJwLVhEUjRNRVA4UWNhNGhCM214YzBiZWVBRk5WSll2WmJBUUlyZVhrTHVGZUhYc1hQWGlFS0ZtWXBFS3lFcVlDTGpjUzdUc0NaeFNfR0lIaGJiYk5weWNhQ0F3NDcyWGExeVVFYjBQTXoyRFhhWUpFWXBz?oc=5",
-   "org": "富士見市ホームページ",
+   "org": "富士見市",
    "pref": "",
    "date": "2025-12-19",
    "source": "Google ニュース",
@@ -3705,6 +3747,20 @@
    "score": 25,
    "first_seen": "2026-10-08",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "1c944eea1b60e890",
+   "title": "自転車の”ながら運転””並列走行”…危険性知って！ スタントマンが事故を再現 （2024年9月18日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1yUEluWl9ITG0yUGNfUjRMWFRrWVBROXp2MTlxY3VobnQ5MFBLZWtBOHpqd1lycFVuSlNyYjNwQkJrRnVDQzBBbW52anIxdFQ3M084ei1EdGJSMDRpbmUtZ2Y5QW9XMDNnUTkzUlNteE9hNFZsQUxFMVp2Zw?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2024-09-18",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-14",
+   "is_new": true,
    "status": "open"
   },
   {
