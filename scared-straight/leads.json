@@ -1,10 +1,66 @@
 {
- "generated_at": "2026-10-14 00:41",
- "generated_date": "2026-10-14",
- "new_count": 41,
+ "generated_at": "2026-10-15 00:09",
+ "generated_date": "2026-10-15",
+ "new_count": 42,
  "due_soon_count": 0,
- "total": 379,
+ "total": 384,
  "items": [
+  {
+   "id": "124981b76a086045",
+   "title": "交通安全への意識を新たに 日向市の高校でプロのスタントマンが自転車事故の様子を再現する交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUd0M3bHl0RGZMMW51a2Z4SzRCQXJ5bWdNakxhdGlCMEJEclo4V2c3ajAzbnBIT3M5OEFvRFBQalNNLWkwVEtSMG1pQ2lGTTkzTW9PckVkQVZIQQ?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "",
+   "date": "2026-10-14",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-15",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "b9bc39dfb786b889",
+   "title": "【事故の瞬間を再現】「傘さし運転」や「二人乗り」など自転車の事故をスタントマンが実演 危険性を中学生が学ぶ 山梨",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HYjhLeTBZaGNHVW9mQTdkMDBhMjA3TlV2LUgwY0MyZmdSeHFQUHlYSHpHcTEyd2U1aWFHUU1YYk9rQ29maVZtQVNWV245UmV6UkVoSUZZZjhFOHY1Tkd4M2twa3hUNVYtTzlCbHRRQTNMQkNwYjE4dnhmVU8zdnc?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "山梨県",
+   "date": "2026-10-14",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-15",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "1a6bc02acc2aa8c2",
+   "title": "【事故の瞬間を再現】「傘さし運転」や「二人乗り」など自転車の事故をスタントマンが実演 危険性を中学生が学ぶ 山梨",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tYXEtdUp6NURCdTlJS2JQd3dVaXk0TGVnYkJqS2lSN1VQa2kwdGRjcWFtandHNmVrRkRGdWNqV2YtZXF6SnBFVF8tY25neWgyWVdSMWc1RlI4S3NEU0dnRXA5ZkVXcmpLT0JfdVh3?oc=5",
+   "org": "au Webポータル",
+   "pref": "山梨県",
+   "date": "2026-10-14",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-15",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "c54a1e1cf625b76d",
+   "title": "交通安全への意識を新たに 日向市の高校でプロのスタントマンが自転車事故の様子を再現する交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1abThWdzVvQWpZMEo5aDNCdXVTNWhOVUwzODBjblBjN293bnRzUFRQQTJHUTUyOVp3cF9tYklGM1dEaEw1ZlpnMXV0cTlTTW9sb1pSbkJ4N05oS3ZjNHdmcDNVU2o5dmQxaTRHZkt6TVpIakht0gF0QVVfeXFMTVptOFZ3NW9BalkwSjloM0J1dVM1aE5VTDM4MGNuUGM3b3dudHNQVFBBMkdRNTI5WndwX21iSUYzV0RoTDVmWmcxdXRxOVNNb2xvWlJuQng3TmhLdmM0d2ZwM1VTajl2ZDFpNEdmS3pNWkhqSG0?oc=5",
+   "org": "ｄメニューニュース",
+   "pref": "",
+   "date": "2026-10-14",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-15",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "11dbbe017e54ff3d",
    "title": "10月13日【びわ湖放送ニュース】事故の恐ろしさを伝える スタントマンが自転車事故を再現する交通安全教室",
@@ -16,7 +72,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-14",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -30,7 +86,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-14",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -44,7 +100,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-14",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2773,7 +2829,7 @@
    "id": "7ff0dcae0a5827cf",
    "title": "スケアード・ストレイト自転車交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54UldkekNiV1NFVzVHekJtWDhWSjA5N01vN3VKU2NMLVlUTGVJbzZSeVVIUWlDWV9Pams2RnZybjR3aENKRzVuTkJPZG1SQXU2M241cUdTZFVzdw?oc=5",
-   "org": "市川市公式Webサイト",
+   "org": "市川市",
    "pref": "",
    "date": "2025-10-27",
    "source": "Google ニュース",
@@ -3344,6 +3400,20 @@
    "status": "open"
   },
   {
+   "id": "4ab5f26b0236737a",
+   "title": "傘差し、スマホのながら運転は絶対だめ！ 長岡市の中学校でスタントマンが自転車事故を再現",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DXzBZYW9QOHQzeFFoRXBNRXVSc2RFVDlVVm5UWFJhWkFJSGpnTHN3eHlIRXhWOUhHMFFkaHZhRXc5eGhFWUlZbjRrdWRZRFdIMjh4T25DUlVwU19LUmc?oc=5",
+   "org": "新潟日報",
+   "pref": "新潟県",
+   "date": "2025-06-14",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-15",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "150c42f30b8fb9c0",
    "title": "スタントマンと学ぶ事故 県立前橋高で交通安全教室 [群馬県]",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11YjBBWEU4azlQYUdzcC1iYXlsWXUzT1VpX08tMHdJOW9wRzhXS0dPb294RGswOTJ1R2dVakJLZXluNk1Ma3lZTlNqaWgwdFVWa3hhdEJrRF9JOVVkY0lwQU9jdWdqNlU?oc=5",
@@ -3760,7 +3830,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-14",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4525,7 +4595,7 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XNTQtSHVoMEFxa1hGcl9Oek0tSWZfWmxzSVhsYlJJNzhxRGRsalpnbFJyYXl4eEJxbnVOUG1Ua2YtckswcE81RmltU2x0Zw?oc=5",
    "org": "物流ウィークリー",
    "pref": "",
-   "date": "2022-02-01",
+   "date": "2022-01-31",
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 25,
