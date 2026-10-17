@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17 11:39",
+ "generated_at": "2026-10-17 23:33",
  "generated_date": "2026-10-17",
- "new_count": 31,
- "deduped": 19,
+ "new_count": 30,
+ "deduped": 28,
  "due_soon_count": 0,
  "total": 299,
  "items": [
@@ -59,7 +59,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3905,20 +3905,6 @@
    "status": "open"
   },
   {
-   "id": "0aebbd727b130973",
-   "title": "事故再現し交通安全指導 秦高でスケアード・ストレイト | 秦野",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JRHVhQjJWWTFMbmFfeFBhOTA4YlBiOEJtazlDUU9tbHd3LUpnTkJRQ2UyOHN1UUN6M29QQXdQOVRGU1Bmc2VLZ3I2OWJDc25qd2dDcFFiWWh1bHZOdTJRaldoYWw?oc=5",
-   "org": "タウンニュース",
-   "pref": "神奈川県",
-   "date": "2017-12-23",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 75,
-   "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
    "id": "45efcfa15885910f",
    "title": "スタントマンが事故再現 中学校で交通安全教室 | 多摩区・麻生区",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ad0JZd2lpR2UtYThrWEttbTRBQVZ5RjliblFsMnVENmRJX2paMURXQ3MxcFV2RDR2TkFMMHFvRXhmMVVpT1lpWWQ2djVyb19JSy1mVWVObGp6QnYwaWI3UUxwWkk?oc=5",
@@ -4138,6 +4124,20 @@
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 50,
+   "first_seen": "2026-08-10",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "0aebbd727b130973",
+   "title": "事故再現し交通安全指導 秦高でスケアード・ストレイト | 秦野",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JRHVhQjJWWTFMbmFfeFBhOTA4YlBiOEJtazlDUU9tbHd3LUpnTkJRQ2UyOHN1UUN6M29QQXdQOVRGU1Bmc2VLZ3I2OWJDc25qd2dDcFFiWWh1bHZOdTJRaldoYWw?oc=5",
+   "org": "タウンニュース",
+   "pref": "神奈川県",
+   "date": "2012-11-03",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 75,
    "first_seen": "2026-08-10",
    "is_new": false,
    "status": "open"
