@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-15 23:57",
- "generated_date": "2026-10-15",
- "new_count": 49,
+ "generated_at": "2026-10-17 00:00",
+ "generated_date": "2026-10-17",
+ "new_count": 44,
  "due_soon_count": 0,
- "total": 392,
+ "total": 396,
  "items": [
   {
    "id": "7275e147ef1e0b25",
@@ -16,7 +16,7 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -30,7 +30,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -44,7 +44,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -62,6 +62,20 @@
    "status": "open"
   },
   {
+   "id": "03a49a8d4da1e2c5",
+   "title": "帝京安積高校でスタントマンが自転車事故を再現 生徒が交通ルール学ぶ 郡山市 福島（2026年10月15日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd3hLU3E3NlFScWFyTFJld0xuRFl4RWt0SF8ycW1VazNlSmNoaTU0UDFBanhuWGVzNkZPYmF3VE4yX0l5VWRsVHFRQTd6OFQ3bk1xcEJndkVWcXk1d0UtNEwyS2t1UWZfVDhkQ3dGdVh2cXY5NW1zWkNMUXYwX19oR1B6TktPRUU?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "福島県",
+   "date": "2026-10-15",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-17",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "124981b76a086045",
    "title": "交通安全への意識を新たに 日向市の高校でプロのスタントマンが自転車事故の様子を再現する交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUd0M3bHl0RGZMMW51a2Z4SzRCQXJ5bWdNakxhdGlCMEJEclo4V2c3ajAzbnBIT3M5OEFvRFBQalNNLWkwVEtSMG1pQ2lGTTkzTW9PckVkQVZIQQ?oc=5",
@@ -72,7 +86,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -100,7 +114,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -128,7 +142,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -171,6 +185,20 @@
    "score": 25,
    "first_seen": "2026-10-14",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "81b04d17fb6b00c7",
+   "title": "ひとつの油断が命取り スタントマンが体当たりで伝える自転車事故の恐怖",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84NkQtRXJzRUl3TVdGemhLSW4za081dktKVnFQZ0dmeWVXOFFlaFcyR1Bsb2tpUldtaVY1OEdKaWhDZFI2bk5EWU5hQkhPTlpCQnBjOHlWbEtLNkg1dl9tMFBJcmYwMzMxbDhoX3p3?oc=5",
+   "org": "au Webポータル",
+   "pref": "",
+   "date": "2026-10-13",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-17",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -226,7 +254,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -240,6 +268,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "bd055f71defd0334",
+   "title": "「事故の衝撃、想像以上」 自転車と車で事故再現 港中で交通安全教室 伊勢・三重",
+   "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNcjVWLWk0Z2VGRExoTUp3OG1nU2JNczBxR014VXlqMm1DMHdWaTJVdURIakxzaGZPNVgzOHN3R0N0cXE5ZEtqdzNXR05aakFZRGl0RHNPbE1Nb3R6RDd0NndZYjF1RzZJa0FNb21vVU14ZjJNWGlWaHRNZ3hUakI0Vm15NjVsaGdFSUttVV9UM21aT3c1SmJmVzU4bjQ2VW91SEFOaEIxTXoxMi1SSmwtX2lFelFkUjMzRkxXNW9ZbUpqZXhMaGhia091ZjBnX3JaTEVGNVRGMzlKTGlYV0xIakZlLXhybjl0NUdpUG9LSmlZZ1VPYXVzTHQzTVVzVnJibjhsLURva2MtVHk5UzBDOU5HOGtRV25IRURDenFfMnhOZDllV1NnQjFXT3Z6S2tFeGpNdEM0Vjg4OEZDRlpjUzdfM1RyMXE5Wl9mUXE4b3NtcG5nSkFBNkVvaktadw?oc=5",
+   "org": "伊勢新聞",
+   "pref": "三重県",
+   "date": "2026-10-09",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-17",
    "is_new": true,
    "status": "open"
   },
@@ -509,7 +551,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3536,7 +3578,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-09-03",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4567,7 +4609,7 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VRzdhODhGVmNINHM3emVlTEhEV292VFR4UVk0NGNYMU1fOWtaenl0ZU1GYlZfd3hIM2RTRnp2UUFXSnhUaWQzLVdGUU9aZw?oc=5",
    "org": "物流ウィークリー",
    "pref": "",
-   "date": "2023-01-20",
+   "date": "2023-01-19",
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 65,
@@ -5371,6 +5413,20 @@
    "score": 15,
    "first_seen": "2026-09-17",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "3a1ca137fb500279",
+   "title": "渋谷で交通事故を再現！ 「交通安全キャンペーン」が実施されました！",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBEUHZvalpqNzVBR2JBRThQYXMwYnNkanlUWHEwcHNjYWo3RlVCWHRFZGNkRGdVTmxZT2ZXNE5tWGd3amJ2dWd1REp3?oc=5",
+   "org": "Webオートバイ",
+   "pref": "",
+   "date": "2016-01-11",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-17",
+   "is_new": true,
    "status": "open"
   },
   {
