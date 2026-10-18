@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-17 23:33",
- "generated_date": "2026-10-17",
- "new_count": 30,
- "deduped": 28,
+ "generated_at": "2026-10-18 23:45",
+ "generated_date": "2026-10-18",
+ "new_count": 31,
+ "deduped": 29,
  "due_soon_count": 0,
- "total": 299,
+ "total": 301,
  "items": [
   {
    "id": "7275e147ef1e0b25",
@@ -228,6 +228,20 @@
    "score": 60,
    "first_seen": "2026-09-30",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "010ed868f90e260c",
+   "title": "「自転車側の人も加害者に」スタントマンが事故を再現し伝える自転車教室【新潟】",
+   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOQ0dBRGxLZEwxbVU1bVU2a0dGRTlqS3ljX0pPNVF6bnNsUzdFelhHU3ZWVHZ1dmFxZHpKcjdvM2lkWnpmd1B0emRJMDhjWGlKRHAySUdPRk1lY3llZ2VLYzFub0IzUDJPQ3ZmOWVUSlRfaVExSWtjMG1sd0UtcGZZa3F3VHNTT0h2TVBzNEM5YVY3QjdWXzNrRjE0N05fbkZsODBFSkNGd1R2cmxvelN4Q2NGVDVSVXp1eGRZSUxLRjV5U2ZXb3VBVFNidkU4eFpVdzZOZzZXbnc1RmNDSWNnQjhwUG5RTGItVjNOaFNlQVlCRFNNTjJrRHlMLVE5QUlJajFqcnhERzliaHp0UjhtU1k5U3pIcnllN0Q1ZWY1elVMQVp4amZLaHhBWWtUOGFrdFp0Mm9XM0c4M0hCS0NmTE1zd1JaZEt2UGNkRkNIRQ?oc=5",
+   "org": "UX新潟テレビ21",
+   "pref": "新潟県",
+   "date": "2026-09-29",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-18",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -1824,7 +1838,7 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtc3NYXzVkd2pjMnQxc0VHdkFGdGkyLUtscFdqdE9sT2FIeVZiU2EwN0UxdE9Wb3lWR2FyYVo5cDRqdGtYblhiNGVIZnZ4djNKSXd0bnNYNE0?oc=5",
    "org": "千葉日報オンライン",
    "pref": "千葉県",
-   "date": "2025-11-01",
+   "date": "2025-10-31",
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 60,
@@ -2656,6 +2670,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "de6a5d82f7f1f417",
+   "title": "市民交通安全教室 スケアード・ストレイトでリアルを体験～自転車と車の交通安全～",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTWtsRkhheUJSVWRLOHM3SHRiVXkxel9DbEdNS2hFUUpYOG1VdmE0MVhROExfcW9ha1RiSkxXaUVKel9YUHVJVlhIYWJQN1NqdHBZRXJlZUVmdlFrQnZtcEdfVXNZbzYtUHE0SzNadEo0aHJzMUR5dkRUZU9HU2dPM25B?oc=5",
+   "org": "西東京市ホームページ",
+   "pref": "東京都",
+   "date": "2024-09-27",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 60,
+   "first_seen": "2026-10-18",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3789,7 +3817,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
