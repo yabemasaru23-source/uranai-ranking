@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-10-20 00:47",
- "generated_date": "2026-10-20",
+ "generated_at": "2026-10-21 00:12",
+ "generated_date": "2026-10-21",
  "new_count": 31,
- "deduped": 0,
+ "deduped": 32,
  "due_soon_count": 0,
- "total": 301,
+ "total": 302,
  "items": [
+  {
+   "id": "79ee0e42755888e5",
+   "title": "自転車事故を防げ スタントマンが交通安全教室【徳島】（2026年10月20日掲載）｜JRT NEWS NNN",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSG15eklPdzREcDVkR243S2hvZlFqbEVfQWxhVTcxZmlCTkF2cnlhVWE0UFBlWUpQR1BuajVKdEwyaV9kbXlJdDJxTVdLSlJXYk9aT01UcHA5TGZQX05XaHQ5U1M4NFZFN2dpWHgzZnpoTUtJaXh6MHZ6QmdoRmJCOGdQV2tPTHc?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "徳島県",
+   "date": "2026-10-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-21",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "e7d6b26d58d0c2f9",
+   "title": "スタントマン交通事故再現 県警 帝京安積高で安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mNFF4U0J4cGI5VVhOc3dBdTFVdk1hbWpfQjhrcmtGVjgyVzhWczN6MGRFaTMwdDRBa2MtRU9PaGhPVEFUSFNlVGVYNkFDQU0?oc=5",
+   "org": "福島民報デジタル",
+   "pref": "福島県",
+   "date": "2026-10-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-10-21",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "7275e147ef1e0b25",
    "title": "箕面市‐ スケアード・ストレートによる自転車安全教室を市立中学校で実施「～プロのスタントマンが交通事故をリアルに実演～」",
@@ -189,20 +217,6 @@
    "status": "open"
   },
   {
-   "id": "f2ca3a8856debb37",
-   "title": "危険な場面をスタントマンが再現…自転車による事故をリアルに感じて…長野・岡谷市の高校で交通安全教室…県内で2025年起きた自転車事故のけが人のうち、19歳以下が全体の半分近く占める",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83VVduQ3hwNnU4ZFB3SWdGZ21ZVWZzNXA3YjVXMEJESG9QLUM3bWx3TDNLeV9CVExrUThVUWFnbjkxNWlUWXhnVDN0TzZwNWIxdXQ3TTV1SzJGdFNSd28w?oc=5",
-   "org": "TBS NEWS DIG",
-   "pref": "長野県",
-   "date": "2026-10-03",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 25,
-   "first_seen": "2026-09-02",
-   "is_new": false,
-   "status": "open"
-  },
-  {
    "id": "af6a08e12194f7aa",
    "title": "スタントマンが事故〝実演〟…御船高で交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jYkxrOHFzYnAzcWF4OTVKOE9RMnJSS1RWZUlzbjhhS3F3dFJNZmxybm5YbGNoLVpwQU1aYjFOYXFnVWp1dGJSNm4wbm9QSjg?oc=5",
@@ -241,7 +255,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-18",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -965,6 +979,20 @@
    "status": "open"
   },
   {
+   "id": "4e5714f0716dd344",
+   "title": "危険な場面をスタントマンが再現…自転車による事故をリアルに感じて…長野・岡谷市の高校で交通安全教室…県内で2025年起きた自転車事故のけが人のうち、19歳以下が全体の半分近く占める",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qSDFUNl9rNFM0R1g0Ykp3WV9Rc192NjYxejFaU2hfa1NuRkR5MTdUeVdBb0ZmRkU1OVc3UEFpc0xtbTI2RTBjajhfQTlUWXFlcmpCM2Q4dw?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "長野県",
+   "date": "2026-05-28",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-08-10",
+   "is_new": false,
+   "status": "open"
+  },
+  {
    "id": "9bcc265de5621fc0",
    "title": "体を張った『交通安全教室』スタントマンが再現した自転車事故の“恐怖”を実感した中学生たち 新潟・長岡市",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0QU1WUmtrQ3BiVlZTaGVBQUhZamtCYVJIZ2lyb3JEc05QT2tLYXNkbjNVZjFKNzVxQWtvb09keTRvb1Z0VTB0dnZHTG44RktmSVRrd1VObnVmLXJCejZZ?oc=5",
@@ -998,20 +1026,6 @@
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qcm94YmNHWW5NRGwtRlVXZ0Q0X05NeTRjVTlMdkhPU21DMUJodnFtdmloZFlFMnNaQlpOZ0FsT0cyYkFmOHVZN211Uk1EN3Ji?oc=5",
    "org": "yts.co.jp",
    "pref": "",
-   "date": "2026-05-28",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 25,
-   "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
-   "id": "4e5714f0716dd344",
-   "title": "危険な場面をスタントマンが再現…自転車による事故をリアルに感じて…長野・岡谷市の高校で交通安全教室…県内で2025年起きた自転車事故のけが人のうち、19歳以下が全体の半分近く占める",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qSDFUNl9rNFM0R1g0Ykp3WV9Rc192NjYxejFaU2hfa1NuRkR5MTdUeVdBb0ZmRkU1OVc3UEFpc0xtbTI2RTBjajhfQTlUWXFlcmpCM2Q4dw?oc=5",
-   "org": "TBS NEWS DIG",
-   "pref": "長野県",
    "date": "2026-05-28",
    "source": "Google ニュース",
    "kind": "実施情報",
@@ -2683,7 +2697,7 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-10-18",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
