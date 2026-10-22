@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-10-21 00:12",
- "generated_date": "2026-10-21",
- "new_count": 31,
- "deduped": 32,
+ "generated_at": "2026-10-22 00:17",
+ "generated_date": "2026-10-22",
+ "new_count": 33,
+ "deduped": 37,
  "due_soon_count": 0,
- "total": 302,
+ "total": 306,
  "items": [
+  {
+   "id": "8009f30b63b6a6ea",
+   "title": "事故の怖さ伝える スタントマンが事故を再現する「スケアード・ストレイト方式」の自転車教室 香川 (KSB瀬戸内海放送)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNckJNNTlOMWlOWW5VOHdrWEZNOGk5ODNJVW9qZzl4ZUNyVFpFQVJmRE5YTU9hQk9TWk92eVVMVVphaF9wS3poc0xuZVJqd3BpZnFwVlpxS3ZpTlNYdDBhNG9RTzNLUGJLWjhOeE4zZ19QTEpMN3AtU2o1OGs2ZnNOQXJRemltVkhBaGpHaUdR?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "香川県",
+   "date": "2026-10-21",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 75,
+   "first_seen": "2026-10-22",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "991c793d7b3df704",
+   "title": "事故再現にドキッ、危険性をリアルに実感 奈良県天理高校自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBBaEhFcVJiejRoQ0Z0ZTRNNk9tbl8wWEtsTmNnZGFhcm41T3otSHctQ0VtdHFjazM1bkVuUTFqQ0V5QVducVF6dmkzVQ?oc=5",
+   "org": "47NEWS",
+   "pref": "奈良県",
+   "date": "2026-10-21",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-22",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "79ee0e42755888e5",
    "title": "自転車事故を防げ スタントマンが交通安全教室【徳島】（2026年10月20日掲載）｜JRT NEWS NNN",
@@ -17,7 +45,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-21",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -31,7 +59,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-10-21",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1147,20 +1175,6 @@
    "status": "open"
   },
   {
-   "id": "a6e46f1efba7ed0b",
-   "title": "「交通事故は怖い」スタントマンが再現！中学校で交通安全教室（静岡・藤枝市）",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONWtXRTdqdHpxa0JiUDhfZDhEdHZuOW1VaExqYk5rRkxwMTdHaEQtdm1jYVBnS1lHSkcyVU5HQVA5Wk9sdFAwVGJPbnhkVllITDY0ZnVrYjAtY0M3dGtJejFTUmY5S1JuM05VTmZ4U0k3ZHBhT2t1aXhIMjJyTkpYbEdVRzZEYUE?oc=5",
-   "org": "日テレNEWS NNN",
-   "pref": "静岡県",
-   "date": "2026-05-25",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 25,
-   "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
    "id": "89e9ed41b8266ae8",
    "title": "「交通事故は怖い」スタントマンが再現！中学校で交通安全教室（静岡・藤枝市）（2026年5月25日掲載）｜日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1UTdKUUJRWWNyOXlidmlzbWtmRE55V1EzLXNTT21GcUstLU5FeFZsazl1MWd3blpiSG1tU2M1ZW1pT0RIRXdGME5XSXFOOHcyUjYzdGVzTDcyRmhVZER2a2FrRHdnT29DeTl4ajFhQUVWLWgxSVAwSkRDdlJWVjQ?oc=5",
@@ -2221,7 +2235,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-10-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3079,6 +3093,20 @@
    "status": "open"
   },
   {
+   "id": "e77eb472708411d6",
+   "title": "【動画】あ、危ない！ 交通安全教室でスタントマンが事故実演､和歌山･串本町",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4ybWhCYXF3ek1SNlBjNWp3SmRtc2xUbVpoOGpjWllhSU0wQjNUQ1lyeVZWRWo4UEdCQ0prTHE5bW9ILTEyXzZQZjljZE5jNVk?oc=5",
+   "org": "AGARA 紀伊民報",
+   "pref": "和歌山県",
+   "date": "2023-10-18",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-22",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "e8b157fd0027f861",
    "title": "スタントマンが自転車事故をリアルに 中津川・坂本中で交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1OOVl3UUpjc1RMYVVCUHY2SHQ1cWVBQWlRZDFpNzcyb21SRFN5dklWNk11WHZNY1FpVGtuT2g1WFBkWWRDTm12RnhyT3dxVEtWeUxB?oc=5",
@@ -3272,6 +3300,20 @@
    "score": 25,
    "first_seen": "2026-09-03",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "0870895c3732ea7a",
+   "title": "恐怖…スマホ見る無灯火の自転車同士が正面衝突、はねられた自転車の男性は車の上に 中学校で事故再現教室",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pRThxaVRJRVpseS1COHMyRUhfb2VMcE44SGRPYlpxVEVZUXVhRU5vQzFad1J0VGRULXBzWUtTcXkyV3hZaXI0UWt5WHhoV1RGSHFRRFI0dWxsSHhVXzNKeUlDUDY?oc=5",
+   "org": "埼玉新聞",
+   "pref": "埼玉県",
+   "date": "2023-04-04",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-22",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3902,6 +3944,20 @@
    "score": 15,
    "first_seen": "2026-08-18",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "5c85dca9dd59bcbb",
+   "title": "スタントマンによる迫力の実演 自転車安全教室を開催",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVbm1PNmdESWc3TVMwWG9UcDVodGN5aC1ndlhIbEJnRFd2aTl2SkgzcGpXang2a1BkR2pmZ1Z3cGpMOVVIM0NPTjdpY1VWTl9qZWE4?oc=5",
+   "org": "titech.ac.jp",
+   "pref": "",
+   "date": "2018-07-03",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-22",
+   "is_new": true,
    "status": "open"
   },
   {
