@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-10-22 00:17",
- "generated_date": "2026-10-22",
- "new_count": 33,
- "deduped": 37,
+ "generated_at": "2026-10-23 00:13",
+ "generated_date": "2026-10-23",
+ "new_count": 32,
+ "deduped": 39,
  "due_soon_count": 0,
- "total": 306,
+ "total": 308,
  "items": [
+  {
+   "id": "6845f6f7103c13c2",
+   "title": "天理高校で自転車安全教室 プロのスタントマンが交通事故再現（奈良テレビ放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qZG8zaXp1YUdjRGh5VjBwS0EtZ2VVQkVnN2xvalFrTHZESW9XRGtFbmlRTUxLOXhsWFdQeVBBMXI0dE93ejJsbHNUWEFiY2UzM3BvTV9meDB0ZXJMODVFMVIxSHdDUjhBSmlBaWQzZ09KTUZrc0EtNGZxX1NnMUE?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "奈良県",
+   "date": "2026-10-22",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-23",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "4a55a76ac579bb21",
+   "title": "スタントマンの迫真の演技にヘルメット着用を意識 小豆島の高校で自転車事故を想定し交通安全教室【香川】",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsOU9hV1VsT0hmai12NEZWNGpHMlgwekk4NnJEbVNxLWxsU3VIZS13YjMtR3VEbFZObFBoOGRRek1kM3lqVXJ6RGNRbndya1Rr?oc=5",
+   "org": "OHK 岡山放送",
+   "pref": "岡山県",
+   "date": "2026-10-22",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-23",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "8009f30b63b6a6ea",
    "title": "事故の怖さ伝える スタントマンが事故を再現する「スケアード・ストレイト方式」の自転車教室 香川 (KSB瀬戸内海放送)",
@@ -31,7 +59,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -384,7 +412,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-09-03",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2333,7 +2361,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2970,7 +2998,7 @@
    "id": "e30256d5d70fe301",
    "title": "スケアード・ストレイト方式自転車安全教室を実施",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0RkNnAxV09mWW5jLTRtOVdxYlZ3cDVMYWtSM1hJN3VUNC1YQkxZOXVqdTFaNnhOQ09xU044bWdtYm1McjFQRDBQQUZVc01YUG51Z3AxMlNaQ005R3RWVUx5eGVNZ2pBRUx5VXJKRFdydElWZFdBNG05Zno1amMtNFRBbmxwSzhuVS1DRFEzWmRnX3EtMjloanI2WG1rT1cyZHFz?oc=5",
-   "org": "品川区",
+   "org": "www.city.shinagawa.tokyo.jp",
    "pref": "",
    "date": "2024-04-13",
    "source": "Google ニュース",
