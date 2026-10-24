@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-23 00:13",
- "generated_date": "2026-10-23",
- "new_count": 32,
- "deduped": 39,
+ "generated_at": "2026-10-24 00:06",
+ "generated_date": "2026-10-24",
+ "new_count": 28,
+ "deduped": 41,
  "due_soon_count": 0,
- "total": 308,
+ "total": 309,
  "items": [
   {
    "id": "6845f6f7103c13c2",
@@ -17,7 +17,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-23",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -31,7 +31,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-23",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3131,7 +3131,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3289,6 +3289,20 @@
    "status": "open"
   },
   {
+   "id": "2aa6e09c7e484b7f",
+   "title": "あっ、危ない！ 軽井沢高校でスタントマンが実演 自転車の交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04WFotNmFpLWQ0bnk4dW5kWEliNG1YREJjS3lWZUUyUllmNUhzVS1KLTQyekVuXzJrYS1La1JtbXQ1dlRLeEFIVkJKTmFZeW1ESkRsVFdkWG85b3ZsYVhWaVdPSERsM0k?oc=5",
+   "org": "信濃毎日新聞デジタル",
+   "pref": "長野県",
+   "date": "2023-05-11",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-24",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "8b8bd278abe272d5",
    "title": "プロのスタントマンが事故を再現 中学校で交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XeVRhWjdpN1FIcEJxNTJyclhxanlRS2Rqcmg0OGVGQmlYSDRSaVNyUHlCUXlXaFdmVGM4TEQ1bFRVOHU0OXlYdHY1Qm5tUGE5LXJTYVNaWjA3cWpxM3Y3U2NmVFFkdw?oc=5",
@@ -3341,7 +3355,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3530,7 +3544,7 @@
    "id": "d232de6370ad24ab",
    "title": "宮前小学校でスケアード・ストレイト方式による交通安全教室を実施",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON3REWlNtRFd3eXp3NmJZaW9lUkFtTUZJSnB2dkpHUDFhVTF6R0xpd0Z3S2FjU3JJbnloTjBVTV8zLS0zSnc2aEl2MWp1aU5vZW1lU3B6aEtrX2N3MFJQZm51RVFuRVk2cHc2bE5TUnRWSzJlRzhWSjhWS2ZIa1NiNk5FN05JWVhndFhMRkprWmNYaWFpLU9HcDZBVUF1cFdxeFJN?oc=5",
-   "org": "品川区",
+   "org": "www.city.shinagawa.tokyo.jp",
    "pref": "",
    "date": "2021-12-07",
    "source": "Google ニュース",
@@ -3985,7 +3999,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4027,6 +4041,20 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-08-23",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "e6bdc243cfb19148",
+   "title": "事故再現で交通安全訴え 鶴牧中でスケアードストレイト | 多摩",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwT0trVmdmVVVQOHpYcW9JOWxUOGZzOWVPTkxVTTl5Wk5TeTJnLVpOTGZLbDBzMWt6dnZ5VkxzNk5TbUN3SEtaR0tpdHhrbFd5WU9XQUJ6M2NEMnRoUXl5R3RnWHA?oc=5",
+   "org": "タウンニュース",
+   "pref": "東京都",
+   "date": "2017-12-28",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 75,
+   "first_seen": "2026-08-15",
    "is_new": false,
    "status": "open"
   },
@@ -4097,20 +4125,6 @@
    "kind": "実施情報",
    "score": 60,
    "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
-   "id": "e6bdc243cfb19148",
-   "title": "事故再現で交通安全訴え 鶴牧中でスケアードストレイト | 多摩",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwT0trVmdmVVVQOHpYcW9JOWxUOGZzOWVPTkxVTTl5Wk5TeTJnLVpOTGZLbDBzMWt6dnZ5VkxzNk5TbUN3SEtaR0tpdHhrbFd5WU9XQUJ6M2NEMnRoUXl5R3RnWHA?oc=5",
-   "org": "タウンニュース",
-   "pref": "東京都",
-   "date": "2016-10-06",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 75,
-   "first_seen": "2026-08-15",
    "is_new": false,
    "status": "open"
   },
