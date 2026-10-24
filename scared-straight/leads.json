@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-10-24 00:06",
+ "generated_at": "2026-10-24 23:49",
  "generated_date": "2026-10-24",
- "new_count": 28,
- "deduped": 41,
+ "new_count": 31,
+ "deduped": 39,
  "due_soon_count": 0,
- "total": 309,
+ "total": 312,
  "items": [
+  {
+   "id": "5d02c10a5c366f63",
+   "title": "自転車事故をスタントマンが再現、一時停止無視や右側通行での車両と正面衝突… 袋井高で交通教室",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ndzNPTUVsSk1fWE9hOU9PSm93MGdhbGJaa2R4UlNaNUdHSHVtR3czOHYtVDJydU9hZVNfeHhkLUJObWZURnluY3UwbnE0dw?oc=5",
+   "org": "静岡新聞DIGITAL",
+   "pref": "静岡県",
+   "date": "2026-10-23",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-24",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "6845f6f7103c13c2",
    "title": "天理高校で自転車安全教室 プロのスタントマンが交通事故再現（奈良テレビ放送）",
@@ -3191,6 +3205,20 @@
    "status": "open"
   },
   {
+   "id": "63f73739a679cd6d",
+   "title": "スタントマンが再現 茂木高校で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9scUpqVmZIbUNQNDNKNE03Vl9mdmhESFdDNzFoTENoX1lUdEdqRHBYYVVPTmVSbmhCYjBScjVwZmw3TDZJMGVLbE5MQkpyOXRZTkoxNW5QM0YtQzJSaHBz?oc=5",
+   "org": "ライブドアニュース",
+   "pref": "",
+   "date": "2023-09-29",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-24",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "71e78c87fe6d9001",
    "title": "スケアード・ストレートによる交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlVwZXNYX2FOcldOSGpieHZ4MlpGWnVWYzE1UEJXbFJzbnNkOElXcWkwVTNqbHM4NXpwTkRad2RsUEdQMm5Db3h5M0FLZkZBN0UzVERTcVdqZ0hVY2dIRElKVHd0anMxbjAwNGRVQUw1NWtIQ0o5SDJpNVJXYldzYTlWSzFlVFl2TDVjdU93?oc=5",
@@ -3695,6 +3723,20 @@
    "status": "open"
   },
   {
+   "id": "548054b15f01a2e4",
+   "title": "自転車事故をスタントマンが再現 草津・玉川中で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaVnJRY2dvS3RTUjlybXZuVUxqakdsWHFtTlJWRHdCelRPSVJsbU9JMmhiN09LYTJIMEUydjJIS3JOTUhIR2tzc00zWVotODhUNnBN?oc=5",
+   "org": "中日新聞Web",
+   "pref": "",
+   "date": "2021-03-19",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-24",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "21b6bea585b75a94",
    "title": "事故再現で交通安全訴え 長沢中で疑似体験教室 | 麻生区",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBla01JZ3ZVdXZDSjdhR2puWmN0SkE5LUo5dU5PRkQ3My1XZC1mZlVwOGt6LW9yRTNXYVVnVy1TN0NUdkczNjlUQ25NZERPUU1FMVRsTlFZMkx1TkgtS0d4NWNNQmc?oc=5",
@@ -4118,7 +4160,7 @@
    "id": "db686b665c9423df",
    "title": "戸越小学校でスケアード・ストレイト方式による交通安全教室",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTVQUUhyMzItZTd1QnRCY3ZyOVl0aXNhd3ZueVh4eHN4QUlNVVNackk1Z3ZKcXMzUFFCZVIzS2pzTk1OWXRSaGs4UzFPSWhaVHBzSkM3a3I5Y1RSS09ESUJidHlZOGhlVW56Zmk2X0JGX05od3VITndDVzVldUhvYzJpOFp3ZFdhblZyT0hRWjNrV212UFhfZmdVaXRqMDg?oc=5",
-   "org": "品川区",
+   "org": "www.city.shinagawa.tokyo.jp",
    "pref": "",
    "date": "2017-06-24",
    "source": "Google ニュース",
