@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-24 23:49",
- "generated_date": "2026-10-24",
+ "generated_at": "2026-10-25 23:39",
+ "generated_date": "2026-10-25",
  "new_count": 31,
- "deduped": 39,
+ "deduped": 35,
  "due_soon_count": 0,
- "total": 312,
+ "total": 315,
  "items": [
   {
    "id": "5d02c10a5c366f63",
@@ -17,7 +17,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -88,6 +88,20 @@
    "score": 25,
    "first_seen": "2026-10-21",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "3ebd5179a4323b1b",
+   "title": "自転車事故を防げ スタントマンが交通安全教室【徳島】（JRT四国放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2eHFpUl9nTVlkd3JZWkVtVjlPWEVmZVdhZ0pOX0E4X1F1MWVDdF9McVpfeWNpZjBKSjVaZUtrdmV6WWlMMW1DZmlsQkRCQkI5RVBJZW9NeEhmSndsZnJoV3RIY1FkTkFuUDh3bEJWOUR3T0dUU2ZGd3dQUFh0d3c?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "徳島県",
+   "date": "2026-10-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-25",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -2844,7 +2858,7 @@
    "id": "f064aaba99e474f1",
    "title": "スケアード・ストレイト方式による交通安全教室を都立八潮高校で実施",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaXhOMU9GS0tPN0hvdWpPMTZsemtaWHZPQUZYT0FRUFp6Z2dKQVdwYkRBRkgxVk4wREpNdlFQaGQ5N0JoN25PbGtZbnBXNG5LRFRZQjZPbUJDSU9IYjk2eG1IWjBXZG9FZUZFSUlfd3FoWnkwQlh2Uy1NWWdPUXBkSXdCVUtFRE5yenZBd2JNOXRVYUR1MGFXRk9QMTlmY2pfNk53?oc=5",
-   "org": "品川区",
+   "org": "city.shinagawa.tokyo.jp",
    "pref": "",
    "date": "2024-07-18",
    "source": "Google ニュース",
@@ -3215,7 +3229,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3454,6 +3468,20 @@
    "score": 25,
    "first_seen": "2026-09-03",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "597ddd5fe0e3f608",
+   "title": "恐怖…スマホ見る無灯火の自転車同士が正面衝突、はねられた自転車の男性は車の上に 中学校で事故再現教室",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GSlVSenM3ZEs2NGRVdXhJQ3JkajZDTzlWbGNBZU5SNEZtQ0M1M1NLSHJBaEdKU2szbVdhTHNjejhVYlpCOHdqTDE2RVc0TzB5MG1mVXhB?oc=5",
+   "org": "埼玉新聞",
+   "pref": "埼玉県",
+   "date": "2022-09-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-25",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3733,7 +3761,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4169,6 +4197,20 @@
    "first_seen": "2026-08-10",
    "is_new": false,
    "status": "open"
+  },
+  {
+   "id": "5d885185eb505e86",
+   "title": "【JAF福岡】スタントマンが交通事故を再現！事故の怖さを体感し自転車安全利用につなげる講習会を開催しました",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hclhwSnRoUlBiZ2VDTHozRXItTFF0YWxYMmloYzBSbGlyemMzeHFwRDA4a0U2VzQ2c1NkUUM3aEFJbk14MktORi1qY3l4TFE2SEJiVlp6MjBUdUxNbnRGUXNFMGtRelBnOFE?oc=5",
+   "org": "PR TIMES",
+   "pref": "福岡県",
+   "date": "2017-04-25",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-25",
+   "is_new": true,
+   "status": "closed"
   },
   {
    "id": "3b0ab67cc98cdf1f",
