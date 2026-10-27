@@ -1,11 +1,53 @@
 {
- "generated_at": "2026-10-25 23:39",
- "generated_date": "2026-10-25",
- "new_count": 31,
+ "generated_at": "2026-10-27 00:57",
+ "generated_date": "2026-10-27",
+ "new_count": 33,
  "deduped": 35,
  "due_soon_count": 0,
- "total": 315,
+ "total": 319,
  "items": [
+  {
+   "id": "f90b9d5589071d07",
+   "title": "スタントマンによる自転車交通安全教室 沖縄（沖縄ニュースQAB）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82azRGbXh3eHI2ckx6anp1ckpEU05yaUF2UjhrMi1ackZXcEYxMUwyTzRpOUx6RVA3NFZfcVZKbnpuVUhjSlZHbkd2V0Y1VVppWUZMSWRUbTdJWU9Wa2gxd19DV3BfelJSeXNVZ29HTW1EQUxrZXVUS1dDdnEyekU?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "沖縄県",
+   "date": "2026-10-26",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-27",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "86a7243430bd7398",
+   "title": "スタントマンが交通事故の瞬間を再現 全校生徒の4人に1人が自転車通学の読谷高校",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAyZmlwM1hTNVZqcFhvZkxJUTdPNFJ3R0NfNmpyNW9TZ0VkMkl2dzJFbHowLU1KMjZkWWN0cW04MmRob1NjaURhNFdTQ2ItdHNnaS0zS0w5bw?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "",
+   "date": "2026-10-26",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-27",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "d92dd17c93cc0fc8",
+   "title": "スタントマン7人が自転車事故を再現 鳴門市の中学生200人、交通安全教室で学ぶ",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55Rm0tS1dzR1FiZG1Ga1d2SW1QaWd4OGs3QmtCV0VCRm1PVXBOeEVBdG84Y3hwQ2t1TWlDSU5GUmdvNlVXVkM0ZFJmTHQ4c2tBNXYwQmtB?oc=5",
+   "org": "徳島新聞デジタル",
+   "pref": "徳島県",
+   "date": "2026-10-26",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-27",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "5d02c10a5c366f63",
    "title": "自転車事故をスタントマンが再現、一時停止無視や右側通行での車両と正面衝突… 袋井高で交通教室",
@@ -101,7 +143,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-25",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -130,6 +172,20 @@
    "score": 75,
    "first_seen": "2026-10-15",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "c3e4c8b800c5d81e",
+   "title": "（報道資料）スケアード・ストレートによる自転車安全教室を市立中学校で実施～プロのスタントマンが交通事故をリアルに実演します",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4RkJFeldEbXJtWEhQcDV3cG1aWGxjbzZvc1pPX0liUDdHVS1CRXNCRTJ6VjVTNFoxM1VROTNLMEZKWEZyUGc2bVQxNDNVSG12R0tV?oc=5",
+   "org": "ZDNET Japan",
+   "pref": "",
+   "date": "2026-10-15",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 75,
+   "first_seen": "2026-10-27",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3432,7 +3488,7 @@
    "id": "8064f5b1e53c49c5",
    "title": "箕面市-「スケアード・ストレート」による自転車安全教室を市立中学校で実施～プロのスタントマンが交通事故を実演",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MMVo3MGxlQkFXYmpVSXFBOGpONUJwWElabDM3cnRYdHkxUW9xeTdjVmgxLV9zNFU3ZDhqdENWWGZjNVdsMG52MkhVTFlWdW5yekE?oc=5",
-   "org": "シティライフニュース",
+   "org": "シティライフNEW",
    "pref": "大阪府",
    "date": "2022-11-03",
    "source": "Google ニュース",
@@ -4209,7 +4265,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-25",
-   "is_new": true,
+   "is_new": false,
    "status": "closed"
   },
   {
