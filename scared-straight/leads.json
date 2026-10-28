@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-10-27 00:57",
- "generated_date": "2026-10-27",
- "new_count": 33,
- "deduped": 35,
+ "generated_at": "2026-10-28 00:47",
+ "generated_date": "2026-10-28",
+ "new_count": 29,
+ "deduped": 23,
  "due_soon_count": 0,
- "total": 319,
+ "total": 321,
  "items": [
+  {
+   "id": "1fb8385665079dc4",
+   "title": "目の前で自転車が衝突！スタントマンが事故を再現 高校生が交通ルールの大切さ学ぶ【佐賀県】",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94eE41Q0RwY1NNTk1ydUVqZVgwWmdTTGVaWFQ5cV9Ec2s4bWRVLVBwNzBqaFRUS2ZaZHgtMnVVSUpLX2d3TllWMGwwR3c1Ymw5Tk4tMmhTQ0hleE5nRG5sMEl1ekFKX1dvYXp4NkMzc3Z0OEMtMGk2bkpYcHZRcjQ?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "佐賀県",
+   "date": "2026-10-27",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-28",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "f90b9d5589071d07",
    "title": "スタントマンによる自転車交通安全教室 沖縄（沖縄ニュースQAB）",
@@ -31,7 +45,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-27",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -45,6 +59,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-27",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "c98e4b57babe5ac2",
+   "title": "スタントマンによる自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DaVlNOHR6TFctWk0zdGpvVTc4T1l2TFhqR2x5Q3kzVWJBSmRZR2xicFptbVhoRFFLbWN3NkVuVDY4eEY2YlhFSl9EZTc3V201MjdVNWVwa3E5UQ?oc=5",
+   "org": "QAB 琉球朝日放送",
+   "pref": "",
+   "date": "2026-10-26",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-28",
    "is_new": true,
    "status": "open"
   },
@@ -185,7 +213,7 @@
    "kind": "実施情報",
    "score": 75,
    "first_seen": "2026-10-27",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2711,7 +2739,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2879,7 +2907,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3103,7 +3131,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
