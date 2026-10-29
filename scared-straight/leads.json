@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-10-28 00:47",
- "generated_date": "2026-10-28",
- "new_count": 29,
- "deduped": 23,
+ "generated_at": "2026-10-29 01:20",
+ "generated_date": "2026-10-29",
+ "new_count": 30,
+ "deduped": 25,
  "due_soon_count": 0,
- "total": 321,
+ "total": 324,
  "items": [
+  {
+   "id": "a64bf79f9fd4f533",
+   "title": "中学生が交通事故の恐怖を間近で体感 スタントマンが自転車事故を再現 自転車に潜む危険ポイントを確認 広島・吉島中学校",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zUWF4dlZLdVFiR20zTFFfcVVZTWFlZXJQWldNR2RXRDByUFVRbnpUT3lCeHI3eGp4Z2Naa0hRakktS0JQSFZwYnd6anpXR1o0RE9yNVB0U0JBT2dieEc0eTczN1hCT3V0ZTlUTmluX1I5UDF4SHJVbXNMcm5iZVU?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "広島県",
+   "date": "2026-10-28",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-29",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "1fb8385665079dc4",
    "title": "目の前で自転車が衝突！スタントマンが事故を再現 高校生が交通ルールの大切さ学ぶ【佐賀県】",
@@ -17,6 +31,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-28",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "e47cf190cab6ad6d",
+   "title": "目の前で自転車が衝突！スタントマンが事故を再現 高校生が交通ルールの大切さ学ぶ【佐賀県】｜佐賀のニュース",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TTWJUTXZQWUxfZUFERE1RRFJ3VTgxUV9DVUFyNTA0ZnJOR2Vfa1BkSzdKRDRjdUFtcWNQeDc3c3dxd1N6M2Y2X1RIUHZvUEFiS0ZmR1FDVWQzQWhQZzdyN0pn?oc=5",
+   "org": "サガテレビ",
+   "pref": "佐賀県",
+   "date": "2026-10-27",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-29",
    "is_new": true,
    "status": "open"
   },
@@ -73,7 +101,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-28",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -192,7 +220,7 @@
    "id": "7275e147ef1e0b25",
    "title": "箕面市‐ スケアード・ストレートによる自転車安全教室を市立中学校で実施「～プロのスタントマンが交通事故をリアルに実演～」",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wcXF6TWREaUpWaWRIOWE3N1hkaHgxc1pZVy1QaTd0SjN0cGNFQ0ltX2YxaEpOc2luNGN4TW9MWXZpemRwbVp5RTJKRlRNRENxVmc?oc=5",
-   "org": "シティライフニュース",
+   "org": "City Life NEWS",
    "pref": "大阪府",
    "date": "2026-10-15",
    "source": "Google ニュース",
@@ -1553,6 +1581,20 @@
    "status": "open"
   },
   {
+   "id": "7ff0dcae0a5827cf",
+   "title": "スケアード・ストレイト自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54UldkekNiV1NFVzVHekJtWDhWSjA5N01vN3VKU2NMLVlUTGVJbzZSeVVIUWlDWV9Pams2RnZybjR3aENKRzVuTkJPZG1SQXU2M241cUdTZFVzdw?oc=5",
+   "org": "市川市",
+   "pref": "千葉県",
+   "date": "2026-03-02",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 60,
+   "first_seen": "2026-08-10",
+   "is_new": false,
+   "status": "open"
+  },
+  {
    "id": "438a9f17473a5eb7",
    "title": "スタントマンが迫真の啓発 豊川・小坂井高で自転車安全教室",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vTmNvZ3VXYjBENENKSnZfSm04bjBfUExmVU9hQ3BaQ2hxT0tGV2NWaVlkRjV3UUptNWhzU25xaXFMNm1KN0hpblF2cHVoVHVIX0RsaA?oc=5",
@@ -2029,20 +2071,6 @@
    "status": "open"
   },
   {
-   "id": "7ff0dcae0a5827cf",
-   "title": "スケアード・ストレイト自転車交通安全教室",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54UldkekNiV1NFVzVHekJtWDhWSjA5N01vN3VKU2NMLVlUTGVJbzZSeVVIUWlDWV9Pams2RnZybjR3aENKRzVuTkJPZG1SQXU2M241cUdTZFVzdw?oc=5",
-   "org": "市川市",
-   "pref": "千葉県",
-   "date": "2025-10-27",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 60,
-   "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
    "id": "0f8cbdf57c042dfc",
    "title": "伊佐市･伊佐農林高校 事故の怖さ“スタントマン”が再現 スマホ見ながら片手運転は危険",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdDdtUFY4Z2x0OExYbEhlTW1PZnVDazgzWGp6dWNYWFZIU0c3dGtoQXI2YmN0OEoxYjMzc2ZtVmVJWmQyVGV5V2lhMENLaTZiRHlkclBXbng4SHZQWGJPeVJfN3h1cHZJWENUSmFoTVVZQVJWaVZac0lFNUpZTkxmMjd2R3dSbzQ?oc=5",
@@ -2446,6 +2474,20 @@
    "score": 25,
    "first_seen": "2026-09-08",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "bdcd479070300ad6",
+   "title": "事故の衝撃スタントマンが熱演 池田中で自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RTHFIVG02YzBoMVIwUWVRM0I4azdldFhiSjlPaTZFUTM4RTZxUHRzb3FxaVFvYXdMR3ZZOW9Jb3hjTnNLWU14ZmlBanZCY0VER2NocllJR0pSSnM?oc=5",
+   "org": "十勝毎日新聞",
+   "pref": "北海道",
+   "date": "2025-06-17",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-29",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -4006,7 +4048,7 @@
    "id": "e11481ff57aeb419",
    "title": "スケアード・ストレイト自転車交通安全教室｜学校サイト",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAzMlI2XzBkbjY1akpya21BdlUzcGl5YmtuZ0pqUWJVRXNaNVYyYjBwZkVFeTdBblVJVkhiMHM1UERlOGRzRVlIMFI1eEhvMzZzcnQtTGZ0cDJxaTQxRWNBNW1KOUpLTmN3YXIyT2V0STgzSFVDa0pkZEliX2lkUQ?oc=5",
-   "org": "船橋市ホームページ",
+   "org": "船橋市公式ホームページ",
    "pref": "千葉県",
    "date": "2019-04-02",
    "source": "Google ニュース",
