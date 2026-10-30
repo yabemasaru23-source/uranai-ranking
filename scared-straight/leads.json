@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-10-29 01:20",
- "generated_date": "2026-10-29",
- "new_count": 30,
- "deduped": 25,
+ "generated_at": "2026-10-30 01:24",
+ "generated_date": "2026-10-30",
+ "new_count": 31,
+ "deduped": 23,
  "due_soon_count": 0,
- "total": 324,
+ "total": 327,
  "items": [
+  {
+   "id": "1633231c43f50df0",
+   "title": "自転車乗車中の交通事故 全体の約3割を占めるのが中高生 プロのスタントマンによる自転車の交通安全教室開催 鳥取県鳥取市（2026年10月28日掲載）｜日本海テレビNEWS NNN",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYTJRc2poM3I5U2xxeFBfdkVlMHczNHRWN2RjRXRjRW1zMGR5b0RlVUJyVzBwaWJjZHM1U3RyNjgtUTViaEJUVmNzNV9XRlhTeDUxZnB1NE11TnpTRFVob1lDdWgwTkUydnR3NnBQcFN6TVl1UHl5ZEhsQy15cDFKNW40Z082bEU?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "鳥取県",
+   "date": "2026-10-29",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-30",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "a64bf79f9fd4f533",
    "title": "中学生が交通事故の恐怖を間近で体感 スタントマンが自転車事故を再現 自転車に潜む危険ポイントを確認 広島・吉島中学校",
@@ -17,7 +31,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-29",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -45,7 +59,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-29",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2953,6 +2967,20 @@
    "status": "open"
   },
   {
+   "id": "47591cbadc873f97",
+   "title": "【スタントマン再現】高校で交通安全教室 事故の恐怖で交通ルール順守へ（2024年9月13日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14UWFVTWw3M0lIdDNJSlFxMmw5UU5UMFp4RklZbGxBNENmV2tfZ1lPUFF1dHh3ek9VUzg5VzktdnNZQS00VWJOanJ5cFFiR3lpcUNwVXdLUmRmaElrX1ZJcThsUXhaQWxMLUhISHpsUW92SGxfSWxYT3l0WU1uUW8?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2024-09-13",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-30",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "263980df68a2dcea",
    "title": "時速40キロの車にはねられる…交通事故の恐怖を目の当たりに 高校でスタントマンによる安全教室 熊本",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aYzJNWFhkNnlxQVNoWjc4RmQzSldlaVhrUzhBOV9tUXZ2SHBFTG1tVDl0N2F3dF9jOUJJcTRJRVVJbG10b1hFb3dnYWZqWTB6ZV9DZkh2NHMzQ25KUmtWQmE5V1BzdEU?oc=5",
@@ -4462,6 +4490,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "e2a4702e0723715d",
+   "title": "今日はスケアードストレート",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZG1KSEVlU0xmYXZTVDNEei1pczFaLWtQc1g2OG0wUDJ4N0NTNmstVk5hZ0Jtc0VRMFljMmQzaTBDTmJidFMwV1lhTV9YSUhZS2s3SmdkT3RpRzh4Z1Jwbk9Cdm1XWG9sNFdLMUIwX1JVNXpkMEhYbTViU2RYd3NwMGl3MXEzSzlpNzBJYjAtSFBUNWdyQ2N0RlpuZDR3SllGekZtM29Ua3g2SnpsVGhEMU5iSlZadUF5YjEyMFliU3F2SFJkaTQ4MVFNTjNSMnlWLTN3dmFseFYzSjNIZXFtdks5eWUwdGFNQ0t2NU9jR3IwWG1TVGgtZmF6MENybmsxQUZv?oc=5",
+   "org": "公明党",
+   "pref": "",
+   "date": "2013-10-23",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 50,
+   "first_seen": "2026-10-30",
+   "is_new": true,
    "status": "open"
   },
   {
