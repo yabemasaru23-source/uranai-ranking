@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-30 01:24",
- "generated_date": "2026-10-30",
- "new_count": 31,
- "deduped": 23,
+ "generated_at": "2026-10-31 01:08",
+ "generated_date": "2026-10-31",
+ "new_count": 30,
+ "deduped": 39,
  "due_soon_count": 0,
- "total": 327,
+ "total": 328,
  "items": [
   {
    "id": "1633231c43f50df0",
@@ -17,7 +17,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-30",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -464,6 +464,20 @@
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 25,
+   "first_seen": "2026-10-18",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "de6a5d82f7f1f417",
+   "title": "市民交通安全教室 スケアード・ストレイトでリアルを体験～自転車と車の交通安全～",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTWtsRkhheUJSVWRLOHM3SHRiVXkxel9DbEdNS2hFUUpYOG1VdmE0MVhROExfcW9ha1RiSkxXaUVKel9YUHVJVlhIYWJQN1NqdHBZRXJlZUVmdlFrQnZtcEdfVXNZbzYtUHE0SzNadEo0aHJzMUR5dkRUZU9HU2dPM25B?oc=5",
+   "org": "西東京市",
+   "pref": "東京都",
+   "date": "2026-09-28",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 60,
    "first_seen": "2026-10-18",
    "is_new": false,
    "status": "open"
@@ -1424,6 +1438,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "53a96c4027735626",
+   "title": "事故の衝撃スタントマンが熱演 池田中で自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jSkNWZ1N5RkMwaFJCc21YZWpRaFppLUo3WFh1UFhyLWZvRzlLQThJWUpUcWNMWkdINWp3a25OSndJYUd3RWYzOEtERFNHOTZWZk5HSmtfRW9NT2tkb3RIWmw0OGVnb1ZLX3EzSmF3?oc=5",
+   "org": "十勝毎日新聞",
+   "pref": "北海道",
+   "date": "2026-05-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-31",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -2893,20 +2921,6 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
-   "id": "de6a5d82f7f1f417",
-   "title": "市民交通安全教室 スケアード・ストレイトでリアルを体験～自転車と車の交通安全～",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTWtsRkhheUJSVWRLOHM3SHRiVXkxel9DbEdNS2hFUUpYOG1VdmE0MVhROExfcW9ha1RiSkxXaUVKel9YUHVJVlhIYWJQN1NqdHBZRXJlZUVmdlFrQnZtcEdfVXNZbzYtUHE0SzNadEo0aHJzMUR5dkRUZU9HU2dPM25B?oc=5",
-   "org": "西東京市ホームページ",
-   "pref": "東京都",
-   "date": "2024-09-27",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 60,
-   "first_seen": "2026-10-18",
    "is_new": false,
    "status": "open"
   },
@@ -4503,7 +4517,7 @@
    "kind": "実施情報",
    "score": 50,
    "first_seen": "2026-10-30",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
