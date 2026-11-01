@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-31 01:08",
- "generated_date": "2026-10-31",
- "new_count": 30,
- "deduped": 39,
+ "generated_at": "2026-11-01 00:30",
+ "generated_date": "2026-11-01",
+ "new_count": 28,
+ "deduped": 37,
  "due_soon_count": 0,
  "total": 328,
  "items": [
@@ -161,6 +161,20 @@
    "status": "open"
   },
   {
+   "id": "991c793d7b3df704",
+   "title": "事故再現にドキッ、危険性をリアルに実感 奈良県天理高校自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBBaEhFcVJiejRoQ0Z0ZTRNNk9tbl8wWEtsTmNnZGFhcm41T3otSHctQ0VtdHFjazM1bkVuUTFqQ0V5QVducVF6dmkzVQ?oc=5",
+   "org": "47NEWS",
+   "pref": "奈良県",
+   "date": "2026-10-22",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-10-22",
+   "is_new": false,
+   "status": "open"
+  },
+  {
    "id": "8009f30b63b6a6ea",
    "title": "事故の怖さ伝える スタントマンが事故を再現する「スケアード・ストレイト方式」の自転車教室 香川 (KSB瀬戸内海放送)",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNckJNNTlOMWlOWW5VOHdrWEZNOGk5ODNJVW9qZzl4ZUNyVFpFQVJmRE5YTU9hQk9TWk92eVVMVVphaF9wS3poc0xuZVJqd3BpZnFwVlpxS3ZpTlNYdDBhNG9RTzNLUGJLWjhOeE4zZ19QTEpMN3AtU2o1OGs2ZnNOQXJRemltVkhBaGpHaUdR?oc=5",
@@ -172,20 +186,6 @@
    "score": 75,
    "first_seen": "2026-10-22",
    "is_new": true,
-   "status": "open"
-  },
-  {
-   "id": "991c793d7b3df704",
-   "title": "事故再現にドキッ、危険性をリアルに実感 奈良県天理高校自転車交通安全教室",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBBaEhFcVJiejRoQ0Z0ZTRNNk9tbl8wWEtsTmNnZGFhcm41T3otSHctQ0VtdHFjazM1bkVuUTFqQ0V5QVducVF6dmkzVQ?oc=5",
-   "org": "47NEWS",
-   "pref": "奈良県",
-   "date": "2026-10-21",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 25,
-   "first_seen": "2026-10-22",
-   "is_new": false,
    "status": "open"
   },
   {
@@ -1451,7 +1451,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-31",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3453,7 +3453,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-09-03",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
