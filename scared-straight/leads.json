@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-01 00:30",
- "generated_date": "2026-11-01",
+ "generated_at": "2026-11-02 01:05",
+ "generated_date": "2026-11-02",
  "new_count": 28,
- "deduped": 37,
+ "deduped": 24,
  "due_soon_count": 0,
- "total": 328,
+ "total": 329,
  "items": [
   {
    "id": "1633231c43f50df0",
@@ -73,7 +73,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-27",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2575,6 +2575,20 @@
    "status": "open"
   },
   {
+   "id": "9a8ed8dbb93c18ad",
+   "title": "「令和7年度スケアード・ストレイト交通安全教室」業務委託に係るプロポーザル参加者募集",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkREpZYXIxRmNBdVZ6SjJxS3ZKRDh0NTh3MHFBdVZtX2hRRTRhU0xWeERVbFliRjFMRWtSX1dXRVVvdGUxZEdVZU1SUXNiZjUySWlXNG1McjR2M0huUEwyQQ?oc=5",
+   "org": "兵庫県",
+   "pref": "兵庫県",
+   "date": "2025-05-30",
+   "source": "Google ニュース",
+   "kind": "入札・公募",
+   "score": 85,
+   "first_seen": "2026-11-02",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "253fdfb6a842848c",
    "title": "自転車でスマホ「こんなに危ない」 スタントマンが交通事故再現 静岡駿河区・大里中で安全教室",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9td2U0UDFIZVBNYkpSeE5VS0d1Nm5Yd0JTRG9rZHBkdFpZNXpnWE95WkNtVmFQM1U4eHNvUC1GYUtWTHY1QklCQlZLRkZIUQ?oc=5",
@@ -3600,7 +3614,7 @@
    "id": "8064f5b1e53c49c5",
    "title": "箕面市-「スケアード・ストレート」による自転車安全教室を市立中学校で実施～プロのスタントマンが交通事故を実演",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MMVo3MGxlQkFXYmpVSXFBOGpONUJwWElabDM3cnRYdHkxUW9xeTdjVmgxLV9zNFU3ZDhqdENWWGZjNVdsMG52MkhVTFlWdW5yekE?oc=5",
-   "org": "シティライフNEW",
+   "org": "City Life NEWS",
    "pref": "大阪府",
    "date": "2022-11-03",
    "source": "Google ニュース",
