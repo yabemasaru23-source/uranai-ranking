@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-11-02 01:05",
- "generated_date": "2026-11-02",
- "new_count": 28,
- "deduped": 24,
+ "generated_at": "2026-11-03 03:07",
+ "generated_date": "2026-11-03",
+ "new_count": 29,
+ "deduped": 22,
  "due_soon_count": 0,
- "total": 329,
+ "total": 331,
  "items": [
+  {
+   "id": "15e4605fc8a3fe5e",
+   "title": "大津市の中学校で交通安全教室 スタントマンが自転車の衝突事故を再現",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9kdmVBZnlsNVo0MFZybFdiS0hkbk4wQWlNaGdzS3BidmFGQlI5VV9VZ0NiYTBQVHBSRkpBd0tHNENPaU5pTWwyclU1djVxWWc4cl9KU292c3A?oc=5",
+   "org": "京都新聞デジタル",
+   "pref": "京都府",
+   "date": "2026-11-03",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-03",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "d14f7bdf31dc56ed",
+   "title": "自転車と車が衝突、どうなる？ 読谷高で交通安全教室 事故を再現 沖縄",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kWHN5UzhvSGk3ZmdDNEJqcW9lNUt1UXFjaGt1QkplUmVJRS1zT3RKWWZYRVdSWmFMMDh3US1fVXFQWDIzTm51YVRQT2E3LTBGcXVxTlhSWFAtQlNZMUE?oc=5",
+   "org": "琉球新報デジタル",
+   "pref": "沖縄県",
+   "date": "2026-11-01",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-03",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "1633231c43f50df0",
    "title": "自転車乗車中の交通事故 全体の約3割を占めるのが中高生 プロのスタントマンによる自転車の交通安全教室開催 鳥取県鳥取市（2026年10月28日掲載）｜日本海テレビNEWS NNN",
@@ -2585,7 +2613,7 @@
    "kind": "入札・公募",
    "score": 85,
    "first_seen": "2026-11-02",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
