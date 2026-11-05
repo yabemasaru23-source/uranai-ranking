@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-04 01:45",
- "generated_date": "2026-11-04",
- "new_count": 29,
- "deduped": 0,
+ "generated_at": "2026-11-05 01:52",
+ "generated_date": "2026-11-05",
+ "new_count": 31,
+ "deduped": 19,
  "due_soon_count": 0,
- "total": 331,
+ "total": 335,
  "items": [
   {
    "id": "15e4605fc8a3fe5e",
@@ -17,6 +17,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-03",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "066d5d71373472a4",
+   "title": "自転車事故、怖さ学ぶ 小豆島中央高で交通安全教室 スタントマンが再現",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9vdFNOWGQwcXFNWDNTZ1VXcnV6SzRzQi01Rm1pLXduWVhpRG1FTlpJdG43cVQ4WmdnU1g4R0o3RlFpcThvRVpPdnVxRQ?oc=5",
+   "org": "47NEWS",
+   "pref": "",
+   "date": "2026-11-03",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-05",
    "is_new": true,
    "status": "open"
   },
@@ -31,7 +45,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-03",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1413,6 +1427,20 @@
    "status": "open"
   },
   {
+   "id": "a6e46f1efba7ed0b",
+   "title": "「交通事故は怖い」スタントマンが再現！中学校で交通安全教室（静岡・藤枝市）",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONWtXRTdqdHpxa0JiUDhfZDhEdHZuOW1VaExqYk5rRkxwMTdHaEQtdm1jYVBnS1lHSkcyVU5HQVA5Wk9sdFAwVGJPbnhkVllITDY0ZnVrYjAtY0M3dGtJejFTUmY5S1JuM05VTmZ4U0k3ZHBhT2t1aXhIMjJyTkpYbEdVRzZEYUE?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "静岡県",
+   "date": "2026-05-25",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-05",
+   "is_new": true,
+   "status": "open"
+  },
+  {
    "id": "c1b1e79245666eb5",
    "title": "スタントマン 交通事故再現 会津高で交通教室",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtLTNWb0NNTDJjckp4ZDU5aXRrRGg2c2JuUE1DZHpNSTJOcUVvQVBTS3ZTVzRZNTh5Nmp2TUxuZ2I4cWdCUmNobkw4R19sYk0?oc=5",
@@ -1646,20 +1674,6 @@
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 25,
-   "first_seen": "2026-08-10",
-   "is_new": false,
-   "status": "open"
-  },
-  {
-   "id": "7ff0dcae0a5827cf",
-   "title": "スケアード・ストレイト自転車交通安全教室",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54UldkekNiV1NFVzVHekJtWDhWSjA5N01vN3VKU2NMLVlUTGVJbzZSeVVIUWlDWV9Pams2RnZybjR3aENKRzVuTkJPZG1SQXU2M241cUdTZFVzdw?oc=5",
-   "org": "市川市",
-   "pref": "千葉県",
-   "date": "2026-03-02",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 60,
    "first_seen": "2026-08-10",
    "is_new": false,
    "status": "open"
@@ -2133,6 +2147,20 @@
    "org": "國學院大學栃木中学・高等学校",
    "pref": "栃木県",
    "date": "2025-10-31",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 60,
+   "first_seen": "2026-08-10",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "7ff0dcae0a5827cf",
+   "title": "スケアード・ストレイト自転車交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54UldkekNiV1NFVzVHekJtWDhWSjA5N01vN3VKU2NMLVlUTGVJbzZSeVVIUWlDWV9Pams2RnZybjR3aENKRzVuTkJPZG1SQXU2M241cUdTZFVzdw?oc=5",
+   "org": "市川市",
+   "pref": "千葉県",
+   "date": "2025-10-27",
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 60,
@@ -2726,6 +2754,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "62e58acc172f297c",
+   "title": "スタントマンが事故再現…熊本市で小学生向け交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDOWctUlc1QjNsWlZteWtuTkxQdnI3U3ZPOGVmMGFJdktNeGdSM3pCMHR6bHExYkNfQzhHSU9YNFFfOEEyeVlaREpKQTA5Ymc?oc=5",
+   "org": "熊本日日新聞社",
+   "pref": "熊本県",
+   "date": "2025-04-30",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-05",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -4546,6 +4588,20 @@
    "score": 25,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "eb34664b56b7a7c5",
+   "title": "練馬の都立高校で自転車交通安全教室−スタントマンが事故再現",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nVFh2UlRsMmkwc0d0ckdHd1VPb2lCbmhDZGJEOXJmVWJ1LTdPVGdOa0oyM05Ja3drdjBZeWRoQU9UUHl2LXdjMFF6ci1KUmRJ?oc=5",
+   "org": "練馬経済新聞",
+   "pref": "",
+   "date": "2013-12-24",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-05",
+   "is_new": true,
    "status": "open"
   },
   {
