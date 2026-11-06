@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-11-05 01:52",
- "generated_date": "2026-11-05",
- "new_count": 31,
- "deduped": 19,
+ "generated_at": "2026-11-06 01:51",
+ "generated_date": "2026-11-06",
+ "new_count": 30,
+ "deduped": 18,
  "due_soon_count": 0,
- "total": 335,
+ "total": 337,
  "items": [
+  {
+   "id": "c322a6585083166e",
+   "title": "スタントマンが事故再現 高校で交通安全教室 愛知 刈谷",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrd1hZUG9qMnNQb0tMaEF3XzZxcmtXbUY2bGQzc2k2eXFhMFM4TzQ4OXhJa2FLYWtRWXFOQlVDd2pMN3FYQmFFblVveHV4ZlQxWHIwSVg0SklHQzN2Tm9Z?oc=5",
+   "org": "NHKニュース",
+   "pref": "愛知県",
+   "date": "2026-11-05",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-06",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "8eefd11448b71082",
+   "title": "自転車事故の危険、見て学ぶ 大津の中学校でスタントマンがリアルに再現",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUkhoQ3RxdHZfWnJWNTQxdW5VUDBZeWY5SENVUGlTdW4yUWNVdUhBazNiY3ZNSEh1VGR0YVY0OU5YN3BEVzNEbEl4SXFMU3k4dDNzY0FXbk1oaGp3M0xMV1NMclBUS2ZNNmhoMFJhTDVHbmhtLWQ1YktJbzA3RmVOWkx4M05wWlNrS2IwVjl1ZDnSAZYBQVVfeXFMUDYzWmFJV2E2eU50bU90eU5QTTExX0dNa09Fc3pOc0RhQm8td3psQzM3dVVDZWpPbUxQTHd5dXcycW9fYWdudmZNSFJBRlVjYmlVOFdKOUsyWmRNdkhHNHFid1RWZC1ZaGNMUGtlSVdZX1E2azN3S1hxRkh1U3JDU0JXckdLQ1VRazFNMlJxdHFHSzd1N3dR?oc=5",
+   "org": "Infoseek",
+   "pref": "滋賀県",
+   "date": "2026-11-05",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-06",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "15e4605fc8a3fe5e",
    "title": "大津市の中学校で交通安全教室 スタントマンが自転車の衝突事故を再現",
@@ -31,7 +59,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-05",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -1437,7 +1465,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-05",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2767,7 +2795,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-05",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
