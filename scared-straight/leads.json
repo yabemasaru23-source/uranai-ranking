@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-07 01:21",
- "generated_date": "2026-11-07",
- "new_count": 32,
- "deduped": 18,
+ "generated_at": "2026-11-08 00:56",
+ "generated_date": "2026-11-08",
+ "new_count": 31,
+ "deduped": 19,
  "due_soon_count": 0,
- "total": 341,
+ "total": 342,
  "items": [
   {
    "id": "95a0aefd01260ba3",
@@ -59,6 +59,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-07",
+   "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "502bb5366812d4da",
+   "title": "スタントマンが自転車事故の怖さを再現 新居浜高専で交通安全教室（南海放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwU1pUeHZ3VW1LZmVYTU5RVGVMQ2NDUXI5T0hMMUJqNEFVRjFELTF5WlZiOVNJWTdKYWh5bGk3eFBZdk95QUc4X25DcWJCNGZKeFM2MlQ1ZmNWMFo4MzdUMDFxck1XSUlkZFNKc0QwaEp1UkNDaUc2ZWNpYy1ocWM?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "愛媛県",
+   "date": "2026-11-06",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-08",
    "is_new": true,
    "status": "open"
   },
@@ -315,6 +329,20 @@
    "status": "open"
   },
   {
+   "id": "e7d6b26d58d0c2f9",
+   "title": "スタントマン交通事故再現 県警 帝京安積高で安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mNFF4U0J4cGI5VVhOc3dBdTFVdk1hbWpfQjhrcmtGVjgyVzhWczN6MGRFaTMwdDRBa2MtRU9PaGhPVEFUSFNlVGVYNkFDQU0?oc=5",
+   "org": "福島民報デジタル",
+   "pref": "福島県",
+   "date": "2026-10-21",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-10-21",
+   "is_new": false,
+   "status": "open"
+  },
+  {
    "id": "79ee0e42755888e5",
    "title": "自転車事故を防げ スタントマンが交通安全教室【徳島】（2026年10月20日掲載）｜JRT NEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSG15eklPdzREcDVkR243S2hvZlFqbEVfQWxhVTcxZmlCTkF2cnlhVWE0UFBlWUpQR1BuajVKdEwyaV9kbXlJdDJxTVdLSlJXYk9aT01UcHA5TGZQX05XaHQ5U1M4NFZFN2dpWHgzZnpoTUtJaXh6MHZ6QmdoRmJCOGdQV2tPTHc?oc=5",
@@ -339,20 +367,6 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-10-25",
-   "is_new": false,
-   "status": "open"
-  },
-  {
-   "id": "e7d6b26d58d0c2f9",
-   "title": "スタントマン交通事故再現 県警 帝京安積高で安全教室",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mNFF4U0J4cGI5VVhOc3dBdTFVdk1hbWpfQjhrcmtGVjgyVzhWczN6MGRFaTMwdDRBa2MtRU9PaGhPVEFUSFNlVGVYNkFDQU0?oc=5",
-   "org": "福島民報デジタル",
-   "pref": "福島県",
-   "date": "2026-10-20",
-   "source": "Google ニュース",
-   "kind": "実施情報",
-   "score": 15,
-   "first_seen": "2026-10-21",
    "is_new": false,
    "status": "open"
   },
@@ -4685,7 +4699,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-05",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
