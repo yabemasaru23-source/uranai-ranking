@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-08 00:56",
- "generated_date": "2026-11-08",
- "new_count": 31,
+ "generated_at": "2026-11-09 01:15",
+ "generated_date": "2026-11-09",
+ "new_count": 30,
  "deduped": 19,
  "due_soon_count": 0,
  "total": 342,
@@ -73,7 +73,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-08",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
