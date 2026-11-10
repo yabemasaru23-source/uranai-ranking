@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-11-09 01:15",
- "generated_date": "2026-11-09",
- "new_count": 30,
- "deduped": 19,
+ "generated_at": "2026-11-10 03:51",
+ "generated_date": "2026-11-10",
+ "new_count": 31,
+ "deduped": 18,
  "due_soon_count": 0,
- "total": 342,
+ "total": 345,
  "items": [
+  {
+   "id": "6fd01fcfcb269fac",
+   "title": "9月までにおよそ500件の“自転車事故”発生の東大阪市 スタントマンが事故を再現する安全教室開催 タイヤに巻き込まれる状況も“再現”（関西テレビ）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51cVpDU0s0WlhhdHZnRXBhTDFHeXNvV1pUZ0lJSE52NC13R2c5R0NVX3poeWxiYlhGcktmWmM5R19TcGtjcGFRN3NoQ0gyQ1pvQmo5b2xCLTRZWTRfVWRDTXZjMU5EVzBxd0M3RnY1SEJTNEFvRXhlYzE4anRQdXc?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "大阪府",
+   "date": "2026-11-10",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-10",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "09891674a935bfe0",
+   "title": "「すごく衝撃」スタントマンが交通事故を再現 新居浜の高専で交通安全教室 ルール守る意識高める【愛媛】",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBwRVV6ZUNPNDhnSXlqdnQ2bk1qQTAwZzFPYU9BX0xkZWZxZk9lSC13U2RGenRCNy10dE5VZVFmREhUeG0zSE5fS1AwVHJLQQ?oc=5",
+   "org": "FNNプライムオンライン",
+   "pref": "愛媛県",
+   "date": "2026-11-09",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-10",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "95a0aefd01260ba3",
    "title": "スタントマンが自転車事故の怖さを再現 新居浜高専で交通安全教室（2026年11月6日掲載）｜南海放送NEWS NNN",
@@ -17,7 +45,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-07",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -45,7 +73,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-07",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4448,6 +4476,20 @@
    "score": 25,
    "first_seen": "2026-08-18",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "324a0a364a8364af",
+   "title": "スタントマンが再現 スケアードストレート 衝突事故、見て考えて | 栄区",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TdlZwSG0zRDRXWFJxbkxJaTgwQXFsOEFrX1RfcHBqNEQ2djMtZnpVT0c5SjFfVkVRV2xNUlpkSzlKaUxocDR1bDBCMlV5UEFMSU9kS1R0a1RiQkFMQnFOa0l2TXM?oc=5",
+   "org": "タウンニュース",
+   "pref": "神奈川県",
+   "date": "2018-01-05",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 65,
+   "first_seen": "2026-11-10",
+   "is_new": true,
    "status": "open"
   },
   {
