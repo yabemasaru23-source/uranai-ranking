@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-11-13 02:12",
- "generated_date": "2026-11-13",
- "new_count": 32,
+ "generated_at": "2026-11-14 01:53",
+ "generated_date": "2026-11-14",
+ "new_count": 30,
  "deduped": 22,
  "due_soon_count": 0,
- "total": 349,
+ "total": 350,
  "items": [
+  {
+   "id": "f4781cb867c8cfbc",
+   "title": "輪之内中で交安教室 スタントマンが迫真の再現 事故の衝撃生徒驚き",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsLXZWbjVwbG5yRTBnTXVaRjMzQTlyQlJKYkNaWmJtNkZKaFA5QkRtNzFta3lxQU01T1dEQVpMZU8xQ0R6RjlZSUU0aDlZVkI5Y1oxUlJB?oc=5",
+   "org": "岐阜新聞デジタル",
+   "pref": "岐阜県",
+   "date": "2026-11-13",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-11-14",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "195e4eebc43810bf",
    "title": "「危ない！」スタントマンが再現 自転車の事故 高校で交通安全教室 福岡（2026年11月12日掲載）｜FBS NEWS NNN",
@@ -17,7 +31,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-13",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -45,7 +59,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-13",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -59,7 +73,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-13",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
