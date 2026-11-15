@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-11-14 01:53",
- "generated_date": "2026-11-14",
- "new_count": 30,
- "deduped": 22,
+ "generated_at": "2026-11-15 01:23",
+ "generated_date": "2026-11-15",
+ "new_count": 32,
+ "deduped": 19,
  "due_soon_count": 0,
- "total": 350,
+ "total": 353,
  "items": [
+  {
+   "id": "9c3593d899dc4698",
+   "title": "時速40キロで車が自転車に…衝撃音に悲鳴 東郷高校でスタントマンが再現する安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SYVIxWFVjbjQ3ZEpFY0JvTUU1b2U5ZGM4V3pIVlIza2dYYURNSlVEQzdTZnp6azBGOHdtUTctaXZ3REczM2pJQmZudFlJbXdFNnE0X1hxS1ZRZk5OdUhjWFln?oc=5",
+   "org": "中日新聞Web",
+   "pref": "",
+   "date": "2026-11-13",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-15",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "f4781cb867c8cfbc",
    "title": "輪之内中で交安教室 スタントマンが迫真の再現 事故の衝撃生徒驚き",
@@ -17,7 +31,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-11-14",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -74,6 +88,20 @@
    "score": 25,
    "first_seen": "2026-11-13",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "9b69449cf1c3a03a",
+   "title": "スタントマンが自転車事故を再現する交通安全教室 福岡",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ad0xNU3p2TFo0MGlPTnZjX0w2TVpVMGtOdEItWHFpMVdvSndlMnJPbjRlUk9WRmd3Z0ZYQVpZZUhvbTdkX0VqNW1RUXY2R0hCa0ljR0pRNDdTYTlNNUVj?oc=5",
+   "org": "NHKニュース",
+   "pref": "福岡県",
+   "date": "2026-11-12",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-15",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3412,6 +3440,20 @@
    "score": 25,
    "first_seen": "2026-08-20",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "0d576876dae9c341",
+   "title": "スタントマンが事故を再現 佐賀市の中学校で交通安全教室【佐賀県】｜佐賀のニュース",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZS2p6THlxbVpCbm5FdjBUYUQ1Rll6UkhwTWI0UlM0c05KcG5WYnlpTjZHN2lHZzlmcjBsNkFWcDQxcVRYcVNlMjFWRlVZT3pKcmdFcW1zM3B1UkRtamtlc2Vn?oc=5",
+   "org": "サガテレビ",
+   "pref": "佐賀県",
+   "date": "2024-05-14",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-15",
+   "is_new": true,
    "status": "open"
   },
   {
