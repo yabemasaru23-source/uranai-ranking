@@ -1,11 +1,67 @@
 {
- "generated_at": "2026-11-16 01:28",
- "generated_date": "2026-11-16",
- "new_count": 32,
- "deduped": 0,
+ "generated_at": "2026-11-17 04:13",
+ "generated_date": "2026-11-17",
+ "new_count": 34,
+ "deduped": 20,
  "due_soon_count": 0,
- "total": 353,
+ "total": 357,
  "items": [
+  {
+   "id": "613d6b59a1048af2",
+   "title": "スタントマンが事故を再現 高校生向けの交通安全教室 名古屋・港区（2026年11月17日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSTBiS2hmbVh3SEV6dVo3OC0tTjhFSWloTlpURXJxUTA3Uzd2ZndhMDNQeWVsX1pXZFJOQ0dHSndQRGl1UGRvSVlBY0FpOTU5amNZNm9VN3ZsUzZwSHFuODV5N3BVb2wzemxwdDVyWUdoTHB0Y1ZsQzFqREFmV2Uyd1JkX3NLTVk?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "愛知県",
+   "date": "2026-11-16",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-17",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "2087d63063b4ef8d",
+   "title": "ベビーカーはねる瞬間も再現…スタントマンによる自転車の交通安全教室、生徒約100人が学ぶ（OBS大分放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPOGc5V1JNXzdNTUlXOE5pVmEtSGxyYUVHZ3VLYi1DMGtQbE1hNTZVOWxLOFpZOEp0aVFvQzcxdzFaVTBRNnNuUkZsWGVDcmVPMVZsQXZKa0lmTWo4UkZlLWh1MTdqeXR2ZXBFeEE3dzltdDVjVVV0RTFoYmlvTGM?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "大分県",
+   "date": "2026-11-16",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-17",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "a774d3a390e65337",
+   "title": "衝突の激しさ実感 自転車事故スタントマンが再現/安全教室に高川学園高生６５０人",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pS2VaSVhxVE1WVjRQVV9HcDVaN2thR0RIZWQzT0hzN0E3MEN1TmJ4ZG5ZcUE2aXBfSEpTY3RlSXdleHBpbll3N2xDMmNqYkNRZHJyeUFkTFhFclduYWNLcFhzTVFLQUNtMmc?oc=5",
+   "org": "山口新聞 電子版",
+   "pref": "山口県",
+   "date": "2026-11-16",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-17",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "7ce07dd01d0505cf",
+   "title": "スタントマンが「ながら運転」実演も JAが中学校で交通安全教室 鹿児島（MBC南日本放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aaktRYjRORkpOU1VRWWdnUW5Dc2dFdy1WZTl4ZVUxeFVyUXA2dVFTSm1zYjlhTzdaNVNfTmRORUlZT3BPaGFhck40MTFsQ0VnWVlVMmh1akVtYXotdFFNajBGRTZFYmxYREd1dWZ5cm5IUnNPbm1JeWdBYUQ1czQ?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "鹿児島県",
+   "date": "2026-11-16",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-17",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "9c3593d899dc4698",
    "title": "時速40キロで車が自転車に…衝撃音に悲鳴 東郷高校でスタントマンが再現する安全教室",
@@ -101,7 +157,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3453,7 +3509,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-15",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
