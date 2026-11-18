@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-17 04:13",
- "generated_date": "2026-11-17",
- "new_count": 34,
- "deduped": 20,
+ "generated_at": "2026-11-18 03:10",
+ "generated_date": "2026-11-18",
+ "new_count": 31,
+ "deduped": 24,
  "due_soon_count": 0,
- "total": 357,
+ "total": 358,
  "items": [
   {
    "id": "613d6b59a1048af2",
@@ -17,7 +17,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -31,7 +31,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -45,7 +45,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -171,7 +171,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-10",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3412,6 +3412,20 @@
    "score": 25,
    "first_seen": "2026-08-23",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "6458161c5089f690",
+   "title": "スタントマンが自転車事故再現 高校で交通安全教室（2024年7月2日掲載）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LcVhMaTlFRU1mN2lRYmwxM3NhRGFDeXVZUURvTWtCZGhxRDZIUjVBWGwzZGpHUjJlTTBVNmRlbUFfSzJFLTVpeG1YOHZiNTdlR05vS2g4SW01bXNocEV2cnR2QXc1MTJLOEhNR2I1U2RiUXhCZ0VXWWx0Mkpic1U?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "",
+   "date": "2024-07-02",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-18",
+   "is_new": true,
    "status": "open"
   },
   {
