@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-11-18 03:10",
- "generated_date": "2026-11-18",
- "new_count": 31,
- "deduped": 24,
+ "generated_at": "2026-11-19 02:52",
+ "generated_date": "2026-11-19",
+ "new_count": 32,
+ "deduped": 22,
  "due_soon_count": 0,
- "total": 358,
+ "total": 361,
  "items": [
+  {
+   "id": "b19e78d773ab12dc",
+   "title": "プロのスタントマンが自転車事故の様子を再現 都城市の中学校で交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ibDFkd3VwM0pZcDlvUnpKVElqT1VQZ3RVMzJxUjBOM2NnSU5UNm1zeXk2WmpqUkp5dWdPcDY5V1FUYnlWcVNGcXdWQmk1Yjlfa3o4aHNJNA?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "宮崎県",
+   "date": "2026-11-18",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-19",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "844bcf1611d4db2e",
+   "title": "交通事故恐ろしい 北学園で交安教室 スタントマンが再現",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QZEczaHlCWE5NSWdXbHBaelJJRDVtTXBOME9LQmprX2pKSjhpM25FbEQ4TFZYOWVySmZoc2dYYk9Xc3pmclZrX01nenAtUWo4OGhvMkJR?oc=5",
+   "org": "岐阜新聞デジタル",
+   "pref": "岐阜県",
+   "date": "2026-11-18",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-11-19",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "613d6b59a1048af2",
    "title": "スタントマンが事故を再現 高校生向けの交通安全教室 名古屋・港区（2026年11月17日掲載）",
@@ -59,7 +87,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-17",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3425,7 +3453,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-18",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -3846,6 +3874,20 @@
    "score": 25,
    "first_seen": "2026-09-03",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "042de9e36edbde2b",
+   "title": "リアルな自転車事故再現で危険性を実感 スタントマンが交通安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Sb2UtOWxoeVRhd05ydUVNLUxlbmpKb21lazhORFhFLTRnYUFZSGJIRnU0NE9YTHF5c3hJTHZDM012bkpfVDFwWUNtMmduUTRxR0FHUXdR?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "",
+   "date": "2023-07-05",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-19",
+   "is_new": true,
    "status": "open"
   },
   {
