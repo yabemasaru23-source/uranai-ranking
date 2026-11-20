@@ -1,11 +1,25 @@
 {
- "generated_at": "2026-11-19 02:52",
- "generated_date": "2026-11-19",
+ "generated_at": "2026-11-20 02:42",
+ "generated_date": "2026-11-20",
  "new_count": 32,
- "deduped": 22,
+ "deduped": 23,
  "due_soon_count": 0,
- "total": 361,
+ "total": 363,
  "items": [
+  {
+   "id": "cd154db61fbdaa36",
+   "title": "スタントマン、事故再現 国東 志成学園中で交通安全教室 ／大分",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ILXVkVEFhN3dXak1RbVFLeHVOVFJqLS1wTFhDdElUeGZTc3BSREN5aEhsb21LcmVvYnhYSlFrNE5Bbkd4UUJtYkJna3VfNmNKcjFGMEJUQXNNUTFNcEtfMWF5N202eWM2?oc=5",
+   "org": "毎日新聞",
+   "pref": "大分県",
+   "date": "2026-11-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-20",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "b19e78d773ab12dc",
    "title": "プロのスタントマンが自転車事故の様子を再現 都城市の中学校で交通安全教室",
@@ -31,7 +45,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-11-19",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -88,6 +102,20 @@
    "score": 25,
    "first_seen": "2026-11-17",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "c596c2f298ac71bc",
+   "title": "スタントマンが事故を再現 高校生向けの交通安全教室 名古屋・港区（2026年11月16日掲載）｜中京テレビNEWS NNN",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSTBiS2hmbVh3SEV6dVo3OC0tTjhFSWloTlpURXJxUTA3Uzd2ZndhMDNQeWVsX1pXZFJOQ0dHSndQRGl1UGRvSVlBY0FpOTU5amNZNm9VN3ZsUzZwSHFuODV5N3BVb2wzemxwdDVyWUdoTHB0Y1ZsQzFqREFmV2Uyd1JkX3NLTVk?oc=5",
+   "org": "日テレNEWS NNN",
+   "pref": "京都府",
+   "date": "2026-11-16",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-20",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3887,7 +3915,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-19",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
