@@ -1,23 +1,37 @@
 {
- "generated_at": "2026-11-20 02:42",
- "generated_date": "2026-11-20",
- "new_count": 32,
+ "generated_at": "2026-11-21 02:53",
+ "generated_date": "2026-11-21",
+ "new_count": 33,
  "deduped": 23,
  "due_soon_count": 0,
- "total": 363,
+ "total": 366,
  "items": [
+  {
+   "id": "983829a0bd6b809d",
+   "title": "スタントマンが事故再現、危険性訴え 奈良県生駒市・光明中で自転車安全教室 青切符など交通ルールも説明",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVaEVBT1JfUVNkUGZFaGh2N1YzV3lxOWNENjFadWE3SnVMNzVXUUYwaFJOdFFTY0hnNExhLVUzV0VieVYzdnR1NGQ0bw?oc=5",
+   "org": "47NEWS",
+   "pref": "奈良県",
+   "date": "2026-11-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-21",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "cd154db61fbdaa36",
    "title": "スタントマン、事故再現 国東 志成学園中で交通安全教室 ／大分",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ILXVkVEFhN3dXak1RbVFLeHVOVFJqLS1wTFhDdElUeGZTc3BSREN5aEhsb21LcmVvYnhYSlFrNE5Bbkd4UUJtYkJna3VfNmNKcjFGMEJUQXNNUTFNcEtfMWF5N202eWM2?oc=5",
    "org": "毎日新聞",
    "pref": "大分県",
-   "date": "2026-11-20",
+   "date": "2026-11-19",
    "source": "Google ニュース",
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-20",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -31,6 +45,20 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-19",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "b11a6ffdae97f607",
+   "title": "プロのスタントマンが自転車事故の様子を再現 都城市の中学校で交通安全教室 | MRTニュース ｜ ＭＲＴ宮崎放送",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FZTFicUE4SVNxQ25PSDZ6LTNSeERKZDJNNTJMdnczeDhnNXpZOGEwb0p5QzIzMDVfNDNZZFlZcFlWSTJka2htVjVRcldrN3poWFB6cW9PbHJGdw?oc=5",
+   "org": "TBS NEWS DIG",
+   "pref": "宮崎県",
+   "date": "2026-11-18",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-21",
    "is_new": true,
    "status": "open"
   },
@@ -115,7 +143,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-20",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -4280,6 +4308,20 @@
    "score": 25,
    "first_seen": "2026-10-11",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "132e806fdceee8bd",
+   "title": "事故の怖さ目の前で 秦野の中学校でスタントマンが再現「スケアードストレート」",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zODJiQzZPYWljUVJWQmVJNzdxUFVLRF9QcGxubTBWSFBVblNPdThUbUFmem1kTEg0RkNURUp5dlRRX1plZjJScXB3?oc=5",
+   "org": "47NEWS",
+   "pref": "",
+   "date": "2021-11-17",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 65,
+   "first_seen": "2026-11-21",
+   "is_new": true,
    "status": "open"
   },
   {
