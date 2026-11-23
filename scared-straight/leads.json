@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-22 01:43",
- "generated_date": "2026-11-22",
- "new_count": 34,
+ "generated_at": "2026-11-23 02:02",
+ "generated_date": "2026-11-23",
+ "new_count": 30,
  "deduped": 38,
  "due_soon_count": 0,
  "total": 370,
@@ -17,7 +17,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -87,7 +87,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -465,7 +465,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -507,7 +507,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-22",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
