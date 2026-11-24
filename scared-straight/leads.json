@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-23 02:02",
- "generated_date": "2026-11-23",
- "new_count": 30,
- "deduped": 38,
+ "generated_at": "2026-11-24 05:38",
+ "generated_date": "2026-11-24",
+ "new_count": 32,
+ "deduped": 24,
  "due_soon_count": 0,
- "total": 370,
+ "total": 372,
  "items": [
   {
    "id": "bff77a99a752c189",
@@ -172,6 +172,20 @@
    "score": 25,
    "first_seen": "2026-11-20",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "5cc898e923705282",
+   "title": "【先行】スタントマンが交通事故を再現/高川学園で自転車安全教室",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EYTVPemNkdG1KYWt2SWxjM05qQUZVWkdCWE1SakJJZzlvZXlvWWZHN2Nnb28wLW5ibndhZUVfMFMxaXZEbk9CWUZVeHdiU3FKYzB5ZUdjSXZWaGJ5aDJ0T054NmJNajh0aEE?oc=5",
+   "org": "山口新聞 電子版",
+   "pref": "山口県",
+   "date": "2026-11-16",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-24",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3804,6 +3818,20 @@
    "score": 60,
    "first_seen": "2026-08-10",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "268804ecc40d0377",
+   "title": "スタントマンから学ぶ！自転車交通安全教室 豊岡の高校",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CemZ3ckRtSHFFdHo1enRpblFzNURSQmQ5eTNHNFM3OTNDY29mRUNBUktuTEtwMV9jeEhpc0dSa2VRbGZkNWdQcy1lYTNfTUlDTldYM0JtaHZhOXU5UHk4b2NaSEI5TE5m?oc=5",
+   "org": "サンテレビ",
+   "pref": "",
+   "date": "2023-11-29",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-24",
+   "is_new": true,
    "status": "open"
   },
   {
