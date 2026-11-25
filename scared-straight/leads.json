@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-11-24 05:38",
- "generated_date": "2026-11-24",
- "new_count": 32,
- "deduped": 24,
+ "generated_at": "2026-11-25 04:38",
+ "generated_date": "2026-11-25",
+ "new_count": 34,
+ "deduped": 21,
  "due_soon_count": 0,
- "total": 372,
+ "total": 375,
  "items": [
+  {
+   "id": "bf15b9996a35068c",
+   "title": "舟渡小で交通事故再現教室 スタントマンが事故の危険性を実演",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Ha2oyYVlFRDA0REhtaTdBZUtNa2ZLM1gySGpVTVM1cWhtc3hrZnB3VXlhMTE0aEVDQjhZMVVPejlYVEJlS2lYZ0tSb1FXMEhKMnhwcUdhcw?oc=5",
+   "org": "板橋経済新聞",
+   "pref": "",
+   "date": "2026-11-25",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-11-25",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "2223df1d5f4cf04d",
+   "title": "舟渡小で交通事故再現教室 スタントマンが事故の危険性を実演（みんなの経済新聞ネットワーク）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKTTg0U2hVSFBnb2Q2Z28zb1lPcGRUTUtwWkh1VDVwU0FaSGhyOXNGTlpyOUp1VlE3MXJKTmMyVkFRaFFQNHpOZHlhcjl1MFcwRkxyYmxzVnJneEtPUEZwWGxuQXNjNlc2SG1TX0F1RkRZWmxOWndLOEdQeGg4ems?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "",
+   "date": "2026-11-24",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 15,
+   "first_seen": "2026-11-25",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "bff77a99a752c189",
    "title": "自転車事故を再現 伊勢・御薗中で交通安全教室",
@@ -32,6 +60,20 @@
    "score": 25,
    "first_seen": "2026-11-21",
    "is_new": false,
+   "status": "open"
+  },
+  {
+   "id": "79bc86a15991a747",
+   "title": "スタントマンが事故再現、危険性訴え 奈良県生駒市・光明中学校で自転車安全教室 青切符など交通ルールも説明",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVaEVBT1JfUVNkUGZFaGh2N1YzV3lxOWNENjFadWE3SnVMNzVXUUYwaFJOdFFTY0hnNExhLVUzV0VieVYzdnR1NGQ0bw?oc=5",
+   "org": "47NEWS",
+   "pref": "奈良県",
+   "date": "2026-11-20",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-25",
+   "is_new": true,
    "status": "open"
   },
   {
@@ -3831,7 +3873,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-24",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
