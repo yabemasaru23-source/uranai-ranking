@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-11-26 03:49",
- "generated_date": "2026-11-26",
- "new_count": 39,
- "deduped": 39,
+ "generated_at": "2026-11-27 03:50",
+ "generated_date": "2026-11-27",
+ "new_count": 34,
+ "deduped": 42,
  "due_soon_count": 0,
- "total": 381,
+ "total": 383,
  "items": [
+  {
+   "id": "3dd080d2cc372ec3",
+   "title": "スタントマンが事故再現 自転車通学生徒ら安全教室 四日市の西陵中 三重（伊勢新聞）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZTMzX0w2RFM1MVpIODVuRm93WG10cVJnUU1MczFFU0tfczh1MzlHTXRkcGwzMU56QzlhSEhPNEZ1R01FamFhemRnb0VreHgyT3FrWVM1eGg3akhTWldTcE82MnR1U0ZvZFRHNmFlZG1TTXZ1OTFlcDFYT1Mzd28?oc=5",
+   "org": "Yahoo!ニュース",
+   "pref": "三重県",
+   "date": "2026-11-26",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-27",
+   "is_new": true,
+   "status": "open"
+  },
+  {
+   "id": "ef19f20091e724af",
+   "title": "自転車事故再現 危険防止訴え 常葉大橘高で交通安全教室－静岡",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBCWXZwM0V1Z3A5VnFzbDlmMlh0LVFvZzdmMlptNXp4cUstSkZHclhscmFkQ3otVF9PWTFkQ1d6VVlNc0hIWEtrdkw5MXBOQQ?oc=5",
+   "org": "静岡新聞DIGITAL",
+   "pref": "静岡県",
+   "date": "2026-11-26",
+   "source": "Google ニュース",
+   "kind": "実施情報",
+   "score": 25,
+   "first_seen": "2026-11-27",
+   "is_new": true,
+   "status": "open"
+  },
   {
    "id": "ecaa82c72fb43ccd",
    "title": "スタントマンが自転車事故再現 中学校で安全教室 滋賀 湖南",
@@ -17,7 +45,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-26",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -185,7 +213,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-26",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -269,7 +297,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-26",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -283,7 +311,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-26",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -591,7 +619,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-26",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -717,7 +745,7 @@
    "kind": "実施情報",
    "score": 25,
    "first_seen": "2026-11-26",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
@@ -2277,7 +2305,7 @@
    "kind": "実施情報",
    "score": 15,
    "first_seen": "2026-11-26",
-   "is_new": true,
+   "is_new": false,
    "status": "open"
   },
   {
